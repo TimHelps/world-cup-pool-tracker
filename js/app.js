@@ -1,4 +1,4 @@
-import { summarizePerson, compareSummaries } from "./lib/ranking.mjs";
+import { summarizePerson, compareSummaries, findChampion } from "./lib/ranking.mjs";
 import { flagEmoji } from "./lib/flags.mjs";
 
 async function loadData() {
@@ -14,10 +14,11 @@ function renderCard(rank, summary) {
   li.className = `person-card rank-${rank}`;
 
   const teamBadges = summary.teams
-    .map(
-      (t) =>
-        `<a class="team-badge${t.eliminated ? " eliminated" : ""}" href="team.html?code=${encodeURIComponent(t.code)}">${flagEmoji(t.code)} ${escapeHtml(t.name)}</a>`
-    )
+    .map((t) => {
+      const marker = t.champion ? " 🏆" : t.eliminated ? " ❌" : "";
+      const cls = `team-badge${t.champion ? " champion" : ""}${t.eliminated ? " eliminated" : ""}`;
+      return `<a class="${cls}" href="team.html?code=${encodeURIComponent(t.code)}">${flagEmoji(t.code)} ${escapeHtml(t.name)}${marker}</a>`;
+    })
     .join("");
 
   const gd = `${summary.goalDiff > 0 ? "+" : ""}${summary.goalDiff}`;
@@ -34,6 +35,16 @@ function renderCard(rank, summary) {
   return li;
 }
 
+function renderChampionBanner(championTeam) {
+  const banner = document.querySelector("#champion-banner");
+  if (!championTeam) {
+    banner.hidden = true;
+    return;
+  }
+  banner.hidden = false;
+  banner.innerHTML = `🏆 <strong>${escapeHtml(championTeam.owner)}</strong> wins the pool — ${flagEmoji(championTeam.code)} ${escapeHtml(championTeam.name)} are World Cup Champions!`;
+}
+
 async function main() {
   const { people, standings } = await loadData();
   const summaries = Object.entries(people).map(([owner, codes]) =>
@@ -41,6 +52,8 @@ async function main() {
   );
 
   summaries.sort(compareSummaries);
+
+  renderChampionBanner(findChampion(standings.teams));
 
   const list = document.querySelector("#rankings");
   summaries.forEach((summary, i) => list.appendChild(renderCard(i + 1, summary)));

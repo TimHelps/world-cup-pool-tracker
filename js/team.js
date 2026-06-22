@@ -37,6 +37,7 @@ function renderContent(team) {
     <div class="team-header">
       <h1>${flagEmoji(team.code)} ${escapeHtml(team.name)}</h1>
       <span class="owner">picked by ${escapeHtml(team.owner || "nobody")}</span>
+      ${team.champion ? '<span class="badge-champion">🏆 World Cup Champions</span>' : ""}
       ${team.eliminated ? '<span class="badge-eliminated">Eliminated</span>' : ""}
     </div>
     <p>${groupLabel} &middot; ${escapeHtml(team.stage)}</p>

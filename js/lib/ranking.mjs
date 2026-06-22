@@ -32,3 +32,10 @@ export function compareSummaries(a, b) {
   if (b.goalDiff !== a.goalDiff) return b.goalDiff - a.goalDiff;
   return a.owner.localeCompare(b.owner);
 }
+
+// The pool's actual winner: whoever picked the team that wins the World
+// Cup, not whoever's leading on points. Returns undefined until a team's
+// champion flag is set (i.e. before the Final is decided).
+export function findChampion(teams) {
+  return Object.values(teams).find((t) => t.champion);
+}

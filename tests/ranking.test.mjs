@@ -1,6 +1,6 @@
 import { test, describe } from "node:test";
 import assert from "node:assert/strict";
-import { summarizePerson, compareSummaries } from "../js/lib/ranking.mjs";
+import { summarizePerson, compareSummaries, findChampion } from "../js/lib/ranking.mjs";
 
 function team(overrides) {
   return { played: 0, won: 0, drawn: 0, lost: 0, goalsFor: 0, goalsAgainst: 0, points: 0, ...overrides };
@@ -63,5 +63,17 @@ describe("compareSummaries", () => {
     ];
     summaries.sort(compareSummaries);
     assert.deepEqual(summaries.map((s) => s.owner), ["High", "Mid", "Low"]);
+  });
+});
+
+describe("findChampion", () => {
+  test("returns the team with champion: true", () => {
+    const teams = { ARG: team({ champion: true }), GER: team({ champion: false }) };
+    assert.equal(findChampion(teams).champion, true);
+  });
+
+  test("returns undefined when no team has won the Final yet", () => {
+    const teams = { ARG: team({ champion: false }), GER: team({ champion: false }) };
+    assert.equal(findChampion(teams), undefined);
   });
 });

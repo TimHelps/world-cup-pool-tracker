@@ -130,6 +130,7 @@ function emptyTeam(code, owner) {
     goalsAgainst: 0,
     points: 0,
     eliminated: false,
+    champion: false,
     recent: [],
     next: null,
   };
@@ -198,8 +199,10 @@ export function buildTeamsData(fixtures, people, now = Date.now()) {
 
           const { result, points } = classifyResult(scoreFor, scoreAgainst);
           team.points += points;
-          if (result === "W") team.won += 1;
-          else if (result === "D") team.drawn += 1;
+          if (result === "W") {
+            team.won += 1;
+            if (fx.stage === "FINAL") team.champion = true;
+          } else if (result === "D") team.drawn += 1;
           else {
             team.lost += 1;
             if (isKnockoutStage(fx.stage)) team.eliminated = true;

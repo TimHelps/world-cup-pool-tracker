@@ -6,6 +6,7 @@
   --win: #1a7f37;
   --draw: #9a6700;
   --loss: #cf222e;
+  --champion: #a67c00;
 }
 
 body {
@@ -23,6 +24,17 @@ header h1 {
 header p.subtitle {
   color: var(--muted);
   margin-top: 0;
+}
+
+.champion-banner {
+  margin-top: 1rem;
+  padding: 0.9rem 1rem;
+  background: #fff8e1;
+  border: 2px solid var(--champion);
+  border-radius: 10px;
+  color: #6b4f00;
+  font-size: 1.05rem;
+  text-align: center;
 }
 
 .rankings {
@@ -102,6 +114,12 @@ header p.subtitle {
 .team-badge.eliminated {
   opacity: 0.5;
   text-decoration: line-through;
+}
+
+.team-badge.champion {
+  border-color: var(--champion);
+  border-width: 2px;
+  font-weight: 700;
 }
 
 .team-badge:hover {
@@ -193,6 +211,15 @@ a.back-link:hover {
   border-radius: 8px;
   padding: 0.75rem;
   margin-top: 0.5rem;
+}
+
+.badge-champion {
+  background: var(--champion);
+  color: white;
+  border-radius: 4px;
+  padding: 0.15rem 0.5rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
 }
 
 .badge-eliminated {

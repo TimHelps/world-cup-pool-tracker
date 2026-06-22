@@ -189,6 +189,21 @@ describe("buildTeamsData", () => {
     assert.equal(teams.USA.eliminated, false);
   });
 
+  test("marks champion on a Final win but not a semifinal win", () => {
+    const fixtures = [
+      fixture({ home: "ARG", away: "NED", homeGoals: 2, awayGoals: 1, stage: "SEMI_FINALS", group: null, date: "2026-07-10T00:00:00Z" }),
+      fixture({ home: "ARG", away: "GER", homeGoals: 1, awayGoals: 0, stage: "FINAL", group: null, date: "2026-07-19T00:00:00Z" }),
+    ];
+    const { teams } = buildTeamsData(fixtures, { Ste: ["ARG"] }, NOW);
+
+    assert.equal(teams.ARG.champion, true);
+    assert.equal(teams.ARG.eliminated, false);
+    assert.equal(teams.GER.champion, false);
+    assert.equal(teams.GER.eliminated, true);
+    assert.equal(teams.NED.champion, false);
+    assert.equal(teams.NED.eliminated, true);
+  });
+
   test("caps recent results at 5, most recent first", () => {
     const fixtures = Array.from({ length: 7 }, (_, i) =>
       fixture({ home: "ARG", away: "USA", homeGoals: 1, awayGoals: 0, date: `2026-06-${10 + i}T00:00:00Z`, id: i })

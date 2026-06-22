@@ -1,3 +1,5 @@
+import { flagEmoji } from "./lib/flags.mjs";
+
 function formatDate(iso) {
   return new Date(iso).toLocaleString(undefined, {
     weekday: "short",
@@ -12,7 +14,7 @@ function renderMatch(match) {
   const li = document.createElement("li");
   const score = `${match.scoreFor}-${match.scoreAgainst}`;
   li.innerHTML = `
-    <span><span class="result-pill ${match.result}">${match.result}</span>${match.homeAway === "H" ? "vs" : "@"} ${escapeHtml(match.opponent)}</span>
+    <span><span class="result-pill ${match.result}">${match.result}</span>${match.homeAway === "H" ? "vs" : "@"} ${flagEmoji(match.opponentCode)} ${escapeHtml(match.opponent)}</span>
     <span>${escapeHtml(score)} &middot; ${escapeHtml(formatDate(match.date))}</span>
   `;
   return li;
@@ -28,12 +30,12 @@ function renderContent(team) {
     : `<li>No results yet.</li>`;
 
   const nextHtml = team.next
-    ? `<div class="next-fixture"><strong>Next:</strong> ${team.next.homeAway === "H" ? "vs" : "@"} ${escapeHtml(team.next.opponent)} &mdash; ${escapeHtml(formatDate(team.next.date))} (${escapeHtml(team.next.round)})</div>`
+    ? `<div class="next-fixture"><strong>Next:</strong> ${team.next.homeAway === "H" ? "vs" : "@"} ${flagEmoji(team.next.opponentCode)} ${escapeHtml(team.next.opponent)} &mdash; ${escapeHtml(formatDate(team.next.date))} (${escapeHtml(team.next.round)})</div>`
     : `<div class="next-fixture">No upcoming fixture scheduled.</div>`;
 
   return `
     <div class="team-header">
-      <h1>${escapeHtml(team.name)}</h1>
+      <h1>${flagEmoji(team.code)} ${escapeHtml(team.name)}</h1>
       <span class="owner">picked by ${escapeHtml(team.owner || "nobody")}</span>
       ${team.eliminated ? '<span class="badge-eliminated">Eliminated</span>' : ""}
     </div>

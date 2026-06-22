@@ -1,4 +1,5 @@
 import { summarizePerson, compareSummaries } from "./lib/ranking.mjs";
+import { flagEmoji } from "./lib/flags.mjs";
 
 async function loadData() {
   const [people, standings] = await Promise.all([
@@ -15,7 +16,7 @@ function renderCard(rank, summary) {
   const teamBadges = summary.teams
     .map(
       (t) =>
-        `<a class="team-badge${t.eliminated ? " eliminated" : ""}" href="team.html?code=${encodeURIComponent(t.code)}">${escapeHtml(t.name)}</a>`
+        `<a class="team-badge${t.eliminated ? " eliminated" : ""}" href="team.html?code=${encodeURIComponent(t.code)}">${flagEmoji(t.code)} ${escapeHtml(t.name)}</a>`
     )
     .join("");
 

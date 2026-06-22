@@ -180,6 +180,9 @@ describe("buildTeamsData", () => {
   test("marks eliminated on a knockout loss but not a group-stage loss or a win", () => {
     const fixtures = [
       fixture({ home: "ARG", away: "NED", homeGoals: 0, awayGoals: 1, date: "2026-06-10T00:00:00Z" }),
+      // ARG still has a fixture in the published knockout bracket, so the
+      // earlier group-stage loss alone doesn't eliminate them.
+      fixture({ home: "ARG", away: "BRA", homeGoals: null, awayGoals: null, status: "SCHEDULED", stage: "ROUND_OF_16", group: null, date: "2026-07-01T00:00:00Z" }),
       fixture({ home: "GER", away: "USA", homeGoals: 0, awayGoals: 2, stage: "ROUND_OF_16", group: null, date: "2026-07-01T00:00:00Z" }),
     ];
     const { teams } = buildTeamsData(fixtures, {}, NOW);
@@ -202,6 +205,50 @@ describe("buildTeamsData", () => {
     assert.equal(teams.GER.eliminated, true);
     assert.equal(teams.NED.champion, false);
     assert.equal(teams.NED.eliminated, true);
+  });
+
+  test("marks a team eliminated once the knockout bracket is published without them, even though they only lost in the group stage", () => {
+    const fixtures = [
+      // ESP is knocked out in the group stage — never loses a "knockout"
+      // match, so the per-match elimination check alone wouldn't catch it.
+      fixture({ home: "ESP", away: "USA", homeGoals: 0, awayGoals: 1, stage: "GROUP_STAGE", date: "2026-06-10T00:00:00Z" }),
+      // The bracket having a real (non-TBD) team in it at all signals
+      // group-stage qualification is fully decided, even for a fixture that
+      // doesn't involve ESP.
+      fixture({ home: "USA", away: "GER", homeGoals: null, awayGoals: null, status: "SCHEDULED", stage: "ROUND_OF_16", group: null, date: "2026-07-01T00:00:00Z" }),
+    ];
+    const { teams } = buildTeamsData(fixtures, { Dan: ["ESP"] }, NOW);
+
+    assert.equal(teams.ESP.eliminated, true);
+  });
+
+  test("does not eliminate group-stage teams while the knockout bracket is still all TBD placeholders", () => {
+    const fixtures = [
+      fixture({ home: "ESP", away: "USA", homeGoals: 0, awayGoals: 1, stage: "GROUP_STAGE", date: "2026-06-10T00:00:00Z" }),
+      {
+        id: 99,
+        homeTeam: null,
+        awayTeam: null,
+        status: "SCHEDULED",
+        stage: "ROUND_OF_16",
+        group: null,
+        utcDate: "2026-07-01T00:00:00Z",
+        score: { fullTime: { home: null, away: null } },
+      },
+    ];
+    const { teams } = buildTeamsData(fixtures, {}, NOW);
+
+    assert.equal(teams.ESP.eliminated, false);
+  });
+
+  test("leaves every team alive while no knockout fixtures exist yet at all", () => {
+    const fixtures = [
+      fixture({ home: "ESP", away: "USA", homeGoals: 0, awayGoals: 1, stage: "GROUP_STAGE", date: "2026-06-10T00:00:00Z" }),
+    ];
+    const { teams } = buildTeamsData(fixtures, {}, NOW);
+
+    assert.equal(teams.ESP.eliminated, false);
+    assert.equal(teams.JPN.eliminated, false);
   });
 
   test("caps recent results at 5, most recent first", () => {

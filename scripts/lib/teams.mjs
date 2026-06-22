@@ -158,6 +158,16 @@ export function buildTeamsData(fixtures, people, now = Date.now()) {
   const malformedFixtures = [];
   const fixturesByTeam = new Map(Object.keys(CODE_TO_NAME).map((c) => [c, []]));
 
+  // True once the knockout bracket has at least one real (non-TBD) team in
+  // it. The bracket is only filled in once group-stage qualification — top 2
+  // per group plus the best 8 third-placed teams — has been fully decided,
+  // so this tells us qualification is settled without us reimplementing
+  // that math: any team not in the bracket by then didn't make it.
+  const knockoutPublished = fixtures.some((fx) => {
+    if (!fx?.stage || !isKnockoutStage(fx.stage)) return false;
+    return Boolean(matchCode(fx.homeTeam, candidateMap) || matchCode(fx.awayTeam, candidateMap));
+  });
+
   for (const fx of fixtures) {
     try {
       const homeCode = matchCode(fx.homeTeam, candidateMap);
@@ -233,6 +243,11 @@ export function buildTeamsData(fixtures, people, now = Date.now()) {
 
     if (latestStage) team.stage = latestStage;
     team.recent = team.recent.slice(-5).reverse();
+
+    const hasOwnKnockoutFixture = entries.some((e) => isKnockoutStage(e.fx.stage));
+    if (knockoutPublished && entries.length > 0 && !hasOwnKnockoutFixture) {
+      team.eliminated = true;
+    }
   }
 
   // Group position computed locally (points, then goal difference, then

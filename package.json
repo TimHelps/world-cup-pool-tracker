@@ -1,0 +1,9 @@
+{
+  "name": "world-cup-pool-2026",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "fetch-data": "node scripts/fetch-data.mjs"
+  }
+}

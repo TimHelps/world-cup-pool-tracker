@@ -1,5 +1,7 @@
 # World Cup Pool 2026
 
+[![Tests](https://github.com/TimHelps/world-cup-pool-tracker/actions/workflows/test.yml/badge.svg)](https://github.com/TimHelps/world-cup-pool-tracker/actions/workflows/test.yml)
+
 Static site ranking everyone in the family World Cup pool by how their picked
 teams are doing, with a per-team detail page (recent results, next fixture,
 group standing).
@@ -12,6 +14,9 @@ group standing).
   [football-data.org](https://www.football-data.org/) API (its free tier
   includes the World Cup competition — API-Football's free tier doesn't
   cover the live 2026 season, only historical seasons).
+- `scripts/lib/teams.mjs` — pure functions for matching API team data to our
+  pool's codes and turning match results into W/D/L/points; covered by the
+  tests in `tests/`.
 - `index.html` / `js/app.js` — ranking table, sums points per person.
 - `team.html` / `js/team.js` — per-team detail view (`team.html?code=ARG`).
 - `.github/workflows/update-data.yml` — runs the fetch script hourly and
@@ -40,6 +45,9 @@ hourly schedule is well within limits even with a few manual runs.
 ## Local development
 
 ```sh
+# run the unit tests (no API key needed)
+npm test
+
 # one-off real data pull (requires an API key)
 FOOTBALL_DATA_KEY=your_key_here node scripts/fetch-data.mjs
 

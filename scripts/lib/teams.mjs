@@ -83,10 +83,15 @@ export function isKnockoutStage(stage) {
 }
 
 // football-data.org nests full-time scores at score.fullTime.{home,away}.
+// Returns nulls (rather than throwing) if that shape isn't there, so one
+// malformed fixture record degrades to "not finished" instead of crashing
+// the whole batch.
 export function extractScore(fx, isHome) {
-  const scoreFor = isHome ? fx.score.fullTime.home : fx.score.fullTime.away;
-  const scoreAgainst = isHome ? fx.score.fullTime.away : fx.score.fullTime.home;
-  return { scoreFor, scoreAgainst };
+  const fullTime = fx?.score?.fullTime;
+  if (!fullTime) return { scoreFor: null, scoreAgainst: null };
+  const scoreFor = isHome ? fullTime.home : fullTime.away;
+  const scoreAgainst = isHome ? fullTime.away : fullTime.home;
+  return { scoreFor: scoreFor ?? null, scoreAgainst: scoreAgainst ?? null };
 }
 
 export function classifyResult(scoreFor, scoreAgainst) {

@@ -38,13 +38,13 @@ function renderRow(rank, summary) {
   const teamBadges = summary.teams
     .map(
       (t) =>
-        `<a class="team-badge${t.eliminated ? " eliminated" : ""}" href="team.html?code=${t.code}">${t.name}</a>`
+        `<a class="team-badge${t.eliminated ? " eliminated" : ""}" href="team.html?code=${encodeURIComponent(t.code)}">${escapeHtml(t.name)}</a>`
     )
     .join("");
 
   tr.innerHTML = `
     <td>${rank}</td>
-    <td>${summary.owner}</td>
+    <td>${escapeHtml(summary.owner)}</td>
     <td><div class="teams">${teamBadges}</div></td>
     <td class="numeric">${summary.played}</td>
     <td class="numeric">${summary.won}</td>

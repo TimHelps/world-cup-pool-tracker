@@ -37,8 +37,8 @@ const BASE_URL = "https://api.football-data.org/v4";
 const COMPETITION = "WC"; // FIFA World Cup
 const SEASON = 2026;
 
-async function apiGet(path) {
-  const url = `${BASE_URL}${path}`;
+async function apiGet(endpoint) {
+  const url = `${BASE_URL}${endpoint}`;
   const res = await fetch(url, {
     headers: { "X-Auth-Token": API_KEY },
   });
@@ -112,44 +112,48 @@ async function main() {
     let latestStage = null;
 
     for (const entry of entries) {
-      const { fx, isHome, opponentCode } = entry;
-      const finished = fx.status === "FINISHED";
-      const { scoreFor, scoreAgainst } = extractScore(fx, isHome);
-      const opponentName = isHome ? fx.awayTeam.name : fx.homeTeam.name;
-      const stage = simplifyStage(fx.stage);
+      try {
+        const { fx, isHome, opponentCode } = entry;
+        const finished = fx.status === "FINISHED";
+        const { scoreFor, scoreAgainst } = extractScore(fx, isHome);
+        const opponentName = isHome ? fx.awayTeam?.name : fx.homeTeam?.name;
+        const stage = simplifyStage(fx.stage);
 
-      if (finished && scoreFor !== null && scoreAgainst !== null) {
-        latestStage = stage;
-        team.played += 1;
-        team.goalsFor += scoreFor;
-        team.goalsAgainst += scoreAgainst;
+        if (finished && scoreFor !== null && scoreAgainst !== null) {
+          latestStage = stage;
+          team.played += 1;
+          team.goalsFor += scoreFor;
+          team.goalsAgainst += scoreAgainst;
 
-        const { result, points } = classifyResult(scoreFor, scoreAgainst);
-        team.points += points;
-        if (result === "W") team.won += 1;
-        else if (result === "D") team.drawn += 1;
-        else {
-          team.lost += 1;
-          if (isKnockoutStage(fx.stage)) team.eliminated = true;
+          const { result, points } = classifyResult(scoreFor, scoreAgainst);
+          team.points += points;
+          if (result === "W") team.won += 1;
+          else if (result === "D") team.drawn += 1;
+          else {
+            team.lost += 1;
+            if (isKnockoutStage(fx.stage)) team.eliminated = true;
+          }
+
+          team.recent.push({
+            opponent: opponentName,
+            opponentCode,
+            date: fx.utcDate,
+            round: stage,
+            homeAway: isHome ? "H" : "A",
+            scoreFor,
+            scoreAgainst,
+            result,
+          });
+        } else if (new Date(fx.utcDate).getTime() > now && !team.next) {
+          team.next = {
+            opponent: opponentName,
+            opponentCode,
+            date: fx.utcDate,
+            round: stage,
+          };
         }
-
-        team.recent.push({
-          opponent: opponentName,
-          opponentCode,
-          date: fx.utcDate,
-          round: stage,
-          homeAway: isHome ? "H" : "A",
-          scoreFor,
-          scoreAgainst,
-          result,
-        });
-      } else if (new Date(fx.utcDate).getTime() > now && !team.next) {
-        team.next = {
-          opponent: opponentName,
-          opponentCode,
-          date: fx.utcDate,
-          round: stage,
-        };
+      } catch (err) {
+        console.warn(`Skipping malformed fixture ${entry.fx?.id} for ${code}:`, err.message);
       }
     }
 
@@ -178,6 +182,10 @@ async function main() {
   const missingFixtures = Object.values(teams).filter((t) => t.played === 0 && !t.next);
   if (missingFixtures.length > 0) {
     console.warn("Teams with no fixtures found yet:", missingFixtures.map((t) => t.code));
+  }
+  const missingGroup = Object.values(teams).filter((t) => !t.group);
+  if (missingGroup.length > 0) {
+    console.warn("Teams with no group assigned (no fixture carried a group label yet):", missingGroup.map((t) => t.code));
   }
 
   const output = {

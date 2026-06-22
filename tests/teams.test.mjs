@@ -89,6 +89,18 @@ describe("extractScore", () => {
   test("reads the away team's perspective", () => {
     assert.deepEqual(extractScore(fx, false), { scoreFor: 1, scoreAgainst: 3 });
   });
+
+  test("returns nulls instead of throwing when score is missing", () => {
+    assert.deepEqual(extractScore({}, true), { scoreFor: null, scoreAgainst: null });
+  });
+
+  test("returns nulls instead of throwing when fullTime is missing", () => {
+    assert.deepEqual(extractScore({ score: {} }, true), { scoreFor: null, scoreAgainst: null });
+  });
+
+  test("returns nulls instead of throwing when fx itself is missing", () => {
+    assert.deepEqual(extractScore(undefined, true), { scoreFor: null, scoreAgainst: null });
+  });
 });
 
 describe("classifyResult", () => {

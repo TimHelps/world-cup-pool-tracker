@@ -12,30 +12,32 @@ function renderMatch(match) {
   const li = document.createElement("li");
   const score = `${match.scoreFor}-${match.scoreAgainst}`;
   li.innerHTML = `
-    <span><span class="result-pill ${match.result}">${match.result}</span>${match.homeAway === "H" ? "vs" : "@"} ${match.opponent}</span>
-    <span>${score} &middot; ${formatDate(match.date)}</span>
+    <span><span class="result-pill ${match.result}">${match.result}</span>${match.homeAway === "H" ? "vs" : "@"} ${escapeHtml(match.opponent)}</span>
+    <span>${escapeHtml(score)} &middot; ${escapeHtml(formatDate(match.date))}</span>
   `;
   return li;
 }
 
 function renderContent(team) {
-  const groupLabel = team.group ? `Group ${team.group}${team.groupPosition ? ` (${ordinal(team.groupPosition)})` : ""}` : team.stage;
+  const groupLabel = team.group
+    ? `Group ${escapeHtml(team.group)}${team.groupPosition ? ` (${ordinal(team.groupPosition)})` : ""}`
+    : escapeHtml(team.stage);
 
   const recentItems = team.recent.length
     ? team.recent.map(renderMatch).map((li) => li.outerHTML).join("")
     : `<li>No results yet.</li>`;
 
   const nextHtml = team.next
-    ? `<div class="next-fixture"><strong>Next:</strong> ${team.next.homeAway === "H" ? "vs" : "@"} ${team.next.opponent} &mdash; ${formatDate(team.next.date)} (${team.next.round})</div>`
+    ? `<div class="next-fixture"><strong>Next:</strong> ${team.next.homeAway === "H" ? "vs" : "@"} ${escapeHtml(team.next.opponent)} &mdash; ${escapeHtml(formatDate(team.next.date))} (${escapeHtml(team.next.round)})</div>`
     : `<div class="next-fixture">No upcoming fixture scheduled.</div>`;
 
   return `
     <div class="team-header">
-      <h1>${team.name}</h1>
-      <span class="owner">picked by ${team.owner || "nobody"}</span>
+      <h1>${escapeHtml(team.name)}</h1>
+      <span class="owner">picked by ${escapeHtml(team.owner || "nobody")}</span>
       ${team.eliminated ? '<span class="badge-eliminated">Eliminated</span>' : ""}
     </div>
-    <p>${groupLabel} &middot; ${team.stage}</p>
+    <p>${groupLabel} &middot; ${escapeHtml(team.stage)}</p>
 
     <div class="stat-grid">
       <div class="stat-box"><div class="value">${team.played}</div><div class="label">Played</div></div>

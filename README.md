@@ -5,8 +5,11 @@
 A small static site for tracking a World Cup sweepstake-style pool: each
 person picks some teams, and the site ranks everyone by how their teams are
 doing, with a per-team detail page (recent results, next fixture, group
-standing). Scores update automatically during the tournament via a scheduled
-GitHub Action — nobody has to touch it once it's set up.
+standing). Eliminated teams are marked as they go out, and once the Final is
+won the site calls out the pool's actual winner — whoever picked the
+champion, regardless of the points standings. Scores update automatically
+during the tournament via a scheduled GitHub Action — nobody has to touch it
+once it's set up.
 
 This instance is wired up for one specific group's picks (`data/people.json`),
 but the whole thing is meant to be forked and repointed at a different pool —
@@ -19,9 +22,14 @@ see [Using this for your own pool](#using-this-for-your-own-pool) below.
   and next fixture. Produced by `scripts/fetch-data.mjs` from the
   [football-data.org](https://www.football-data.org/) API.
 - `scripts/lib/teams.mjs` — pure functions for matching API team data to the
-  pool's codes, turning match results into W/D/L/points, and computing group
-  standings; covered by the tests in `tests/`.
-- `index.html` / `js/app.js` — ranking page, sums points per person.
+  pool's codes, turning match results into W/D/L/points, computing group
+  standings, and flagging teams as eliminated or champion; covered by the
+  tests in `tests/`. A team is eliminated either by a direct knockout-stage
+  loss, or — for a group-stage exit, which doesn't lose a "knockout"
+  match — once the knockout bracket exists with real teams in it and the
+  team isn't among them.
+- `index.html` / `js/app.js` — ranking page, sums points per person; shows a
+  banner calling out the pool's winner once a team is crowned champion.
 - `team.html` / `js/team.js` — per-team detail view (`team.html?code=ARG`).
 - `.github/workflows/update-data.yml` — runs the fetch script hourly and
   commits the refreshed `data/standings.json`, so the live site stays current

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T11:36:24.837Z",
+  "generatedAt": "2026-06-22T13:36:01.754Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -16,6 +16,7 @@
       "goalsAgainst": 0,
       "points": 3,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "Panama",
@@ -50,6 +51,7 @@
       "goalsAgainst": 2,
       "points": 4,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "New Zealand",
@@ -94,6 +96,7 @@
       "goalsAgainst": 5,
       "points": 1,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "Egypt",
@@ -138,6 +141,7 @@
       "goalsAgainst": 3,
       "points": 0,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "Argentina",
@@ -172,6 +176,7 @@
       "goalsAgainst": 0,
       "points": 3,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "Algeria",
@@ -206,6 +211,7 @@
       "goalsAgainst": 5,
       "points": 1,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "Switzerland",
@@ -250,6 +256,7 @@
       "goalsAgainst": 4,
       "points": 3,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "Turkey",
@@ -294,6 +301,7 @@
       "goalsAgainst": 3,
       "points": 4,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "Sweden",
@@ -338,6 +346,7 @@
       "goalsAgainst": 4,
       "points": 0,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "Norway",
@@ -372,6 +381,7 @@
       "goalsAgainst": 1,
       "points": 0,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "Ghana",
@@ -406,6 +416,7 @@
       "goalsAgainst": 0,
       "points": 4,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "Saudi Arabia",
@@ -450,6 +461,7 @@
       "goalsAgainst": 1,
       "points": 6,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "Australia",
@@ -494,6 +506,7 @@
       "goalsAgainst": 6,
       "points": 3,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "Netherlands",
@@ -538,6 +551,7 @@
       "goalsAgainst": 4,
       "points": 0,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "Brazil",
@@ -582,6 +596,7 @@
       "goalsAgainst": 1,
       "points": 3,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "Iraq",
@@ -616,6 +631,7 @@
       "goalsAgainst": 1,
       "points": 4,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "Haiti",
@@ -660,6 +676,7 @@
       "goalsAgainst": 2,
       "points": 3,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "Germany",
@@ -704,6 +721,7 @@
       "goalsAgainst": 3,
       "points": 0,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "Austria",
@@ -738,6 +756,7 @@
       "goalsAgainst": 2,
       "points": 3,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "United States",
@@ -782,6 +801,7 @@
       "goalsAgainst": 4,
       "points": 0,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "England",
@@ -816,6 +836,7 @@
       "goalsAgainst": 7,
       "points": 1,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "Ecuador",
@@ -860,6 +881,7 @@
       "goalsAgainst": 1,
       "points": 3,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "Jordan",
@@ -894,6 +916,7 @@
       "goalsAgainst": 0,
       "points": 6,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "South Korea",
@@ -938,6 +961,7 @@
       "goalsAgainst": 3,
       "points": 1,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "Czechia",
@@ -982,6 +1006,7 @@
       "goalsAgainst": 1,
       "points": 1,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "Curaçao",
@@ -1026,6 +1051,7 @@
       "goalsAgainst": 1,
       "points": 4,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "Qatar",
@@ -1070,6 +1096,7 @@
       "goalsAgainst": 5,
       "points": 1,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "Spain",
@@ -1114,6 +1141,7 @@
       "goalsAgainst": 1,
       "points": 3,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "Morocco",
@@ -1158,6 +1186,7 @@
       "goalsAgainst": 1,
       "points": 1,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "Congo DR",
@@ -1192,6 +1221,7 @@
       "goalsAgainst": 3,
       "points": 0,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "Paraguay",
@@ -1236,6 +1266,7 @@
       "goalsAgainst": 2,
       "points": 2,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "Belgium",
@@ -1280,6 +1311,7 @@
       "goalsAgainst": 1,
       "points": 4,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "Scotland",
@@ -1324,6 +1356,7 @@
       "goalsAgainst": 7,
       "points": 1,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "Canada",
@@ -1368,6 +1401,7 @@
       "goalsAgainst": 2,
       "points": 3,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "Mexico",
@@ -1412,6 +1446,7 @@
       "goalsAgainst": 2,
       "points": 3,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "Croatia",
@@ -1446,6 +1481,7 @@
       "goalsAgainst": 2,
       "points": 2,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "Uruguay",
@@ -1490,6 +1526,7 @@
       "goalsAgainst": 3,
       "points": 0,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "France",
@@ -1524,6 +1561,7 @@
       "goalsAgainst": 1,
       "points": 3,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "Uzbekistan",
@@ -1558,6 +1596,7 @@
       "goalsAgainst": 9,
       "points": 0,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "Japan",
@@ -1602,6 +1641,7 @@
       "goalsAgainst": 2,
       "points": 4,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "Tunisia",
@@ -1646,6 +1686,7 @@
       "goalsAgainst": 1,
       "points": 3,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "Senegal",
@@ -1680,6 +1721,7 @@
       "goalsAgainst": 3,
       "points": 1,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "South Africa",
@@ -1724,6 +1766,7 @@
       "goalsAgainst": 1,
       "points": 1,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "Portugal",
@@ -1758,6 +1801,7 @@
       "goalsAgainst": 2,
       "points": 4,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "Bosnia-Herzegovina",
@@ -1802,6 +1846,7 @@
       "goalsAgainst": 1,
       "points": 2,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "Iran",
@@ -1846,6 +1891,7 @@
       "goalsAgainst": 3,
       "points": 0,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "Colombia",
@@ -1880,6 +1926,7 @@
       "goalsAgainst": 3,
       "points": 2,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "Cape Verde Islands",
@@ -1924,6 +1971,7 @@
       "goalsAgainst": 2,
       "points": 6,
       "eliminated": false,
+      "champion": false,
       "recent": [
         {
           "opponent": "Ivory Coast",

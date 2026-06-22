@@ -10,7 +10,21 @@ import {
   extractScore,
   classifyResult,
   rankGroup,
+  buildTeamsData,
 } from "../scripts/lib/teams.mjs";
+
+function fixture({ home, away, homeGoals, awayGoals, status = "FINISHED", stage = "GROUP_STAGE", group = "GROUP_A", date, id }) {
+  return {
+    id,
+    homeTeam: { tla: home, name: CODE_TO_NAME[home] },
+    awayTeam: { tla: away, name: CODE_TO_NAME[away] },
+    status,
+    stage,
+    group,
+    utcDate: date,
+    score: { fullTime: { home: homeGoals, away: awayGoals } },
+  };
+}
 
 describe("normalize", () => {
   test("strips accents, case and punctuation", () => {
@@ -136,5 +150,93 @@ describe("rankGroup", () => {
     ];
     rankGroup(teams);
     assert.deepEqual(teams.map((t) => t.code), ["A", "B"]);
+  });
+});
+
+describe("buildTeamsData", () => {
+  const NOW = new Date("2026-06-12T00:00:00Z").getTime();
+
+  test("accumulates W/D/L/points/goals across multiple matches and orders recent results most-recent-first", () => {
+    const fixtures = [
+      fixture({ home: "ARG", away: "NED", homeGoals: 2, awayGoals: 1, date: "2026-06-10T00:00:00Z" }),
+      fixture({ home: "GER", away: "ARG", homeGoals: 0, awayGoals: 0, date: "2026-06-15T00:00:00Z" }),
+      fixture({ home: "ARG", away: "USA", homeGoals: null, awayGoals: null, status: "SCHEDULED", date: "2026-06-20T00:00:00Z" }),
+    ];
+    const { teams } = buildTeamsData(fixtures, { Ste: ["ARG"] }, NOW);
+    const arg = teams.ARG;
+
+    assert.equal(arg.played, 2);
+    assert.equal(arg.won, 1);
+    assert.equal(arg.drawn, 1);
+    assert.equal(arg.lost, 0);
+    assert.equal(arg.goalsFor, 2);
+    assert.equal(arg.goalsAgainst, 1);
+    assert.equal(arg.points, 4);
+    assert.equal(arg.owner, "Ste");
+    assert.deepEqual(arg.recent.map((m) => m.opponentCode), ["GER", "NED"]);
+    assert.deepEqual(arg.next, { opponent: "USA", opponentCode: "USA", date: "2026-06-20T00:00:00Z", round: "Group Stage" });
+  });
+
+  test("marks eliminated on a knockout loss but not a group-stage loss or a win", () => {
+    const fixtures = [
+      fixture({ home: "ARG", away: "NED", homeGoals: 0, awayGoals: 1, date: "2026-06-10T00:00:00Z" }),
+      fixture({ home: "GER", away: "USA", homeGoals: 0, awayGoals: 2, stage: "ROUND_OF_16", group: null, date: "2026-07-01T00:00:00Z" }),
+    ];
+    const { teams } = buildTeamsData(fixtures, {}, NOW);
+
+    assert.equal(teams.ARG.eliminated, false);
+    assert.equal(teams.GER.eliminated, true);
+    assert.equal(teams.USA.eliminated, false);
+  });
+
+  test("caps recent results at 5, most recent first", () => {
+    const fixtures = Array.from({ length: 7 }, (_, i) =>
+      fixture({ home: "ARG", away: "USA", homeGoals: 1, awayGoals: 0, date: `2026-06-${10 + i}T00:00:00Z`, id: i })
+    );
+    const { teams } = buildTeamsData(fixtures, {}, NOW);
+
+    assert.equal(teams.ARG.played, 7);
+    assert.equal(teams.ARG.recent.length, 5);
+    assert.equal(teams.ARG.recent[0].date, "2026-06-16T00:00:00Z");
+  });
+
+  test("computes group position by points, then goal difference, then goals for", () => {
+    const fixtures = [
+      fixture({ home: "ARG", away: "EGY", homeGoals: 3, awayGoals: 0, date: "2026-06-10T00:00:00Z", group: "GROUP_Z" }),
+      fixture({ home: "USA", away: "GHA", homeGoals: 3, awayGoals: 1, date: "2026-06-10T00:00:00Z", group: "GROUP_Z" }),
+      fixture({ home: "NED", away: "BRA", homeGoals: 2, awayGoals: 1, date: "2026-06-10T00:00:00Z", group: "GROUP_Z" }),
+      fixture({ home: "GER", away: "FRA", homeGoals: 1, awayGoals: 0, date: "2026-06-10T00:00:00Z", group: "GROUP_Z" }),
+    ];
+    const { teams } = buildTeamsData(fixtures, {}, NOW);
+
+    assert.equal(teams.ARG.group, "Z");
+    assert.equal(teams.ARG.groupPosition, 1);
+    assert.equal(teams.USA.groupPosition, 2);
+    assert.equal(teams.NED.groupPosition, 3);
+    assert.equal(teams.GER.groupPosition, 4);
+  });
+
+  test("reports teams with no fixtures yet and no group assigned", () => {
+    const fixtures = [fixture({ home: "ARG", away: "NED", homeGoals: 1, awayGoals: 0, date: "2026-06-10T00:00:00Z" })];
+    const { missingFixtures, missingGroup } = buildTeamsData(fixtures, {}, NOW);
+
+    assert.ok(missingFixtures.includes("JPN"));
+    assert.ok(!missingFixtures.includes("ARG"));
+    assert.ok(missingGroup.includes("JPN"));
+    assert.ok(!missingGroup.includes("ARG"));
+  });
+
+  test("skips a malformed fixture and reports it instead of throwing", () => {
+    const fixtures = [
+      fixture({ home: "ARG", away: "NED", homeGoals: 1, awayGoals: 0, date: "2026-06-10T00:00:00Z", id: 1 }),
+      null,
+      { id: 2 }, // missing homeTeam/awayTeam/status/utcDate entirely
+    ];
+
+    assert.doesNotThrow(() => buildTeamsData(fixtures, {}, NOW));
+    const { teams, malformedFixtures } = buildTeamsData(fixtures, {}, NOW);
+
+    assert.equal(teams.ARG.played, 1);
+    assert.ok(malformedFixtures.length > 0);
   });
 });

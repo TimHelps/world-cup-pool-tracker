@@ -113,3 +113,145 @@ export function rankGroup(teams) {
     return b.goalsFor - a.goalsFor;
   });
 }
+
+function emptyTeam(code, owner) {
+  return {
+    code,
+    name: CODE_TO_NAME[code],
+    owner,
+    group: null,
+    groupPosition: null,
+    stage: "Group Stage",
+    played: 0,
+    won: 0,
+    drawn: 0,
+    lost: 0,
+    goalsFor: 0,
+    goalsAgainst: 0,
+    points: 0,
+    eliminated: false,
+    recent: [],
+    next: null,
+  };
+}
+
+// Turns a list of football-data.org fixtures plus the pool's owner mapping
+// into per-team stats, recent results, next fixture and group position.
+// Pure and side-effect-free (no console output, no I/O) so it's testable
+// without mocking the network or filesystem — see tests/teams.test.mjs.
+// `now` is injectable so tests can pin "what counts as upcoming".
+export function buildTeamsData(fixtures, people, now = Date.now()) {
+  const candidateMap = buildCandidates();
+
+  const codeToOwner = {};
+  for (const [owner, codes] of Object.entries(people)) {
+    for (const code of codes) codeToOwner[code] = owner;
+  }
+
+  const teams = {};
+  for (const code of Object.keys(CODE_TO_NAME)) {
+    teams[code] = emptyTeam(code, codeToOwner[code] || null);
+  }
+
+  const unmatchedApiTeams = new Set();
+  const malformedFixtures = [];
+  const fixturesByTeam = new Map(Object.keys(CODE_TO_NAME).map((c) => [c, []]));
+
+  for (const fx of fixtures) {
+    try {
+      const homeCode = matchCode(fx.homeTeam, candidateMap);
+      const awayCode = matchCode(fx.awayTeam, candidateMap);
+      if (!homeCode && fx.homeTeam?.name) unmatchedApiTeams.add(fx.homeTeam.name);
+      if (!awayCode && fx.awayTeam?.name) unmatchedApiTeams.add(fx.awayTeam.name);
+
+      const groupLabel = fx.group ? fx.group.replace("GROUP_", "") : null;
+      if (homeCode && groupLabel) teams[homeCode].group = groupLabel;
+      if (awayCode && groupLabel) teams[awayCode].group = groupLabel;
+
+      if (homeCode) fixturesByTeam.get(homeCode).push({ fx, isHome: true, opponentCode: awayCode });
+      if (awayCode) fixturesByTeam.get(awayCode).push({ fx, isHome: false, opponentCode: homeCode });
+    } catch (err) {
+      malformedFixtures.push(`fixture ${fx?.id ?? "?"}: ${err.message}`);
+    }
+  }
+
+  for (const code of Object.keys(CODE_TO_NAME)) {
+    const team = teams[code];
+    const entries = fixturesByTeam.get(code) || [];
+    entries.sort((a, b) => new Date(a.fx.utcDate) - new Date(b.fx.utcDate));
+
+    let latestStage = null;
+
+    for (const entry of entries) {
+      try {
+        const { fx, isHome, opponentCode } = entry;
+        const finished = fx.status === "FINISHED";
+        const { scoreFor, scoreAgainst } = extractScore(fx, isHome);
+        const opponentName = isHome ? fx.awayTeam?.name : fx.homeTeam?.name;
+        const stage = simplifyStage(fx.stage);
+
+        if (finished && scoreFor !== null && scoreAgainst !== null) {
+          latestStage = stage;
+          team.played += 1;
+          team.goalsFor += scoreFor;
+          team.goalsAgainst += scoreAgainst;
+
+          const { result, points } = classifyResult(scoreFor, scoreAgainst);
+          team.points += points;
+          if (result === "W") team.won += 1;
+          else if (result === "D") team.drawn += 1;
+          else {
+            team.lost += 1;
+            if (isKnockoutStage(fx.stage)) team.eliminated = true;
+          }
+
+          team.recent.push({
+            opponent: opponentName,
+            opponentCode,
+            date: fx.utcDate,
+            round: stage,
+            homeAway: isHome ? "H" : "A",
+            scoreFor,
+            scoreAgainst,
+            result,
+          });
+        } else if (new Date(fx.utcDate).getTime() > now && !team.next) {
+          team.next = {
+            opponent: opponentName,
+            opponentCode,
+            date: fx.utcDate,
+            round: stage,
+          };
+        }
+      } catch (err) {
+        malformedFixtures.push(`fixture ${entry.fx?.id ?? "?"} for ${code}: ${err.message}`);
+      }
+    }
+
+    if (latestStage) team.stage = latestStage;
+    team.recent = team.recent.slice(-5).reverse();
+  }
+
+  // Group position computed locally (points, then goal difference, then
+  // goals for) since the API only exposes a flat 48-team table, not
+  // per-group ones. Doesn't account for head-to-head tiebreakers.
+  const byGroup = new Map();
+  for (const team of Object.values(teams)) {
+    if (!team.group) continue;
+    if (!byGroup.has(team.group)) byGroup.set(team.group, []);
+    byGroup.get(team.group).push(team);
+  }
+  for (const groupTeams of byGroup.values()) {
+    rankGroup(groupTeams).forEach((team, i) => {
+      team.groupPosition = i + 1;
+    });
+  }
+
+  return {
+    teams,
+    unmatchedApiTeams: [...unmatchedApiTeams],
+    missingFixtures: Object.values(teams).filter((t) => t.played === 0 && !t.next).map((t) => t.code),
+    missingGroup: Object.values(teams).filter((t) => !t.group).map((t) => t.code),
+    malformedFixtures,
+  };
+}

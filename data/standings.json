@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T18:35:20.767Z",
+  "generatedAt": "2026-06-22T20:16:49.021Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -168,16 +168,26 @@
       "group": "J",
       "groupPosition": 1,
       "stage": "Group Stage",
-      "played": 1,
-      "won": 1,
+      "played": 2,
+      "won": 2,
       "drawn": 0,
       "lost": 0,
-      "goalsFor": 3,
+      "goalsFor": 5,
       "goalsAgainst": 0,
-      "points": 3,
+      "points": 6,
       "eliminated": false,
       "champion": false,
       "recent": [
+        {
+          "opponent": "Austria",
+          "opponentCode": "AUT",
+          "date": "2026-06-22T17:00:00Z",
+          "round": "Group Stage",
+          "homeAway": "H",
+          "scoreFor": 2,
+          "scoreAgainst": 0,
+          "result": "W"
+        },
         {
           "opponent": "Algeria",
           "opponentCode": "ALG",
@@ -873,16 +883,26 @@
       "group": "J",
       "groupPosition": 2,
       "stage": "Group Stage",
-      "played": 1,
+      "played": 2,
       "won": 1,
       "drawn": 0,
-      "lost": 0,
+      "lost": 1,
       "goalsFor": 3,
-      "goalsAgainst": 1,
+      "goalsAgainst": 3,
       "points": 3,
       "eliminated": false,
       "champion": false,
       "recent": [
+        {
+          "opponent": "Argentina",
+          "opponentCode": "ARG",
+          "date": "2026-06-22T17:00:00Z",
+          "round": "Group Stage",
+          "homeAway": "A",
+          "scoreFor": 0,
+          "scoreAgainst": 2,
+          "result": "L"
+        },
         {
           "opponent": "Jordan",
           "opponentCode": "JOR",

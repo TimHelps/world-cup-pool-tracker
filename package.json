@@ -1,6 +1,7 @@
 {
-  "name": "world-cup-pool-2026",
+  "name": "world-cup-pool-tracker",
   "private": true,
+  "license": "PolyForm-Noncommercial-1.0.0",
   "type": "module",
   "scripts": {
     "test": "node --test",

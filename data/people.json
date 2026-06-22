@@ -1,0 +1,17 @@
+{
+  "Ste": ["GHA", "EGY", "ARG"],
+  "Kate": ["NZL", "ALG", "NED"],
+  "Dan": ["BIH", "PAR", "ESP"],
+  "Soph": ["IRQ", "PAN", "USA"],
+  "Aimee": ["SWE", "HAI", "NOR", "BRA"],
+  "Nick": ["CIV", "JOR", "AUS", "CRO"],
+  "Simon": ["CUW", "AUT", "MEX"],
+  "Deb": ["RSA", "ECU", "CAN"],
+  "Katie": ["KSA", "SCO", "POR"],
+  "Alex": ["TUR", "IRN", "MAR"],
+  "Tara": ["QAT", "KOR", "ENG"],
+  "Will": ["CPV", "SEN", "COL"],
+  "Rosie": ["TUN", "JPN", "FRA"],
+  "Maddie": ["CZE", "COD", "SUI", "BEL"],
+  "Tim": ["UZB", "URU", "GER"]
+}

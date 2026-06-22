@@ -9,9 +9,11 @@
 }
 
 body {
-  max-width: 900px;
+  max-width: 600px;
   margin: 0 auto;
-  padding: 1.5rem 1rem 3rem;
+  padding: 1.25rem 1rem 3rem;
+  font-size: 16px;
+  line-height: 1.4;
 }
 
 header h1 {
@@ -23,47 +25,73 @@ header p.subtitle {
   margin-top: 0;
 }
 
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 1rem;
+.rankings {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
 }
 
-th, td {
-  text-align: left;
-  padding: 0.5rem 0.6rem;
-  border-bottom: 1px solid var(--border);
+.person-card {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 0.75rem 0.9rem;
 }
 
-th {
-  font-size: 0.85rem;
+.person-card.rank-1 {
+  border-color: var(--win);
+  border-width: 2px;
+}
+
+.card-top {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+}
+
+.card-top .rank {
+  color: var(--muted);
+  font-weight: 700;
+  min-width: 1.3rem;
+}
+
+.card-top .name {
+  flex: 1;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.card-top .pts {
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+
+.card-top .pts-label {
+  margin-left: 0.2rem;
+  font-size: 0.7rem;
+  font-weight: 400;
   color: var(--muted);
   text-transform: uppercase;
-  letter-spacing: 0.03em;
 }
 
-tr.rank-1 td:first-child {
-  font-weight: 700;
-}
-
-td.points, th.points {
-  text-align: right;
-  font-weight: 700;
-}
-
-td.numeric, th.numeric {
-  text-align: right;
+.card-stats {
+  margin-top: 0.5rem;
+  color: var(--muted);
+  font-size: 0.85rem;
 }
 
 .teams {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.3rem;
+  gap: 0.4rem;
+  margin-top: 0.5rem;
 }
 
 .team-badge {
   display: inline-block;
-  padding: 0.15rem 0.5rem;
+  padding: 0.35rem 0.7rem;
   border: 1px solid var(--border);
   border-radius: 999px;
   font-size: 0.85rem;
@@ -82,7 +110,8 @@ td.numeric, th.numeric {
 
 a.back-link {
   display: inline-block;
-  margin-bottom: 1rem;
+  padding: 0.4rem 0;
+  margin-bottom: 0.5rem;
   color: var(--muted);
   text-decoration: none;
 }
@@ -108,8 +137,8 @@ a.back-link:hover {
 
 .stat-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
-  gap: 0.75rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.6rem;
   margin: 1.25rem 0;
 }
 

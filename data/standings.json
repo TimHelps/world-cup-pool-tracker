@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T20:16:49.021Z",
+  "generatedAt": "2026-06-22T21:19:36.395Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -370,9 +370,9 @@
         }
       ],
       "next": {
-        "opponent": "France",
-        "opponentCode": "FRA",
-        "date": "2026-06-22T21:00:00Z",
+        "opponent": "Senegal",
+        "opponentCode": "SEN",
+        "date": "2026-06-26T19:00:00Z",
         "round": "Group Stage"
       }
     },
@@ -1720,9 +1720,9 @@
         }
       ],
       "next": {
-        "opponent": "Iraq",
-        "opponentCode": "IRQ",
-        "date": "2026-06-22T21:00:00Z",
+        "opponent": "Norway",
+        "opponentCode": "NOR",
+        "date": "2026-06-26T19:00:00Z",
         "round": "Group Stage"
       }
     },

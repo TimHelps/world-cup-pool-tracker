@@ -75,3 +75,8 @@ GitHub Pages itself don't have this problem.)
 [PolyForm Noncommercial 1.0.0](LICENSE.md) — free to use, fork, and modify
 for any noncommercial purpose; commercial use requires permission from the
 copyright holder.
+
+## Acknowledgments
+
+Built with [Claude Code](https://claude.com/claude-code) (Anthropic) pairing
+on implementation, debugging, and code review throughout.

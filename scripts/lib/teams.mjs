@@ -170,7 +170,7 @@ export function buildTeamsData(fixtures, people, now = Date.now()) {
   // and wrongly eliminate everyone else mid-group-stage. Require every
   // group-stage fixture to be finished first, since that's the only way the
   // bracket signal can actually be trustworthy.
-  const groupStageFixtures = fixtures.filter((fx) => !fx?.stage || fx.stage === "GROUP_STAGE");
+  const groupStageFixtures = fixtures.filter((fx) => fx && (!fx.stage || fx.stage === "GROUP_STAGE"));
   const groupStageComplete = groupStageFixtures.length > 0 && groupStageFixtures.every((fx) => fx.status === "FINISHED");
   const knockoutPublished = groupStageComplete && fixtures.some((fx) => {
     if (!fx?.stage || !isKnockoutStage(fx.stage)) return false;

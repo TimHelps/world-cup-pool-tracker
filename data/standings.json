@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T21:50:21.784Z",
+  "generatedAt": "2026-06-23T22:43:21.507Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -8,16 +8,26 @@
       "group": "L",
       "groupPosition": 2,
       "stage": "Group Stage",
-      "played": 1,
+      "played": 2,
       "won": 1,
-      "drawn": 0,
+      "drawn": 1,
       "lost": 0,
       "goalsFor": 1,
       "goalsAgainst": 0,
-      "points": 3,
+      "points": 4,
       "eliminated": false,
       "champion": false,
       "recent": [
+        {
+          "opponent": "England",
+          "opponentCode": "ENG",
+          "date": "2026-06-23T20:00:00Z",
+          "round": "Group Stage",
+          "homeAway": "A",
+          "scoreFor": 0,
+          "scoreAgainst": 0,
+          "result": "D"
+        },
         {
           "opponent": "Panama",
           "opponentCode": "PAN",
@@ -1508,16 +1518,26 @@
       "group": "L",
       "groupPosition": 1,
       "stage": "Group Stage",
-      "played": 1,
+      "played": 2,
       "won": 1,
-      "drawn": 0,
+      "drawn": 1,
       "lost": 0,
       "goalsFor": 4,
       "goalsAgainst": 2,
-      "points": 3,
+      "points": 4,
       "eliminated": false,
       "champion": false,
       "recent": [
+        {
+          "opponent": "Ghana",
+          "opponentCode": "GHA",
+          "date": "2026-06-23T20:00:00Z",
+          "round": "Group Stage",
+          "homeAway": "H",
+          "scoreFor": 0,
+          "scoreAgainst": 0,
+          "result": "D"
+        },
         {
           "opponent": "Croatia",
           "opponentCode": "CRO",

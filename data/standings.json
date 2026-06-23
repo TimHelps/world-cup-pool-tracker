@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T19:57:02.168Z",
+  "generatedAt": "2026-06-23T20:58:21.453Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -30,9 +30,9 @@
         }
       ],
       "next": {
-        "opponent": "England",
-        "opponentCode": "ENG",
-        "date": "2026-06-23T20:00:00Z",
+        "opponent": "Croatia",
+        "opponentCode": "CRO",
+        "date": "2026-06-27T21:00:00Z",
         "round": "Group Stage"
       }
     },
@@ -1530,9 +1530,9 @@
         }
       ],
       "next": {
-        "opponent": "Ghana",
-        "opponentCode": "GHA",
-        "date": "2026-06-23T20:00:00Z",
+        "opponent": "Panama",
+        "opponentCode": "PAN",
+        "date": "2026-06-27T21:00:00Z",
         "round": "Group Stage"
       }
     },

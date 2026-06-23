@@ -26,8 +26,11 @@ see [Using this for your own pool](#using-this-for-your-own-pool) below.
   standings, and flagging teams as eliminated or champion; covered by the
   tests in `tests/`. A team is eliminated either by a direct knockout-stage
   loss, or — for a group-stage exit, which doesn't lose a "knockout"
-  match — once the knockout bracket exists with real teams in it and the
-  team isn't among them.
+  match — once every group-stage fixture has finished and the knockout
+  bracket exists with real teams in it but the team isn't among them. (The
+  group-stage-finished requirement guards against football-data.org
+  occasionally filling in a knockout slot early, before the rest of the
+  groups are decided.)
 - `index.html` / `js/app.js` — ranking page, sums points per person; shows a
   banner calling out the pool's winner once a team is crowned champion.
 - `team.html` / `js/team.js` — per-team detail view (`team.html?code=ARG`).

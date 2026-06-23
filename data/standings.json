@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T02:04:36.098Z",
+  "generatedAt": "2026-06-23T03:26:29.326Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -15,7 +15,7 @@
       "goalsFor": 1,
       "goalsAgainst": 0,
       "points": 3,
-      "eliminated": true,
+      "eliminated": false,
       "champion": false,
       "recent": [
         {
@@ -50,7 +50,7 @@
       "goalsFor": 4,
       "goalsAgainst": 2,
       "points": 4,
-      "eliminated": true,
+      "eliminated": false,
       "champion": false,
       "recent": [
         {
@@ -95,7 +95,7 @@
       "goalsFor": 3,
       "goalsAgainst": 5,
       "points": 1,
-      "eliminated": true,
+      "eliminated": false,
       "champion": false,
       "recent": [
         {
@@ -140,7 +140,7 @@
       "goalsFor": 0,
       "goalsAgainst": 3,
       "points": 0,
-      "eliminated": true,
+      "eliminated": false,
       "champion": false,
       "recent": [
         {
@@ -155,9 +155,9 @@
         }
       ],
       "next": {
-        "opponent": "Jordan",
-        "opponentCode": "JOR",
-        "date": "2026-06-23T03:00:00Z",
+        "opponent": "Austria",
+        "opponentCode": "AUT",
+        "date": "2026-06-28T02:00:00Z",
         "round": "Group Stage"
       }
     },
@@ -175,7 +175,7 @@
       "goalsFor": 5,
       "goalsAgainst": 0,
       "points": 6,
-      "eliminated": true,
+      "eliminated": false,
       "champion": false,
       "recent": [
         {
@@ -220,7 +220,7 @@
       "goalsFor": 2,
       "goalsAgainst": 5,
       "points": 1,
-      "eliminated": true,
+      "eliminated": false,
       "champion": false,
       "recent": [
         {
@@ -265,7 +265,7 @@
       "goalsFor": 2,
       "goalsAgainst": 4,
       "points": 3,
-      "eliminated": true,
+      "eliminated": false,
       "champion": false,
       "recent": [
         {
@@ -310,7 +310,7 @@
       "goalsFor": 7,
       "goalsAgainst": 3,
       "points": 4,
-      "eliminated": true,
+      "eliminated": false,
       "champion": false,
       "recent": [
         {
@@ -355,7 +355,7 @@
       "goalsFor": 1,
       "goalsAgainst": 7,
       "points": 0,
-      "eliminated": true,
+      "eliminated": false,
       "champion": false,
       "recent": [
         {
@@ -400,7 +400,7 @@
       "goalsFor": 0,
       "goalsAgainst": 1,
       "points": 0,
-      "eliminated": true,
+      "eliminated": false,
       "champion": false,
       "recent": [
         {
@@ -435,7 +435,7 @@
       "goalsFor": 4,
       "goalsAgainst": 0,
       "points": 4,
-      "eliminated": true,
+      "eliminated": false,
       "champion": false,
       "recent": [
         {
@@ -525,7 +525,7 @@
       "goalsFor": 6,
       "goalsAgainst": 6,
       "points": 3,
-      "eliminated": true,
+      "eliminated": false,
       "champion": false,
       "recent": [
         {
@@ -570,7 +570,7 @@
       "goalsFor": 0,
       "goalsAgainst": 4,
       "points": 0,
-      "eliminated": true,
+      "eliminated": false,
       "champion": false,
       "recent": [
         {
@@ -608,16 +608,26 @@
       "group": "I",
       "groupPosition": 2,
       "stage": "Group Stage",
-      "played": 1,
-      "won": 1,
+      "played": 2,
+      "won": 2,
       "drawn": 0,
       "lost": 0,
-      "goalsFor": 4,
-      "goalsAgainst": 1,
-      "points": 3,
-      "eliminated": true,
+      "goalsFor": 7,
+      "goalsAgainst": 3,
+      "points": 6,
+      "eliminated": false,
       "champion": false,
       "recent": [
+        {
+          "opponent": "Senegal",
+          "opponentCode": "SEN",
+          "date": "2026-06-23T00:00:00Z",
+          "round": "Group Stage",
+          "homeAway": "H",
+          "scoreFor": 3,
+          "scoreAgainst": 2,
+          "result": "W"
+        },
         {
           "opponent": "Iraq",
           "opponentCode": "IRQ",
@@ -650,7 +660,7 @@
       "goalsFor": 4,
       "goalsAgainst": 1,
       "points": 4,
-      "eliminated": true,
+      "eliminated": false,
       "champion": false,
       "recent": [
         {
@@ -695,7 +705,7 @@
       "goalsFor": 2,
       "goalsAgainst": 2,
       "points": 3,
-      "eliminated": true,
+      "eliminated": false,
       "champion": false,
       "recent": [
         {
@@ -740,7 +750,7 @@
       "goalsFor": 1,
       "goalsAgainst": 3,
       "points": 0,
-      "eliminated": true,
+      "eliminated": false,
       "champion": false,
       "recent": [
         {
@@ -755,9 +765,9 @@
         }
       ],
       "next": {
-        "opponent": "Algeria",
-        "opponentCode": "ALG",
-        "date": "2026-06-23T03:00:00Z",
+        "opponent": "Argentina",
+        "opponentCode": "ARG",
+        "date": "2026-06-28T02:00:00Z",
         "round": "Group Stage"
       }
     },
@@ -775,7 +785,7 @@
       "goalsFor": 2,
       "goalsAgainst": 2,
       "points": 3,
-      "eliminated": true,
+      "eliminated": false,
       "champion": false,
       "recent": [
         {
@@ -820,7 +830,7 @@
       "goalsFor": 2,
       "goalsAgainst": 4,
       "points": 0,
-      "eliminated": true,
+      "eliminated": false,
       "champion": false,
       "recent": [
         {
@@ -855,7 +865,7 @@
       "goalsFor": 1,
       "goalsAgainst": 7,
       "points": 1,
-      "eliminated": true,
+      "eliminated": false,
       "champion": false,
       "recent": [
         {
@@ -900,7 +910,7 @@
       "goalsFor": 3,
       "goalsAgainst": 3,
       "points": 3,
-      "eliminated": true,
+      "eliminated": false,
       "champion": false,
       "recent": [
         {
@@ -990,7 +1000,7 @@
       "goalsFor": 1,
       "goalsAgainst": 3,
       "points": 1,
-      "eliminated": true,
+      "eliminated": false,
       "champion": false,
       "recent": [
         {
@@ -1035,7 +1045,7 @@
       "goalsFor": 0,
       "goalsAgainst": 1,
       "points": 1,
-      "eliminated": true,
+      "eliminated": false,
       "champion": false,
       "recent": [
         {
@@ -1080,7 +1090,7 @@
       "goalsFor": 7,
       "goalsAgainst": 1,
       "points": 4,
-      "eliminated": true,
+      "eliminated": false,
       "champion": false,
       "recent": [
         {
@@ -1125,7 +1135,7 @@
       "goalsFor": 1,
       "goalsAgainst": 5,
       "points": 1,
-      "eliminated": true,
+      "eliminated": false,
       "champion": false,
       "recent": [
         {
@@ -1170,7 +1180,7 @@
       "goalsFor": 1,
       "goalsAgainst": 1,
       "points": 3,
-      "eliminated": true,
+      "eliminated": false,
       "champion": false,
       "recent": [
         {
@@ -1215,7 +1225,7 @@
       "goalsFor": 1,
       "goalsAgainst": 1,
       "points": 1,
-      "eliminated": true,
+      "eliminated": false,
       "champion": false,
       "recent": [
         {
@@ -1250,7 +1260,7 @@
       "goalsFor": 0,
       "goalsAgainst": 3,
       "points": 0,
-      "eliminated": true,
+      "eliminated": false,
       "champion": false,
       "recent": [
         {
@@ -1295,7 +1305,7 @@
       "goalsFor": 2,
       "goalsAgainst": 2,
       "points": 2,
-      "eliminated": true,
+      "eliminated": false,
       "champion": false,
       "recent": [
         {
@@ -1340,7 +1350,7 @@
       "goalsFor": 2,
       "goalsAgainst": 1,
       "points": 4,
-      "eliminated": true,
+      "eliminated": false,
       "champion": false,
       "recent": [
         {
@@ -1385,7 +1395,7 @@
       "goalsFor": 1,
       "goalsAgainst": 7,
       "points": 1,
-      "eliminated": true,
+      "eliminated": false,
       "champion": false,
       "recent": [
         {
@@ -1430,7 +1440,7 @@
       "goalsFor": 2,
       "goalsAgainst": 2,
       "points": 3,
-      "eliminated": true,
+      "eliminated": false,
       "champion": false,
       "recent": [
         {
@@ -1475,7 +1485,7 @@
       "goalsFor": 4,
       "goalsAgainst": 2,
       "points": 3,
-      "eliminated": true,
+      "eliminated": false,
       "champion": false,
       "recent": [
         {
@@ -1510,7 +1520,7 @@
       "goalsFor": 2,
       "goalsAgainst": 2,
       "points": 2,
-      "eliminated": true,
+      "eliminated": false,
       "champion": false,
       "recent": [
         {
@@ -1548,16 +1558,26 @@
       "group": "I",
       "groupPosition": 3,
       "stage": "Group Stage",
-      "played": 1,
+      "played": 2,
       "won": 0,
       "drawn": 0,
-      "lost": 1,
-      "goalsFor": 1,
-      "goalsAgainst": 3,
+      "lost": 2,
+      "goalsFor": 3,
+      "goalsAgainst": 6,
       "points": 0,
-      "eliminated": true,
+      "eliminated": false,
       "champion": false,
       "recent": [
+        {
+          "opponent": "Norway",
+          "opponentCode": "NOR",
+          "date": "2026-06-23T00:00:00Z",
+          "round": "Group Stage",
+          "homeAway": "A",
+          "scoreFor": 2,
+          "scoreAgainst": 3,
+          "result": "L"
+        },
         {
           "opponent": "France",
           "opponentCode": "FRA",
@@ -1590,7 +1610,7 @@
       "goalsFor": 3,
       "goalsAgainst": 1,
       "points": 3,
-      "eliminated": true,
+      "eliminated": false,
       "champion": false,
       "recent": [
         {
@@ -1625,7 +1645,7 @@
       "goalsFor": 1,
       "goalsAgainst": 9,
       "points": 0,
-      "eliminated": true,
+      "eliminated": false,
       "champion": false,
       "recent": [
         {
@@ -1670,7 +1690,7 @@
       "goalsFor": 6,
       "goalsAgainst": 2,
       "points": 4,
-      "eliminated": true,
+      "eliminated": false,
       "champion": false,
       "recent": [
         {
@@ -1715,7 +1735,7 @@
       "goalsFor": 6,
       "goalsAgainst": 1,
       "points": 6,
-      "eliminated": true,
+      "eliminated": false,
       "champion": false,
       "recent": [
         {
@@ -1760,7 +1780,7 @@
       "goalsFor": 2,
       "goalsAgainst": 3,
       "points": 1,
-      "eliminated": true,
+      "eliminated": false,
       "champion": false,
       "recent": [
         {
@@ -1805,7 +1825,7 @@
       "goalsFor": 1,
       "goalsAgainst": 1,
       "points": 1,
-      "eliminated": true,
+      "eliminated": false,
       "champion": false,
       "recent": [
         {
@@ -1840,7 +1860,7 @@
       "goalsFor": 5,
       "goalsAgainst": 2,
       "points": 4,
-      "eliminated": true,
+      "eliminated": false,
       "champion": false,
       "recent": [
         {
@@ -1885,7 +1905,7 @@
       "goalsFor": 1,
       "goalsAgainst": 1,
       "points": 2,
-      "eliminated": true,
+      "eliminated": false,
       "champion": false,
       "recent": [
         {
@@ -1930,7 +1950,7 @@
       "goalsFor": 1,
       "goalsAgainst": 3,
       "points": 0,
-      "eliminated": true,
+      "eliminated": false,
       "champion": false,
       "recent": [
         {
@@ -1965,7 +1985,7 @@
       "goalsFor": 3,
       "goalsAgainst": 3,
       "points": 2,
-      "eliminated": true,
+      "eliminated": false,
       "champion": false,
       "recent": [
         {

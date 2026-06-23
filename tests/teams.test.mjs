@@ -241,6 +241,26 @@ describe("buildTeamsData", () => {
     assert.equal(teams.ESP.eliminated, false);
   });
 
+  test("does not eliminate anyone from bracket absence while other groups' fixtures are still unfinished", () => {
+    // Regression test: football-data.org has been observed filling in a
+    // knockout slot for a group leader (e.g. USA vs GER below) well before
+    // every group has actually finished. That alone must not be treated as
+    // "the bracket is published" — otherwise every other team mid-group-stage
+    // (like ESP here, with one game left to play) gets wrongly eliminated
+    // just for lacking a knockout fixture of their own.
+    const fixtures = [
+      fixture({ home: "ESP", away: "GHA", homeGoals: 2, awayGoals: 0, group: "GROUP_A", date: "2026-06-10T00:00:00Z" }),
+      fixture({ home: "ESP", away: "JPN", homeGoals: null, awayGoals: null, status: "SCHEDULED", group: "GROUP_A", date: "2026-07-01T00:00:00Z" }),
+      fixture({ home: "USA", away: "MEX", homeGoals: 2, awayGoals: 0, group: "GROUP_B", date: "2026-06-10T00:00:00Z" }),
+      fixture({ home: "USA", away: "GER", homeGoals: null, awayGoals: null, status: "SCHEDULED", stage: "ROUND_OF_16", group: null, date: "2026-07-15T00:00:00Z" }),
+    ];
+    const { teams } = buildTeamsData(fixtures, {}, NOW);
+
+    assert.equal(teams.ESP.eliminated, false);
+    assert.equal(teams.GHA.eliminated, false);
+    assert.equal(teams.MEX.eliminated, false);
+  });
+
   test("leaves every team alive while no knockout fixtures exist yet at all", () => {
     const fixtures = [
       fixture({ home: "ESP", away: "USA", homeGoals: 0, awayGoals: 1, stage: "GROUP_STAGE", date: "2026-06-10T00:00:00Z" }),

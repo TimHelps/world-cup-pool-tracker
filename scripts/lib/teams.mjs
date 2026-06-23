@@ -163,7 +163,16 @@ export function buildTeamsData(fixtures, people, now = Date.now()) {
   // per group plus the best 8 third-placed teams — has been fully decided,
   // so this tells us qualification is settled without us reimplementing
   // that math: any team not in the bracket by then didn't make it.
-  const knockoutPublished = fixtures.some((fx) => {
+  //
+  // football-data.org has been observed filling in a handful of knockout
+  // slots (e.g. group leaders on a perfect record) well before every group
+  // has finished, which would otherwise flip this for the whole tournament
+  // and wrongly eliminate everyone else mid-group-stage. Require every
+  // group-stage fixture to be finished first, since that's the only way the
+  // bracket signal can actually be trustworthy.
+  const groupStageFixtures = fixtures.filter((fx) => !fx?.stage || fx.stage === "GROUP_STAGE");
+  const groupStageComplete = groupStageFixtures.length > 0 && groupStageFixtures.every((fx) => fx.status === "FINISHED");
+  const knockoutPublished = groupStageComplete && fixtures.some((fx) => {
     if (!fx?.stage || !isKnockoutStage(fx.stage)) return false;
     return Boolean(matchCode(fx.homeTeam, candidateMap) || matchCode(fx.awayTeam, candidateMap));
   });

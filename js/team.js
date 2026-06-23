@@ -30,7 +30,7 @@ function renderContent(team) {
     : `<li>No results yet.</li>`;
 
   const nextHtml = team.next
-    ? `<div class="next-fixture"><strong>Next:</strong> ${team.next.homeAway === "H" ? "vs" : "@"} ${flagEmoji(team.next.opponentCode)} ${escapeHtml(team.next.opponent)} &mdash; ${escapeHtml(formatDate(team.next.date))} (${escapeHtml(team.next.round)})</div>`
+    ? `<div class="next-fixture"><strong>Next:</strong> vs ${flagEmoji(team.next.opponentCode)} ${escapeHtml(team.next.opponent)} &mdash; ${escapeHtml(formatDate(team.next.date))} (${escapeHtml(team.next.round)})</div>`
     : `<div class="next-fixture">No upcoming fixture scheduled.</div>`;
 
   return `

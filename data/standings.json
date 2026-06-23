@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T11:25:05.499Z",
+  "generatedAt": "2026-06-23T13:17:32.806Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -221,15 +221,15 @@
       "name": "Bosnia and Herzegovina",
       "owner": "Dan",
       "group": "B",
-      "groupPosition": 4,
+      "groupPosition": 3,
       "stage": "Group Stage",
-      "played": 1,
+      "played": 2,
       "won": 0,
-      "drawn": 0,
+      "drawn": 1,
       "lost": 1,
-      "goalsFor": 1,
-      "goalsAgainst": 4,
-      "points": 0,
+      "goalsFor": 2,
+      "goalsAgainst": 5,
+      "points": 1,
       "eliminated": false,
       "champion": false,
       "recent": [
@@ -242,6 +242,16 @@
           "scoreFor": 1,
           "scoreAgainst": 4,
           "result": "L"
+        },
+        {
+          "opponent": "Canada",
+          "opponentCode": "CAN",
+          "date": "2026-06-12T19:00:00Z",
+          "round": "Group Stage",
+          "homeAway": "A",
+          "scoreFor": 1,
+          "scoreAgainst": 1,
+          "result": "D"
         }
       ],
       "next": {
@@ -1091,15 +1101,15 @@
       "name": "Canada",
       "owner": "Deb",
       "group": "B",
-      "groupPosition": 2,
+      "groupPosition": 1,
       "stage": "Group Stage",
-      "played": 1,
+      "played": 2,
       "won": 1,
-      "drawn": 0,
+      "drawn": 1,
       "lost": 0,
-      "goalsFor": 6,
-      "goalsAgainst": 0,
-      "points": 3,
+      "goalsFor": 7,
+      "goalsAgainst": 1,
+      "points": 4,
       "eliminated": false,
       "champion": false,
       "recent": [
@@ -1112,6 +1122,16 @@
           "scoreFor": 6,
           "scoreAgainst": 0,
           "result": "W"
+        },
+        {
+          "opponent": "Bosnia-Herzegovina",
+          "opponentCode": "BIH",
+          "date": "2026-06-12T19:00:00Z",
+          "round": "Group Stage",
+          "homeAway": "H",
+          "scoreFor": 1,
+          "scoreAgainst": 1,
+          "result": "D"
         }
       ],
       "next": {
@@ -1386,7 +1406,7 @@
       "name": "Qatar",
       "owner": "Tara",
       "group": "B",
-      "groupPosition": 3,
+      "groupPosition": 4,
       "stage": "Group Stage",
       "played": 2,
       "won": 0,
@@ -1851,7 +1871,7 @@
       "name": "Switzerland",
       "owner": "Maddie",
       "group": "B",
-      "groupPosition": 1,
+      "groupPosition": 2,
       "stage": "Group Stage",
       "played": 2,
       "won": 1,

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T23:37:54.479Z",
+  "generatedAt": "2026-06-24T01:14:50.594Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -411,18 +411,28 @@
       "name": "Panama",
       "owner": "Soph",
       "group": "L",
-      "groupPosition": 3,
+      "groupPosition": 4,
       "stage": "Group Stage",
-      "played": 1,
+      "played": 2,
       "won": 0,
       "drawn": 0,
-      "lost": 1,
+      "lost": 2,
       "goalsFor": 0,
-      "goalsAgainst": 1,
+      "goalsAgainst": 2,
       "points": 0,
       "eliminated": false,
       "champion": false,
       "recent": [
+        {
+          "opponent": "Croatia",
+          "opponentCode": "CRO",
+          "date": "2026-06-23T23:00:00Z",
+          "round": "Group Stage",
+          "homeAway": "H",
+          "scoreFor": 0,
+          "scoreAgainst": 1,
+          "result": "L"
+        },
         {
           "opponent": "Ghana",
           "opponentCode": "GHA",
@@ -851,18 +861,28 @@
       "name": "Croatia",
       "owner": "Nick",
       "group": "L",
-      "groupPosition": 4,
+      "groupPosition": 3,
       "stage": "Group Stage",
-      "played": 1,
-      "won": 0,
+      "played": 2,
+      "won": 1,
       "drawn": 0,
       "lost": 1,
-      "goalsFor": 2,
+      "goalsFor": 3,
       "goalsAgainst": 4,
-      "points": 0,
+      "points": 3,
       "eliminated": false,
       "champion": false,
       "recent": [
+        {
+          "opponent": "Panama",
+          "opponentCode": "PAN",
+          "date": "2026-06-23T23:00:00Z",
+          "round": "Group Stage",
+          "homeAway": "A",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W"
+        },
         {
           "opponent": "England",
           "opponentCode": "ENG",

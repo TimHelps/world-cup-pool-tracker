@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T18:54:59.895Z",
+  "generatedAt": "2026-06-24T19:55:04.501Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -264,12 +264,7 @@
           "result": "D"
         }
       ],
-      "next": {
-        "opponent": "Qatar",
-        "opponentCode": "QAT",
-        "date": "2026-06-24T19:00:00Z",
-        "round": "Group Stage"
-      }
+      "next": null
     },
     "PAR": {
       "code": "PAR",
@@ -1164,12 +1159,7 @@
           "result": "D"
         }
       ],
-      "next": {
-        "opponent": "Switzerland",
-        "opponentCode": "SUI",
-        "date": "2026-06-24T19:00:00Z",
-        "round": "Group Stage"
-      }
+      "next": null
     },
     "KSA": {
       "code": "KSA",
@@ -1479,12 +1469,7 @@
           "result": "D"
         }
       ],
-      "next": {
-        "opponent": "Bosnia-Herzegovina",
-        "opponentCode": "BIH",
-        "date": "2026-06-24T19:00:00Z",
-        "round": "Group Stage"
-      }
+      "next": null
     },
     "KOR": {
       "code": "KOR",
@@ -1974,12 +1959,7 @@
           "result": "D"
         }
       ],
-      "next": {
-        "opponent": "Canada",
-        "opponentCode": "CAN",
-        "date": "2026-06-24T19:00:00Z",
-        "round": "Group Stage"
-      }
+      "next": null
     },
     "BEL": {
       "code": "BEL",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T01:14:50.594Z",
+  "generatedAt": "2026-06-24T02:02:18.593Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -1695,9 +1695,9 @@
         }
       ],
       "next": {
-        "opponent": "Congo DR",
-        "opponentCode": "COD",
-        "date": "2026-06-24T02:00:00Z",
+        "opponent": "Portugal",
+        "opponentCode": "POR",
+        "date": "2026-06-27T23:30:00Z",
         "round": "Group Stage"
       }
     },
@@ -1910,9 +1910,9 @@
         }
       ],
       "next": {
-        "opponent": "Colombia",
-        "opponentCode": "COL",
-        "date": "2026-06-24T02:00:00Z",
+        "opponent": "Uzbekistan",
+        "opponentCode": "UZB",
+        "date": "2026-06-27T23:30:00Z",
         "round": "Group Stage"
       }
     },

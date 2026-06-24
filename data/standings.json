@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T21:47:40.099Z",
+  "generatedAt": "2026-06-24T22:47:00.876Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -629,12 +629,7 @@
           "result": "L"
         }
       ],
-      "next": {
-        "opponent": "Morocco",
-        "opponentCode": "MAR",
-        "date": "2026-06-24T22:00:00Z",
-        "round": "Group Stage"
-      }
+      "next": null
     },
     "NOR": {
       "code": "NOR",
@@ -719,12 +714,7 @@
           "result": "D"
         }
       ],
-      "next": {
-        "opponent": "Scotland",
-        "opponentCode": "SCO",
-        "date": "2026-06-24T22:00:00Z",
-        "round": "Group Stage"
-      }
+      "next": null
     },
     "CIV": {
       "code": "CIV",
@@ -1264,12 +1254,7 @@
           "result": "W"
         }
       ],
-      "next": {
-        "opponent": "Brazil",
-        "opponentCode": "BRA",
-        "date": "2026-06-24T22:00:00Z",
-        "round": "Group Stage"
-      }
+      "next": null
     },
     "POR": {
       "code": "POR",
@@ -1444,12 +1429,7 @@
           "result": "D"
         }
       ],
-      "next": {
-        "opponent": "Haiti",
-        "opponentCode": "HAI",
-        "date": "2026-06-24T22:00:00Z",
-        "round": "Group Stage"
-      }
+      "next": null
     },
     "QAT": {
       "code": "QAT",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T18:58:59.726Z",
+  "generatedAt": "2026-06-25T19:56:47.694Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -1054,12 +1054,7 @@
           "result": "W"
         }
       ],
-      "next": {
-        "opponent": null,
-        "opponentCode": null,
-        "date": "2026-07-01T01:00:00Z",
-        "round": "LAST_32"
-      }
+      "next": null
     },
     "RSA": {
       "code": "RSA",

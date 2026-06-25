@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T22:47:39.072Z",
+  "generatedAt": "2026-06-25T23:47:14.823Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -359,12 +359,7 @@
           "result": "D"
         }
       ],
-      "next": {
-        "opponent": "Tunisia",
-        "opponentCode": "TUN",
-        "date": "2026-06-25T23:00:00Z",
-        "round": "Group Stage"
-      }
+      "next": null
     },
     "IRQ": {
       "code": "IRQ",
@@ -584,12 +579,7 @@
           "result": "W"
         }
       ],
-      "next": {
-        "opponent": "Japan",
-        "opponentCode": "JPN",
-        "date": "2026-06-25T23:00:00Z",
-        "round": "Group Stage"
-      }
+      "next": null
     },
     "HAI": {
       "code": "HAI",
@@ -1064,7 +1054,12 @@
           "result": "W"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": null,
+        "opponentCode": null,
+        "date": "2026-07-01T01:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "RSA": {
       "code": "RSA",
@@ -1814,12 +1809,7 @@
           "result": "L"
         }
       ],
-      "next": {
-        "opponent": "Netherlands",
-        "opponentCode": "NED",
-        "date": "2026-06-25T23:00:00Z",
-        "round": "Group Stage"
-      }
+      "next": null
     },
     "JPN": {
       "code": "JPN",
@@ -1859,12 +1849,7 @@
           "result": "D"
         }
       ],
-      "next": {
-        "opponent": "Sweden",
-        "opponentCode": "SWE",
-        "date": "2026-06-25T23:00:00Z",
-        "round": "Group Stage"
-      }
+      "next": null
     },
     "FRA": {
       "code": "FRA",
@@ -2239,7 +2224,12 @@
           "result": "W"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": null,
+        "opponentCode": null,
+        "date": "2026-06-29T20:30:00Z",
+        "round": "LAST_32"
+      }
     }
   }
 }

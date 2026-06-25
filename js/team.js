@@ -14,7 +14,7 @@ function renderMatch(match) {
   const li = document.createElement("li");
   const score = `${match.scoreFor}-${match.scoreAgainst}`;
   li.innerHTML = `
-    <span><span class="result-pill ${match.result}">${match.result}</span>${match.homeAway === "H" ? "vs" : "@"} ${flagEmoji(match.opponentCode)} ${escapeHtml(match.opponent)}</span>
+    <span><span class="result-pill ${match.result}">${match.result}</span>vs ${flagEmoji(match.opponentCode)} ${escapeHtml(match.opponent)}</span>
     <span>${escapeHtml(score)} &middot; ${escapeHtml(formatDate(match.date))}</span>
   `;
   return li;

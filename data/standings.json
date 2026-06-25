@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T23:41:35.784Z",
+  "generatedAt": "2026-06-25T01:19:05.526Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -598,16 +598,26 @@
       "group": "C",
       "groupPosition": 4,
       "stage": "Group Stage",
-      "played": 2,
+      "played": 3,
       "won": 0,
       "drawn": 0,
-      "lost": 2,
-      "goalsFor": 0,
-      "goalsAgainst": 4,
+      "lost": 3,
+      "goalsFor": 2,
+      "goalsAgainst": 8,
       "points": 0,
       "eliminated": false,
       "champion": false,
       "recent": [
+        {
+          "opponent": "Morocco",
+          "opponentCode": "MAR",
+          "date": "2026-06-24T22:00:00Z",
+          "round": "Group Stage",
+          "homeAway": "A",
+          "scoreFor": 2,
+          "scoreAgainst": 4,
+          "result": "L"
+        },
         {
           "opponent": "Brazil",
           "opponentCode": "BRA",
@@ -683,16 +693,26 @@
       "group": "C",
       "groupPosition": 1,
       "stage": "Group Stage",
-      "played": 2,
-      "won": 1,
+      "played": 3,
+      "won": 2,
       "drawn": 1,
       "lost": 0,
-      "goalsFor": 4,
+      "goalsFor": 7,
       "goalsAgainst": 1,
-      "points": 4,
+      "points": 7,
       "eliminated": false,
       "champion": false,
       "recent": [
+        {
+          "opponent": "Scotland",
+          "opponentCode": "SCO",
+          "date": "2026-06-24T22:00:00Z",
+          "round": "Group Stage",
+          "homeAway": "A",
+          "scoreFor": 3,
+          "scoreAgainst": 0,
+          "result": "W"
+        },
         {
           "opponent": "Haiti",
           "opponentCode": "HAI",
@@ -1024,12 +1044,7 @@
           "result": "W"
         }
       ],
-      "next": {
-        "opponent": "Czechia",
-        "opponentCode": "CZE",
-        "date": "2026-06-25T01:00:00Z",
-        "round": "Group Stage"
-      }
+      "next": null
     },
     "RSA": {
       "code": "RSA",
@@ -1069,12 +1084,7 @@
           "result": "L"
         }
       ],
-      "next": {
-        "opponent": "South Korea",
-        "opponentCode": "KOR",
-        "date": "2026-06-25T01:00:00Z",
-        "round": "Group Stage"
-      }
+      "next": null
     },
     "ECU": {
       "code": "ECU",
@@ -1223,16 +1233,26 @@
       "group": "C",
       "groupPosition": 3,
       "stage": "Group Stage",
-      "played": 2,
+      "played": 3,
       "won": 1,
       "drawn": 0,
-      "lost": 1,
+      "lost": 2,
       "goalsFor": 1,
-      "goalsAgainst": 1,
+      "goalsAgainst": 4,
       "points": 3,
       "eliminated": false,
       "champion": false,
       "recent": [
+        {
+          "opponent": "Brazil",
+          "opponentCode": "BRA",
+          "date": "2026-06-24T22:00:00Z",
+          "round": "Group Stage",
+          "homeAway": "H",
+          "scoreFor": 0,
+          "scoreAgainst": 3,
+          "result": "L"
+        },
         {
           "opponent": "Morocco",
           "opponentCode": "MAR",
@@ -1398,16 +1418,26 @@
       "group": "C",
       "groupPosition": 2,
       "stage": "Group Stage",
-      "played": 2,
-      "won": 1,
+      "played": 3,
+      "won": 2,
       "drawn": 1,
       "lost": 0,
-      "goalsFor": 2,
-      "goalsAgainst": 1,
-      "points": 4,
+      "goalsFor": 6,
+      "goalsAgainst": 3,
+      "points": 7,
       "eliminated": false,
       "champion": false,
       "recent": [
+        {
+          "opponent": "Haiti",
+          "opponentCode": "HAI",
+          "date": "2026-06-24T22:00:00Z",
+          "round": "Group Stage",
+          "homeAway": "H",
+          "scoreFor": 4,
+          "scoreAgainst": 2,
+          "result": "W"
+        },
         {
           "opponent": "Scotland",
           "opponentCode": "SCO",
@@ -1519,12 +1549,7 @@
           "result": "W"
         }
       ],
-      "next": {
-        "opponent": "South Africa",
-        "opponentCode": "RSA",
-        "date": "2026-06-25T01:00:00Z",
-        "round": "Group Stage"
-      }
+      "next": null
     },
     "ENG": {
       "code": "ENG",
@@ -1879,12 +1904,7 @@
           "result": "L"
         }
       ],
-      "next": {
-        "opponent": "Mexico",
-        "opponentCode": "MEX",
-        "date": "2026-06-25T01:00:00Z",
-        "round": "Group Stage"
-      }
+      "next": null
     },
     "COD": {
       "code": "COD",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T19:56:47.694Z",
+  "generatedAt": "2026-06-25T20:56:24.791Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -233,13 +233,13 @@
       "group": "B",
       "groupPosition": 3,
       "stage": "Group Stage",
-      "played": 3,
+      "played": 2,
       "won": 1,
-      "drawn": 1,
+      "drawn": 0,
       "lost": 1,
-      "goalsFor": 5,
-      "goalsAgainst": 6,
-      "points": 4,
+      "goalsFor": 4,
+      "goalsAgainst": 5,
+      "points": 3,
       "eliminated": false,
       "champion": false,
       "recent": [
@@ -262,16 +262,6 @@
           "scoreFor": 1,
           "scoreAgainst": 4,
           "result": "L"
-        },
-        {
-          "opponent": "Canada",
-          "opponentCode": "CAN",
-          "date": "2026-06-12T19:00:00Z",
-          "round": "Group Stage",
-          "homeAway": "A",
-          "scoreFor": 1,
-          "scoreAgainst": 1,
-          "result": "D"
         }
       ],
       "next": null
@@ -774,12 +764,7 @@
           "result": "W"
         }
       ],
-      "next": {
-        "opponent": "Curaçao",
-        "opponentCode": "CUW",
-        "date": "2026-06-25T20:00:00Z",
-        "round": "Group Stage"
-      }
+      "next": null
     },
     "JOR": {
       "code": "JOR",
@@ -954,12 +939,7 @@
           "result": "L"
         }
       ],
-      "next": {
-        "opponent": "Ivory Coast",
-        "opponentCode": "CIV",
-        "date": "2026-06-25T20:00:00Z",
-        "round": "Group Stage"
-      }
+      "next": null
     },
     "AUT": {
       "code": "AUT",
@@ -1144,12 +1124,7 @@
           "result": "L"
         }
       ],
-      "next": {
-        "opponent": "Germany",
-        "opponentCode": "GER",
-        "date": "2026-06-25T20:00:00Z",
-        "round": "Group Stage"
-      }
+      "next": null
     },
     "CAN": {
       "code": "CAN",
@@ -1158,13 +1133,13 @@
       "group": "B",
       "groupPosition": 2,
       "stage": "Group Stage",
-      "played": 3,
+      "played": 2,
       "won": 1,
-      "drawn": 1,
+      "drawn": 0,
       "lost": 1,
-      "goalsFor": 8,
-      "goalsAgainst": 3,
-      "points": 4,
+      "goalsFor": 7,
+      "goalsAgainst": 2,
+      "points": 3,
       "eliminated": false,
       "champion": false,
       "recent": [
@@ -1187,16 +1162,6 @@
           "scoreFor": 6,
           "scoreAgainst": 0,
           "result": "W"
-        },
-        {
-          "opponent": "Bosnia-Herzegovina",
-          "opponentCode": "BIH",
-          "date": "2026-06-12T19:00:00Z",
-          "round": "Group Stage",
-          "homeAway": "H",
-          "scoreFor": 1,
-          "scoreAgainst": 1,
-          "result": "D"
         }
       ],
       "next": null
@@ -2214,12 +2179,7 @@
           "result": "W"
         }
       ],
-      "next": {
-        "opponent": "Ecuador",
-        "opponentCode": "ECU",
-        "date": "2026-06-25T20:00:00Z",
-        "round": "Group Stage"
-      }
+      "next": null
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T18:55:24.021Z",
+  "generatedAt": "2026-06-26T19:55:28.993Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -424,12 +424,7 @@
           "result": "L"
         }
       ],
-      "next": {
-        "opponent": "Senegal",
-        "opponentCode": "SEN",
-        "date": "2026-06-26T19:00:00Z",
-        "round": "Group Stage"
-      }
+      "next": null
     },
     "PAN": {
       "code": "PAN",
@@ -714,12 +709,7 @@
           "result": "W"
         }
       ],
-      "next": {
-        "opponent": "France",
-        "opponentCode": "FRA",
-        "date": "2026-06-26T19:00:00Z",
-        "round": "Group Stage"
-      }
+      "next": null
     },
     "BRA": {
       "code": "BRA",
@@ -1799,12 +1789,7 @@
           "result": "L"
         }
       ],
-      "next": {
-        "opponent": "Iraq",
-        "opponentCode": "IRQ",
-        "date": "2026-06-26T19:00:00Z",
-        "round": "Group Stage"
-      }
+      "next": null
     },
     "COL": {
       "code": "COL",
@@ -1994,12 +1979,7 @@
           "result": "W"
         }
       ],
-      "next": {
-        "opponent": "Norway",
-        "opponentCode": "NOR",
-        "date": "2026-06-26T19:00:00Z",
-        "round": "Group Stage"
-      }
+      "next": null
     },
     "CZE": {
       "code": "CZE",

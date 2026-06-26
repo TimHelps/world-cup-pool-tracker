@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T01:21:53.572Z",
+  "generatedAt": "2026-06-26T03:26:26.796Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -314,12 +314,7 @@
           "result": "L"
         }
       ],
-      "next": {
-        "opponent": "Australia",
-        "opponentCode": "AUS",
-        "date": "2026-06-26T02:00:00Z",
-        "round": "Group Stage"
-      }
+      "next": null
     },
     "NED": {
       "code": "NED",
@@ -544,12 +539,7 @@
           "result": "W"
         }
       ],
-      "next": {
-        "opponent": "Turkey",
-        "opponentCode": "TUR",
-        "date": "2026-06-26T02:00:00Z",
-        "round": "Group Stage"
-      }
+      "next": null
     },
     "SWE": {
       "code": "SWE",
@@ -879,12 +869,7 @@
           "result": "W"
         }
       ],
-      "next": {
-        "opponent": "Paraguay",
-        "opponentCode": "PAR",
-        "date": "2026-06-26T02:00:00Z",
-        "round": "Group Stage"
-      }
+      "next": null
     },
     "CRO": {
       "code": "CRO",
@@ -1404,12 +1389,7 @@
           "result": "L"
         }
       ],
-      "next": {
-        "opponent": "United States",
-        "opponentCode": "USA",
-        "date": "2026-06-26T02:00:00Z",
-        "round": "Group Stage"
-      }
+      "next": null
     },
     "IRN": {
       "code": "IRN",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T23:47:14.823Z",
+  "generatedAt": "2026-06-26T01:21:53.572Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -328,16 +328,26 @@
       "group": "F",
       "groupPosition": 1,
       "stage": "Group Stage",
-      "played": 2,
-      "won": 1,
+      "played": 3,
+      "won": 2,
       "drawn": 1,
       "lost": 0,
-      "goalsFor": 7,
-      "goalsAgainst": 3,
-      "points": 4,
+      "goalsFor": 10,
+      "goalsAgainst": 4,
+      "points": 7,
       "eliminated": false,
       "champion": false,
       "recent": [
+        {
+          "opponent": "Tunisia",
+          "opponentCode": "TUN",
+          "date": "2026-06-25T23:00:00Z",
+          "round": "Group Stage",
+          "homeAway": "A",
+          "scoreFor": 3,
+          "scoreAgainst": 1,
+          "result": "W"
+        },
         {
           "opponent": "Sweden",
           "opponentCode": "SWE",
@@ -548,16 +558,26 @@
       "group": "F",
       "groupPosition": 3,
       "stage": "Group Stage",
-      "played": 2,
+      "played": 3,
       "won": 1,
-      "drawn": 0,
+      "drawn": 1,
       "lost": 1,
-      "goalsFor": 6,
-      "goalsAgainst": 6,
-      "points": 3,
+      "goalsFor": 7,
+      "goalsAgainst": 7,
+      "points": 4,
       "eliminated": false,
       "champion": false,
       "recent": [
+        {
+          "opponent": "Japan",
+          "opponentCode": "JPN",
+          "date": "2026-06-25T23:00:00Z",
+          "round": "Group Stage",
+          "homeAway": "A",
+          "scoreFor": 1,
+          "scoreAgainst": 1,
+          "result": "D"
+        },
         {
           "opponent": "Netherlands",
           "opponentCode": "NED",
@@ -1054,12 +1074,7 @@
           "result": "W"
         }
       ],
-      "next": {
-        "opponent": null,
-        "opponentCode": null,
-        "date": "2026-07-01T01:00:00Z",
-        "round": "LAST_32"
-      }
+      "next": null
     },
     "RSA": {
       "code": "RSA",
@@ -1778,16 +1793,26 @@
       "group": "F",
       "groupPosition": 4,
       "stage": "Group Stage",
-      "played": 2,
+      "played": 3,
       "won": 0,
       "drawn": 0,
-      "lost": 2,
-      "goalsFor": 1,
-      "goalsAgainst": 9,
+      "lost": 3,
+      "goalsFor": 2,
+      "goalsAgainst": 12,
       "points": 0,
       "eliminated": false,
       "champion": false,
       "recent": [
+        {
+          "opponent": "Netherlands",
+          "opponentCode": "NED",
+          "date": "2026-06-25T23:00:00Z",
+          "round": "Group Stage",
+          "homeAway": "H",
+          "scoreFor": 1,
+          "scoreAgainst": 3,
+          "result": "L"
+        },
         {
           "opponent": "Japan",
           "opponentCode": "JPN",
@@ -1818,16 +1843,26 @@
       "group": "F",
       "groupPosition": 2,
       "stage": "Group Stage",
-      "played": 2,
+      "played": 3,
       "won": 1,
-      "drawn": 1,
+      "drawn": 2,
       "lost": 0,
-      "goalsFor": 6,
-      "goalsAgainst": 2,
-      "points": 4,
+      "goalsFor": 7,
+      "goalsAgainst": 3,
+      "points": 5,
       "eliminated": false,
       "champion": false,
       "recent": [
+        {
+          "opponent": "Sweden",
+          "opponentCode": "SWE",
+          "date": "2026-06-25T23:00:00Z",
+          "round": "Group Stage",
+          "homeAway": "H",
+          "scoreFor": 1,
+          "scoreAgainst": 1,
+          "result": "D"
+        },
         {
           "opponent": "Tunisia",
           "opponentCode": "TUN",
@@ -2224,12 +2259,7 @@
           "result": "W"
         }
       ],
-      "next": {
-        "opponent": null,
-        "opponentCode": null,
-        "date": "2026-06-29T20:30:00Z",
-        "round": "LAST_32"
-      }
+      "next": null
     }
   }
 }

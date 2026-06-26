@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T11:16:44.145Z",
+  "generatedAt": "2026-06-26T12:05:25.394Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -274,7 +274,12 @@
           "result": "D"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "United States",
+        "opponentCode": "USA",
+        "date": "2026-07-02T00:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "PAR": {
       "code": "PAR",
@@ -374,7 +379,12 @@
           "result": "D"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Morocco",
+        "opponentCode": "MAR",
+        "date": "2026-06-30T01:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "IRQ": {
       "code": "IRQ",
@@ -559,7 +569,12 @@
           "result": "W"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Bosnia-Herzegovina",
+        "opponentCode": "BIH",
+        "date": "2026-07-02T00:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "SWE": {
       "code": "SWE",
@@ -754,7 +769,12 @@
           "result": "D"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Japan",
+        "opponentCode": "JPN",
+        "date": "2026-06-29T17:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "CIV": {
       "code": "CIV",
@@ -899,7 +919,12 @@
           "result": "W"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": null,
+        "opponentCode": null,
+        "date": "2026-07-03T18:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "CRO": {
       "code": "CRO",
@@ -1089,7 +1114,12 @@
           "result": "W"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": null,
+        "opponentCode": null,
+        "date": "2026-07-01T01:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "RSA": {
       "code": "RSA",
@@ -1139,7 +1169,12 @@
           "result": "L"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Canada",
+        "opponentCode": "CAN",
+        "date": "2026-06-28T19:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "ECU": {
       "code": "ECU",
@@ -1239,7 +1274,12 @@
           "result": "D"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "South Africa",
+        "opponentCode": "RSA",
+        "date": "2026-06-28T19:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "KSA": {
       "code": "KSA",
@@ -1524,7 +1564,12 @@
           "result": "D"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Netherlands",
+        "opponentCode": "NED",
+        "date": "2026-06-30T01:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "QAT": {
       "code": "QAT",
@@ -1904,7 +1949,12 @@
           "result": "D"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Brazil",
+        "opponentCode": "BRA",
+        "date": "2026-06-29T17:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "FRA": {
       "code": "FRA",
@@ -2094,7 +2144,12 @@
           "result": "D"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": null,
+        "opponentCode": null,
+        "date": "2026-07-03T03:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "BEL": {
       "code": "BEL",
@@ -2279,7 +2334,12 @@
           "result": "W"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": null,
+        "opponentCode": null,
+        "date": "2026-06-29T20:30:00Z",
+        "round": "LAST_32"
+      }
     }
   }
 }

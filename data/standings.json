@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T23:41:50.881Z",
+  "generatedAt": "2026-06-27T01:17:12.119Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -519,12 +519,7 @@
           "result": "D"
         }
       ],
-      "next": {
-        "opponent": "Uruguay",
-        "opponentCode": "URU",
-        "date": "2026-06-27T00:00:00Z",
-        "round": "Group Stage"
-      }
+      "next": null
     },
     "USA": {
       "code": "USA",
@@ -1329,12 +1324,7 @@
           "result": "D"
         }
       ],
-      "next": {
-        "opponent": "Cape Verde Islands",
-        "opponentCode": "CPV",
-        "date": "2026-06-27T00:00:00Z",
-        "round": "Group Stage"
-      }
+      "next": null
     },
     "SCO": {
       "code": "SCO",
@@ -1764,12 +1754,7 @@
           "result": "D"
         }
       ],
-      "next": {
-        "opponent": "Saudi Arabia",
-        "opponentCode": "KSA",
-        "date": "2026-06-27T00:00:00Z",
-        "round": "Group Stage"
-      }
+      "next": null
     },
     "SEN": {
       "code": "SEN",
@@ -2299,12 +2284,7 @@
           "result": "D"
         }
       ],
-      "next": {
-        "opponent": "Spain",
-        "opponentCode": "ESP",
-        "date": "2026-06-27T00:00:00Z",
-        "round": "Group Stage"
-      }
+      "next": null
     },
     "GER": {
       "code": "GER",

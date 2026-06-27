@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T20:39:38.133Z",
+  "generatedAt": "2026-06-27T21:39:31.628Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -39,27 +39,22 @@
           "result": "W"
         }
       ],
-      "next": {
-        "opponent": "Croatia",
-        "opponentCode": "CRO",
-        "date": "2026-06-27T21:00:00Z",
-        "round": "Group Stage"
-      }
+      "next": null
     },
     "EGY": {
       "code": "EGY",
       "name": "Egypt",
       "owner": "Ste",
       "group": "G",
-      "groupPosition": 2,
+      "groupPosition": 3,
       "stage": "Group Stage",
       "played": 3,
       "won": 1,
-      "drawn": 2,
-      "lost": 0,
+      "drawn": 1,
+      "lost": 1,
       "goalsFor": 5,
-      "goalsAgainst": 3,
-      "points": 5,
+      "goalsAgainst": 4,
+      "points": 4,
       "eliminated": false,
       "champion": false,
       "recent": [
@@ -70,8 +65,8 @@
           "round": "Group Stage",
           "homeAway": "H",
           "scoreFor": 1,
-          "scoreAgainst": 1,
-          "result": "D"
+          "scoreAgainst": 2,
+          "result": "L"
         },
         {
           "opponent": "New Zealand",
@@ -403,26 +398,16 @@
       "group": "I",
       "groupPosition": 4,
       "stage": "Group Stage",
-      "played": 3,
+      "played": 2,
       "won": 0,
       "drawn": 0,
-      "lost": 3,
+      "lost": 2,
       "goalsFor": 1,
-      "goalsAgainst": 12,
+      "goalsAgainst": 7,
       "points": 0,
       "eliminated": false,
       "champion": false,
       "recent": [
-        {
-          "opponent": "Senegal",
-          "opponentCode": "SEN",
-          "date": "2026-06-26T19:00:00Z",
-          "round": "Group Stage",
-          "homeAway": "A",
-          "scoreFor": 0,
-          "scoreAgainst": 5,
-          "result": "L"
-        },
         {
           "opponent": "France",
           "opponentCode": "FRA",
@@ -484,12 +469,7 @@
           "result": "L"
         }
       ],
-      "next": {
-        "opponent": "England",
-        "opponentCode": "ENG",
-        "date": "2026-06-27T21:00:00Z",
-        "round": "Group Stage"
-      }
+      "next": null
     },
     "ESP": {
       "code": "ESP",
@@ -703,26 +683,16 @@
       "group": "I",
       "groupPosition": 2,
       "stage": "Group Stage",
-      "played": 3,
+      "played": 2,
       "won": 2,
       "drawn": 0,
-      "lost": 1,
-      "goalsFor": 8,
-      "goalsAgainst": 7,
+      "lost": 0,
+      "goalsFor": 7,
+      "goalsAgainst": 3,
       "points": 6,
       "eliminated": false,
       "champion": false,
       "recent": [
-        {
-          "opponent": "France",
-          "opponentCode": "FRA",
-          "date": "2026-06-26T19:00:00Z",
-          "round": "Group Stage",
-          "homeAway": "H",
-          "scoreFor": 1,
-          "scoreAgainst": 4,
-          "result": "L"
-        },
         {
           "opponent": "Senegal",
           "opponentCode": "SEN",
@@ -849,12 +819,7 @@
           "result": "W"
         }
       ],
-      "next": {
-        "opponent": null,
-        "opponentCode": null,
-        "date": "2026-06-30T17:00:00Z",
-        "round": "LAST_32"
-      }
+      "next": null
     },
     "JOR": {
       "code": "JOR",
@@ -994,12 +959,7 @@
           "result": "L"
         }
       ],
-      "next": {
-        "opponent": "Ghana",
-        "opponentCode": "GHA",
-        "date": "2026-06-27T21:00:00Z",
-        "round": "Group Stage"
-      }
+      "next": null
     },
     "CUW": {
       "code": "CUW",
@@ -1511,15 +1471,15 @@
       "name": "Iran",
       "owner": "Alex",
       "group": "G",
-      "groupPosition": 3,
+      "groupPosition": 2,
       "stage": "Group Stage",
       "played": 3,
-      "won": 0,
-      "drawn": 3,
+      "won": 1,
+      "drawn": 2,
       "lost": 0,
-      "goalsFor": 3,
+      "goalsFor": 4,
       "goalsAgainst": 3,
-      "points": 3,
+      "points": 5,
       "eliminated": false,
       "champion": false,
       "recent": [
@@ -1529,9 +1489,9 @@
           "date": "2026-06-27T03:00:00Z",
           "round": "Group Stage",
           "homeAway": "A",
-          "scoreFor": 1,
+          "scoreFor": 2,
           "scoreAgainst": 1,
-          "result": "D"
+          "result": "W"
         },
         {
           "opponent": "Belgium",
@@ -1749,12 +1709,7 @@
           "result": "W"
         }
       ],
-      "next": {
-        "opponent": "Panama",
-        "opponentCode": "PAN",
-        "date": "2026-06-27T21:00:00Z",
-        "round": "Group Stage"
-      }
+      "next": null
     },
     "CPV": {
       "code": "CPV",
@@ -1813,26 +1768,16 @@
       "group": "I",
       "groupPosition": 3,
       "stage": "Group Stage",
-      "played": 3,
-      "won": 1,
+      "played": 2,
+      "won": 0,
       "drawn": 0,
       "lost": 2,
-      "goalsFor": 8,
+      "goalsFor": 3,
       "goalsAgainst": 6,
-      "points": 3,
+      "points": 0,
       "eliminated": false,
       "champion": false,
       "recent": [
-        {
-          "opponent": "Iraq",
-          "opponentCode": "IRQ",
-          "date": "2026-06-26T19:00:00Z",
-          "round": "Group Stage",
-          "homeAway": "H",
-          "scoreFor": 5,
-          "scoreAgainst": 0,
-          "result": "W"
-        },
         {
           "opponent": "Norway",
           "opponentCode": "NOR",
@@ -2013,26 +1958,16 @@
       "group": "I",
       "groupPosition": 1,
       "stage": "Group Stage",
-      "played": 3,
-      "won": 3,
+      "played": 2,
+      "won": 2,
       "drawn": 0,
       "lost": 0,
-      "goalsFor": 10,
-      "goalsAgainst": 2,
-      "points": 9,
+      "goalsFor": 6,
+      "goalsAgainst": 1,
+      "points": 6,
       "eliminated": false,
       "champion": false,
       "recent": [
-        {
-          "opponent": "Norway",
-          "opponentCode": "NOR",
-          "date": "2026-06-26T19:00:00Z",
-          "round": "Group Stage",
-          "homeAway": "A",
-          "scoreFor": 4,
-          "scoreAgainst": 1,
-          "result": "W"
-        },
         {
           "opponent": "Iraq",
           "opponentCode": "IRQ",

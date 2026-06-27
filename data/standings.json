@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T01:17:12.119Z",
+  "generatedAt": "2026-06-27T03:26:13.663Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -84,12 +84,7 @@
           "result": "D"
         }
       ],
-      "next": {
-        "opponent": "Iran",
-        "opponentCode": "IRN",
-        "date": "2026-06-27T03:00:00Z",
-        "round": "Group Stage"
-      }
+      "next": null
     },
     "NZL": {
       "code": "NZL",
@@ -129,12 +124,7 @@
           "result": "D"
         }
       ],
-      "next": {
-        "opponent": "Belgium",
-        "opponentCode": "BEL",
-        "date": "2026-06-27T03:00:00Z",
-        "round": "Group Stage"
-      }
+      "next": null
     },
     "ALG": {
       "code": "ALG",
@@ -488,16 +478,26 @@
       "group": "H",
       "groupPosition": 1,
       "stage": "Group Stage",
-      "played": 2,
-      "won": 1,
+      "played": 3,
+      "won": 2,
       "drawn": 1,
       "lost": 0,
-      "goalsFor": 4,
+      "goalsFor": 5,
       "goalsAgainst": 0,
-      "points": 4,
+      "points": 7,
       "eliminated": false,
       "champion": false,
       "recent": [
+        {
+          "opponent": "Uruguay",
+          "opponentCode": "URU",
+          "date": "2026-06-27T00:00:00Z",
+          "round": "Group Stage",
+          "homeAway": "A",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W"
+        },
         {
           "opponent": "Saudi Arabia",
           "opponentCode": "KSA",
@@ -1293,16 +1293,26 @@
       "group": "H",
       "groupPosition": 4,
       "stage": "Group Stage",
-      "played": 2,
+      "played": 3,
       "won": 0,
-      "drawn": 1,
+      "drawn": 2,
       "lost": 1,
       "goalsFor": 1,
       "goalsAgainst": 5,
-      "points": 1,
+      "points": 2,
       "eliminated": false,
       "champion": false,
       "recent": [
+        {
+          "opponent": "Cape Verde Islands",
+          "opponentCode": "CPV",
+          "date": "2026-06-27T00:00:00Z",
+          "round": "Group Stage",
+          "homeAway": "A",
+          "scoreFor": 0,
+          "scoreAgainst": 0,
+          "result": "D"
+        },
         {
           "opponent": "Spain",
           "opponentCode": "ESP",
@@ -1509,12 +1519,7 @@
           "result": "D"
         }
       ],
-      "next": {
-        "opponent": "Egypt",
-        "opponentCode": "EGY",
-        "date": "2026-06-27T03:00:00Z",
-        "round": "Group Stage"
-      }
+      "next": null
     },
     "MAR": {
       "code": "MAR",
@@ -1721,18 +1726,28 @@
       "name": "Cape Verde",
       "owner": "Will",
       "group": "H",
-      "groupPosition": 3,
+      "groupPosition": 2,
       "stage": "Group Stage",
-      "played": 2,
+      "played": 3,
       "won": 0,
-      "drawn": 2,
+      "drawn": 3,
       "lost": 0,
       "goalsFor": 2,
       "goalsAgainst": 2,
-      "points": 2,
+      "points": 3,
       "eliminated": false,
       "champion": false,
       "recent": [
+        {
+          "opponent": "Saudi Arabia",
+          "opponentCode": "KSA",
+          "date": "2026-06-27T00:00:00Z",
+          "round": "Group Stage",
+          "homeAway": "H",
+          "scoreFor": 0,
+          "scoreAgainst": 0,
+          "result": "D"
+        },
         {
           "opponent": "Uruguay",
           "opponentCode": "URU",
@@ -2194,12 +2209,7 @@
           "result": "D"
         }
       ],
-      "next": {
-        "opponent": "New Zealand",
-        "opponentCode": "NZL",
-        "date": "2026-06-27T03:00:00Z",
-        "round": "Group Stage"
-      }
+      "next": null
     },
     "UZB": {
       "code": "UZB",
@@ -2251,18 +2261,28 @@
       "name": "Uruguay",
       "owner": "Tim",
       "group": "H",
-      "groupPosition": 2,
+      "groupPosition": 3,
       "stage": "Group Stage",
-      "played": 2,
+      "played": 3,
       "won": 0,
       "drawn": 2,
-      "lost": 0,
+      "lost": 1,
       "goalsFor": 3,
-      "goalsAgainst": 3,
+      "goalsAgainst": 4,
       "points": 2,
       "eliminated": false,
       "champion": false,
       "recent": [
+        {
+          "opponent": "Spain",
+          "opponentCode": "ESP",
+          "date": "2026-06-27T00:00:00Z",
+          "round": "Group Stage",
+          "homeAway": "H",
+          "scoreFor": 0,
+          "scoreAgainst": 1,
+          "result": "L"
+        },
         {
           "opponent": "Cape Verde Islands",
           "opponentCode": "CPV",

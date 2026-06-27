@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T17:39:44.034Z",
+  "generatedAt": "2026-06-27T18:42:33.425Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -51,15 +51,15 @@
       "name": "Egypt",
       "owner": "Ste",
       "group": "G",
-      "groupPosition": 2,
+      "groupPosition": 3,
       "stage": "Group Stage",
       "played": 3,
       "won": 1,
-      "drawn": 2,
-      "lost": 0,
+      "drawn": 1,
+      "lost": 1,
       "goalsFor": 5,
-      "goalsAgainst": 3,
-      "points": 5,
+      "goalsAgainst": 4,
+      "points": 4,
       "eliminated": false,
       "champion": false,
       "recent": [
@@ -70,8 +70,8 @@
           "round": "Group Stage",
           "homeAway": "H",
           "scoreFor": 1,
-          "scoreAgainst": 1,
-          "result": "D"
+          "scoreAgainst": 2,
+          "result": "L"
         },
         {
           "opponent": "New Zealand",
@@ -284,7 +284,12 @@
           "result": "D"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "United States",
+        "opponentCode": "USA",
+        "date": "2026-07-02T00:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "PAR": {
       "code": "PAR",
@@ -384,7 +389,12 @@
           "result": "D"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Morocco",
+        "opponentCode": "MAR",
+        "date": "2026-06-30T01:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "IRQ": {
       "code": "IRQ",
@@ -393,26 +403,16 @@
       "group": "I",
       "groupPosition": 4,
       "stage": "Group Stage",
-      "played": 3,
+      "played": 2,
       "won": 0,
       "drawn": 0,
-      "lost": 3,
+      "lost": 2,
       "goalsFor": 1,
-      "goalsAgainst": 12,
+      "goalsAgainst": 7,
       "points": 0,
       "eliminated": false,
       "champion": false,
       "recent": [
-        {
-          "opponent": "Senegal",
-          "opponentCode": "SEN",
-          "date": "2026-06-26T19:00:00Z",
-          "round": "Group Stage",
-          "homeAway": "A",
-          "scoreFor": 0,
-          "scoreAgainst": 5,
-          "result": "L"
-        },
         {
           "opponent": "France",
           "opponentCode": "FRA",
@@ -579,7 +579,12 @@
           "result": "W"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Bosnia-Herzegovina",
+        "opponentCode": "BIH",
+        "date": "2026-07-02T00:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "SWE": {
       "code": "SWE",
@@ -688,26 +693,16 @@
       "group": "I",
       "groupPosition": 2,
       "stage": "Group Stage",
-      "played": 3,
+      "played": 2,
       "won": 2,
       "drawn": 0,
-      "lost": 1,
-      "goalsFor": 8,
-      "goalsAgainst": 7,
+      "lost": 0,
+      "goalsFor": 7,
+      "goalsAgainst": 3,
       "points": 6,
       "eliminated": false,
       "champion": false,
       "recent": [
-        {
-          "opponent": "France",
-          "opponentCode": "FRA",
-          "date": "2026-06-26T19:00:00Z",
-          "round": "Group Stage",
-          "homeAway": "H",
-          "scoreFor": 1,
-          "scoreAgainst": 4,
-          "result": "L"
-        },
         {
           "opponent": "Senegal",
           "opponentCode": "SEN",
@@ -779,7 +774,12 @@
           "result": "D"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Japan",
+        "opponentCode": "JPN",
+        "date": "2026-06-29T17:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "CIV": {
       "code": "CIV",
@@ -924,7 +924,12 @@
           "result": "W"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": null,
+        "opponentCode": null,
+        "date": "2026-07-03T18:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "CRO": {
       "code": "CRO",
@@ -1114,7 +1119,12 @@
           "result": "W"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": null,
+        "opponentCode": null,
+        "date": "2026-07-01T01:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "RSA": {
       "code": "RSA",
@@ -1164,7 +1174,12 @@
           "result": "L"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Canada",
+        "opponentCode": "CAN",
+        "date": "2026-06-28T19:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "ECU": {
       "code": "ECU",
@@ -1264,7 +1279,12 @@
           "result": "D"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "South Africa",
+        "opponentCode": "RSA",
+        "date": "2026-06-28T19:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "KSA": {
       "code": "KSA",
@@ -1466,15 +1486,15 @@
       "name": "Iran",
       "owner": "Alex",
       "group": "G",
-      "groupPosition": 3,
+      "groupPosition": 2,
       "stage": "Group Stage",
       "played": 3,
-      "won": 0,
-      "drawn": 3,
+      "won": 1,
+      "drawn": 2,
       "lost": 0,
-      "goalsFor": 3,
+      "goalsFor": 4,
       "goalsAgainst": 3,
-      "points": 3,
+      "points": 5,
       "eliminated": false,
       "champion": false,
       "recent": [
@@ -1484,9 +1504,9 @@
           "date": "2026-06-27T03:00:00Z",
           "round": "Group Stage",
           "homeAway": "A",
-          "scoreFor": 1,
+          "scoreFor": 2,
           "scoreAgainst": 1,
-          "result": "D"
+          "result": "W"
         },
         {
           "opponent": "Belgium",
@@ -1559,7 +1579,12 @@
           "result": "D"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Netherlands",
+        "opponentCode": "NED",
+        "date": "2026-06-30T01:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "QAT": {
       "code": "QAT",
@@ -1763,26 +1788,16 @@
       "group": "I",
       "groupPosition": 3,
       "stage": "Group Stage",
-      "played": 3,
-      "won": 1,
+      "played": 2,
+      "won": 0,
       "drawn": 0,
       "lost": 2,
-      "goalsFor": 8,
+      "goalsFor": 3,
       "goalsAgainst": 6,
-      "points": 3,
+      "points": 0,
       "eliminated": false,
       "champion": false,
       "recent": [
-        {
-          "opponent": "Iraq",
-          "opponentCode": "IRQ",
-          "date": "2026-06-26T19:00:00Z",
-          "round": "Group Stage",
-          "homeAway": "H",
-          "scoreFor": 5,
-          "scoreAgainst": 0,
-          "result": "W"
-        },
         {
           "opponent": "Norway",
           "opponentCode": "NOR",
@@ -1949,7 +1964,12 @@
           "result": "D"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Brazil",
+        "opponentCode": "BRA",
+        "date": "2026-06-29T17:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "FRA": {
       "code": "FRA",
@@ -1958,26 +1978,16 @@
       "group": "I",
       "groupPosition": 1,
       "stage": "Group Stage",
-      "played": 3,
-      "won": 3,
+      "played": 2,
+      "won": 2,
       "drawn": 0,
       "lost": 0,
-      "goalsFor": 10,
-      "goalsAgainst": 2,
-      "points": 9,
+      "goalsFor": 6,
+      "goalsAgainst": 1,
+      "points": 6,
       "eliminated": false,
       "champion": false,
       "recent": [
-        {
-          "opponent": "Norway",
-          "opponentCode": "NOR",
-          "date": "2026-06-26T19:00:00Z",
-          "round": "Group Stage",
-          "homeAway": "A",
-          "scoreFor": 4,
-          "scoreAgainst": 1,
-          "result": "W"
-        },
         {
           "opponent": "Iraq",
           "opponentCode": "IRQ",
@@ -2144,7 +2154,12 @@
           "result": "D"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": null,
+        "opponentCode": null,
+        "date": "2026-07-03T03:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "BEL": {
       "code": "BEL",
@@ -2339,7 +2354,12 @@
           "result": "W"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": null,
+        "opponentCode": null,
+        "date": "2026-06-29T20:30:00Z",
+        "round": "LAST_32"
+      }
     }
   }
 }

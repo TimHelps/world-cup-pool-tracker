@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T05:45:56.186Z",
+  "generatedAt": "2026-06-28T07:38:51.655Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -49,7 +49,12 @@
           "result": "W"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Colombia",
+        "opponentCode": "COL",
+        "date": "2026-07-04T01:30:00Z",
+        "round": "LAST_32"
+      }
     },
     "EGY": {
       "code": "EGY",
@@ -99,7 +104,12 @@
           "result": "D"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Australia",
+        "opponentCode": "AUS",
+        "date": "2026-07-03T18:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "NZL": {
       "code": "NZL",
@@ -115,7 +125,7 @@
       "goalsFor": 4,
       "goalsAgainst": 10,
       "points": 1,
-      "eliminated": false,
+      "eliminated": true,
       "champion": false,
       "recent": [
         {
@@ -199,7 +209,12 @@
           "result": "L"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Switzerland",
+        "opponentCode": "SUI",
+        "date": "2026-07-03T03:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "ARG": {
       "code": "ARG",
@@ -249,7 +264,12 @@
           "result": "W"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Cape Verde Islands",
+        "opponentCode": "CPV",
+        "date": "2026-07-03T22:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "BIH": {
       "code": "BIH",
@@ -299,7 +319,12 @@
           "result": "D"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "United States",
+        "opponentCode": "USA",
+        "date": "2026-07-02T00:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "PAR": {
       "code": "PAR",
@@ -349,7 +374,12 @@
           "result": "L"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Germany",
+        "opponentCode": "GER",
+        "date": "2026-06-29T20:30:00Z",
+        "round": "LAST_32"
+      }
     },
     "NED": {
       "code": "NED",
@@ -399,7 +429,12 @@
           "result": "D"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Morocco",
+        "opponentCode": "MAR",
+        "date": "2026-06-30T01:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "IRQ": {
       "code": "IRQ",
@@ -415,7 +450,7 @@
       "goalsFor": 1,
       "goalsAgainst": 12,
       "points": 0,
-      "eliminated": false,
+      "eliminated": true,
       "champion": false,
       "recent": [
         {
@@ -465,7 +500,7 @@
       "goalsFor": 0,
       "goalsAgainst": 4,
       "points": 0,
-      "eliminated": false,
+      "eliminated": true,
       "champion": false,
       "recent": [
         {
@@ -549,7 +584,12 @@
           "result": "D"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Austria",
+        "opponentCode": "AUT",
+        "date": "2026-07-02T19:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "USA": {
       "code": "USA",
@@ -599,7 +639,12 @@
           "result": "W"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Bosnia-Herzegovina",
+        "opponentCode": "BIH",
+        "date": "2026-07-02T00:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "SWE": {
       "code": "SWE",
@@ -649,7 +694,12 @@
           "result": "W"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "France",
+        "opponentCode": "FRA",
+        "date": "2026-06-30T21:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "HAI": {
       "code": "HAI",
@@ -665,7 +715,7 @@
       "goalsFor": 2,
       "goalsAgainst": 8,
       "points": 0,
-      "eliminated": false,
+      "eliminated": true,
       "champion": false,
       "recent": [
         {
@@ -749,7 +799,12 @@
           "result": "W"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Ivory Coast",
+        "opponentCode": "CIV",
+        "date": "2026-06-30T17:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "BRA": {
       "code": "BRA",
@@ -799,7 +854,12 @@
           "result": "D"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Japan",
+        "opponentCode": "JPN",
+        "date": "2026-06-29T17:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "CIV": {
       "code": "CIV",
@@ -849,7 +909,12 @@
           "result": "W"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Norway",
+        "opponentCode": "NOR",
+        "date": "2026-06-30T17:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "JOR": {
       "code": "JOR",
@@ -865,7 +930,7 @@
       "goalsFor": 3,
       "goalsAgainst": 8,
       "points": 0,
-      "eliminated": false,
+      "eliminated": true,
       "champion": false,
       "recent": [
         {
@@ -949,7 +1014,12 @@
           "result": "W"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Egypt",
+        "opponentCode": "EGY",
+        "date": "2026-07-03T18:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "CRO": {
       "code": "CRO",
@@ -999,7 +1069,12 @@
           "result": "L"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Portugal",
+        "opponentCode": "POR",
+        "date": "2026-07-02T23:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "CUW": {
       "code": "CUW",
@@ -1015,7 +1090,7 @@
       "goalsFor": 1,
       "goalsAgainst": 9,
       "points": 1,
-      "eliminated": false,
+      "eliminated": true,
       "champion": false,
       "recent": [
         {
@@ -1099,7 +1174,12 @@
           "result": "W"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Spain",
+        "opponentCode": "ESP",
+        "date": "2026-07-02T19:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "MEX": {
       "code": "MEX",
@@ -1149,7 +1229,12 @@
           "result": "W"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Ecuador",
+        "opponentCode": "ECU",
+        "date": "2026-07-01T01:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "RSA": {
       "code": "RSA",
@@ -1199,7 +1284,12 @@
           "result": "L"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Canada",
+        "opponentCode": "CAN",
+        "date": "2026-06-28T19:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "ECU": {
       "code": "ECU",
@@ -1249,7 +1339,12 @@
           "result": "L"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Mexico",
+        "opponentCode": "MEX",
+        "date": "2026-07-01T01:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "CAN": {
       "code": "CAN",
@@ -1299,7 +1394,12 @@
           "result": "D"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "South Africa",
+        "opponentCode": "RSA",
+        "date": "2026-06-28T19:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "KSA": {
       "code": "KSA",
@@ -1315,7 +1415,7 @@
       "goalsFor": 1,
       "goalsAgainst": 5,
       "points": 2,
-      "eliminated": false,
+      "eliminated": true,
       "champion": false,
       "recent": [
         {
@@ -1365,7 +1465,7 @@
       "goalsFor": 1,
       "goalsAgainst": 4,
       "points": 3,
-      "eliminated": false,
+      "eliminated": true,
       "champion": false,
       "recent": [
         {
@@ -1449,7 +1549,12 @@
           "result": "D"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Croatia",
+        "opponentCode": "CRO",
+        "date": "2026-07-02T23:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "TUR": {
       "code": "TUR",
@@ -1465,7 +1570,7 @@
       "goalsFor": 3,
       "goalsAgainst": 5,
       "points": 3,
-      "eliminated": false,
+      "eliminated": true,
       "champion": false,
       "recent": [
         {
@@ -1515,7 +1620,7 @@
       "goalsFor": 3,
       "goalsAgainst": 3,
       "points": 3,
-      "eliminated": false,
+      "eliminated": true,
       "champion": false,
       "recent": [
         {
@@ -1599,7 +1704,12 @@
           "result": "D"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Netherlands",
+        "opponentCode": "NED",
+        "date": "2026-06-30T01:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "QAT": {
       "code": "QAT",
@@ -1615,7 +1725,7 @@
       "goalsFor": 2,
       "goalsAgainst": 10,
       "points": 1,
-      "eliminated": false,
+      "eliminated": true,
       "champion": false,
       "recent": [
         {
@@ -1665,7 +1775,7 @@
       "goalsFor": 2,
       "goalsAgainst": 3,
       "points": 3,
-      "eliminated": false,
+      "eliminated": true,
       "champion": false,
       "recent": [
         {
@@ -1749,7 +1859,12 @@
           "result": "W"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Congo DR",
+        "opponentCode": "COD",
+        "date": "2026-07-01T16:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "CPV": {
       "code": "CPV",
@@ -1799,7 +1914,12 @@
           "result": "D"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Argentina",
+        "opponentCode": "ARG",
+        "date": "2026-07-03T22:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "SEN": {
       "code": "SEN",
@@ -1849,7 +1969,12 @@
           "result": "L"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Belgium",
+        "opponentCode": "BEL",
+        "date": "2026-07-01T20:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "COL": {
       "code": "COL",
@@ -1899,7 +2024,12 @@
           "result": "W"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Ghana",
+        "opponentCode": "GHA",
+        "date": "2026-07-04T01:30:00Z",
+        "round": "LAST_32"
+      }
     },
     "TUN": {
       "code": "TUN",
@@ -1915,7 +2045,7 @@
       "goalsFor": 2,
       "goalsAgainst": 12,
       "points": 0,
-      "eliminated": false,
+      "eliminated": true,
       "champion": false,
       "recent": [
         {
@@ -1999,7 +2129,12 @@
           "result": "D"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Brazil",
+        "opponentCode": "BRA",
+        "date": "2026-06-29T17:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "FRA": {
       "code": "FRA",
@@ -2049,7 +2184,12 @@
           "result": "W"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Sweden",
+        "opponentCode": "SWE",
+        "date": "2026-06-30T21:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "CZE": {
       "code": "CZE",
@@ -2065,7 +2205,7 @@
       "goalsFor": 2,
       "goalsAgainst": 6,
       "points": 1,
-      "eliminated": false,
+      "eliminated": true,
       "champion": false,
       "recent": [
         {
@@ -2149,7 +2289,12 @@
           "result": "D"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "England",
+        "opponentCode": "ENG",
+        "date": "2026-07-01T16:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "SUI": {
       "code": "SUI",
@@ -2199,7 +2344,12 @@
           "result": "D"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Algeria",
+        "opponentCode": "ALG",
+        "date": "2026-07-03T03:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "BEL": {
       "code": "BEL",
@@ -2249,7 +2399,12 @@
           "result": "D"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Senegal",
+        "opponentCode": "SEN",
+        "date": "2026-07-01T20:00:00Z",
+        "round": "LAST_32"
+      }
     },
     "UZB": {
       "code": "UZB",
@@ -2265,7 +2420,7 @@
       "goalsFor": 2,
       "goalsAgainst": 11,
       "points": 0,
-      "eliminated": false,
+      "eliminated": true,
       "champion": false,
       "recent": [
         {
@@ -2315,7 +2470,7 @@
       "goalsFor": 3,
       "goalsAgainst": 4,
       "points": 2,
-      "eliminated": false,
+      "eliminated": true,
       "champion": false,
       "recent": [
         {
@@ -2399,7 +2554,12 @@
           "result": "W"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Paraguay",
+        "opponentCode": "PAR",
+        "date": "2026-06-29T20:30:00Z",
+        "round": "LAST_32"
+      }
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T18:41:56.018Z",
+  "generatedAt": "2026-06-28T19:47:22.440Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -1284,12 +1284,7 @@
           "result": "L"
         }
       ],
-      "next": {
-        "opponent": "Canada",
-        "opponentCode": "CAN",
-        "date": "2026-06-28T19:00:00Z",
-        "round": "LAST_32"
-      }
+      "next": null
     },
     "ECU": {
       "code": "ECU",
@@ -1394,12 +1389,7 @@
           "result": "D"
         }
       ],
-      "next": {
-        "opponent": "South Africa",
-        "opponentCode": "RSA",
-        "date": "2026-06-28T19:00:00Z",
-        "round": "LAST_32"
-      }
+      "next": null
     },
     "KSA": {
       "code": "KSA",

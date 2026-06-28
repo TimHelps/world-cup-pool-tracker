@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T01:23:38.991Z",
+  "generatedAt": "2026-06-28T03:26:51.124Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -189,12 +189,7 @@
           "result": "L"
         }
       ],
-      "next": {
-        "opponent": "Austria",
-        "opponentCode": "AUT",
-        "date": "2026-06-28T02:00:00Z",
-        "round": "Group Stage"
-      }
+      "next": null
     },
     "ARG": {
       "code": "ARG",
@@ -234,12 +229,7 @@
           "result": "W"
         }
       ],
-      "next": {
-        "opponent": "Jordan",
-        "opponentCode": "JOR",
-        "date": "2026-06-28T02:00:00Z",
-        "round": "Group Stage"
-      }
+      "next": null
     },
     "BIH": {
       "code": "BIH",
@@ -289,12 +279,7 @@
           "result": "D"
         }
       ],
-      "next": {
-        "opponent": "United States",
-        "opponentCode": "USA",
-        "date": "2026-07-02T00:00:00Z",
-        "round": "LAST_32"
-      }
+      "next": null
     },
     "PAR": {
       "code": "PAR",
@@ -394,12 +379,7 @@
           "result": "D"
         }
       ],
-      "next": {
-        "opponent": "Morocco",
-        "opponentCode": "MAR",
-        "date": "2026-06-30T01:00:00Z",
-        "round": "LAST_32"
-      }
+      "next": null
     },
     "IRQ": {
       "code": "IRQ",
@@ -599,12 +579,7 @@
           "result": "W"
         }
       ],
-      "next": {
-        "opponent": "Bosnia-Herzegovina",
-        "opponentCode": "BIH",
-        "date": "2026-07-02T00:00:00Z",
-        "round": "LAST_32"
-      }
+      "next": null
     },
     "SWE": {
       "code": "SWE",
@@ -804,12 +779,7 @@
           "result": "D"
         }
       ],
-      "next": {
-        "opponent": "Japan",
-        "opponentCode": "JPN",
-        "date": "2026-06-29T17:00:00Z",
-        "round": "LAST_32"
-      }
+      "next": null
     },
     "CIV": {
       "code": "CIV",
@@ -859,12 +829,7 @@
           "result": "W"
         }
       ],
-      "next": {
-        "opponent": null,
-        "opponentCode": null,
-        "date": "2026-06-30T17:00:00Z",
-        "round": "LAST_32"
-      }
+      "next": null
     },
     "JOR": {
       "code": "JOR",
@@ -904,12 +869,7 @@
           "result": "L"
         }
       ],
-      "next": {
-        "opponent": "Argentina",
-        "opponentCode": "ARG",
-        "date": "2026-06-28T02:00:00Z",
-        "round": "Group Stage"
-      }
+      "next": null
     },
     "AUS": {
       "code": "AUS",
@@ -959,12 +919,7 @@
           "result": "W"
         }
       ],
-      "next": {
-        "opponent": null,
-        "opponentCode": null,
-        "date": "2026-07-03T18:00:00Z",
-        "round": "LAST_32"
-      }
+      "next": null
     },
     "CRO": {
       "code": "CRO",
@@ -1104,12 +1059,7 @@
           "result": "W"
         }
       ],
-      "next": {
-        "opponent": "Algeria",
-        "opponentCode": "ALG",
-        "date": "2026-06-28T02:00:00Z",
-        "round": "Group Stage"
-      }
+      "next": null
     },
     "MEX": {
       "code": "MEX",
@@ -1159,12 +1109,7 @@
           "result": "W"
         }
       ],
-      "next": {
-        "opponent": null,
-        "opponentCode": null,
-        "date": "2026-07-01T01:00:00Z",
-        "round": "LAST_32"
-      }
+      "next": null
     },
     "RSA": {
       "code": "RSA",
@@ -1214,12 +1159,7 @@
           "result": "L"
         }
       ],
-      "next": {
-        "opponent": "Canada",
-        "opponentCode": "CAN",
-        "date": "2026-06-28T19:00:00Z",
-        "round": "LAST_32"
-      }
+      "next": null
     },
     "ECU": {
       "code": "ECU",
@@ -1319,12 +1259,7 @@
           "result": "D"
         }
       ],
-      "next": {
-        "opponent": "South Africa",
-        "opponentCode": "RSA",
-        "date": "2026-06-28T19:00:00Z",
-        "round": "LAST_32"
-      }
+      "next": null
     },
     "KSA": {
       "code": "KSA",
@@ -1433,16 +1368,26 @@
       "group": "K",
       "groupPosition": 2,
       "stage": "Group Stage",
-      "played": 2,
+      "played": 3,
       "won": 1,
-      "drawn": 1,
+      "drawn": 2,
       "lost": 0,
       "goalsFor": 6,
       "goalsAgainst": 1,
-      "points": 4,
+      "points": 5,
       "eliminated": false,
       "champion": false,
       "recent": [
+        {
+          "opponent": "Colombia",
+          "opponentCode": "COL",
+          "date": "2026-06-27T23:30:00Z",
+          "round": "Group Stage",
+          "homeAway": "A",
+          "scoreFor": 0,
+          "scoreAgainst": 0,
+          "result": "D"
+        },
         {
           "opponent": "Uzbekistan",
           "opponentCode": "UZB",
@@ -1614,12 +1559,7 @@
           "result": "D"
         }
       ],
-      "next": {
-        "opponent": "Netherlands",
-        "opponentCode": "NED",
-        "date": "2026-06-30T01:00:00Z",
-        "round": "LAST_32"
-      }
+      "next": null
     },
     "QAT": {
       "code": "QAT",
@@ -1878,16 +1818,26 @@
       "group": "K",
       "groupPosition": 1,
       "stage": "Group Stage",
-      "played": 2,
+      "played": 3,
       "won": 2,
-      "drawn": 0,
+      "drawn": 1,
       "lost": 0,
       "goalsFor": 4,
       "goalsAgainst": 1,
-      "points": 6,
+      "points": 7,
       "eliminated": false,
       "champion": false,
       "recent": [
+        {
+          "opponent": "Portugal",
+          "opponentCode": "POR",
+          "date": "2026-06-27T23:30:00Z",
+          "round": "Group Stage",
+          "homeAway": "H",
+          "scoreFor": 0,
+          "scoreAgainst": 0,
+          "result": "D"
+        },
         {
           "opponent": "Congo DR",
           "opponentCode": "COD",
@@ -2009,12 +1959,7 @@
           "result": "D"
         }
       ],
-      "next": {
-        "opponent": "Brazil",
-        "opponentCode": "BRA",
-        "date": "2026-06-29T17:00:00Z",
-        "round": "LAST_32"
-      }
+      "next": null
     },
     "FRA": {
       "code": "FRA",
@@ -2123,16 +2068,26 @@
       "group": "K",
       "groupPosition": 3,
       "stage": "Group Stage",
-      "played": 2,
-      "won": 0,
+      "played": 3,
+      "won": 1,
       "drawn": 1,
       "lost": 1,
-      "goalsFor": 1,
-      "goalsAgainst": 2,
-      "points": 1,
+      "goalsFor": 4,
+      "goalsAgainst": 3,
+      "points": 4,
       "eliminated": false,
       "champion": false,
       "recent": [
+        {
+          "opponent": "Uzbekistan",
+          "opponentCode": "UZB",
+          "date": "2026-06-27T23:30:00Z",
+          "round": "Group Stage",
+          "homeAway": "H",
+          "scoreFor": 3,
+          "scoreAgainst": 1,
+          "result": "W"
+        },
         {
           "opponent": "Colombia",
           "opponentCode": "COL",
@@ -2204,12 +2159,7 @@
           "result": "D"
         }
       ],
-      "next": {
-        "opponent": null,
-        "opponentCode": null,
-        "date": "2026-07-03T03:00:00Z",
-        "round": "LAST_32"
-      }
+      "next": null
     },
     "BEL": {
       "code": "BEL",
@@ -2268,16 +2218,26 @@
       "group": "K",
       "groupPosition": 4,
       "stage": "Group Stage",
-      "played": 2,
+      "played": 3,
       "won": 0,
       "drawn": 0,
-      "lost": 2,
-      "goalsFor": 1,
-      "goalsAgainst": 8,
+      "lost": 3,
+      "goalsFor": 2,
+      "goalsAgainst": 11,
       "points": 0,
       "eliminated": false,
       "champion": false,
       "recent": [
+        {
+          "opponent": "Congo DR",
+          "opponentCode": "COD",
+          "date": "2026-06-27T23:30:00Z",
+          "round": "Group Stage",
+          "homeAway": "A",
+          "scoreFor": 1,
+          "scoreAgainst": 3,
+          "result": "L"
+        },
         {
           "opponent": "Portugal",
           "opponentCode": "POR",
@@ -2399,12 +2359,7 @@
           "result": "W"
         }
       ],
-      "next": {
-        "opponent": null,
-        "opponentCode": null,
-        "date": "2026-06-29T20:30:00Z",
-        "round": "LAST_32"
-      }
+      "next": null
     }
   }
 }

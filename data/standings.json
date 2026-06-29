@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T15:28:33.785Z",
+  "generatedAt": "2026-06-29T17:14:48.225Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -854,12 +854,7 @@
           "result": "D"
         }
       ],
-      "next": {
-        "opponent": "Japan",
-        "opponentCode": "JPN",
-        "date": "2026-06-29T17:00:00Z",
-        "round": "LAST_32"
-      }
+      "next": null
     },
     "CIV": {
       "code": "CIV",
@@ -2144,12 +2139,7 @@
           "result": "D"
         }
       ],
-      "next": {
-        "opponent": "Brazil",
-        "opponentCode": "BRA",
-        "date": "2026-06-29T17:00:00Z",
-        "round": "LAST_32"
-      }
+      "next": null
     },
     "FRA": {
       "code": "FRA",

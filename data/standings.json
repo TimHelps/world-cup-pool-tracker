@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T05:55:08.733Z",
+  "generatedAt": "2026-06-29T08:08:33.914Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -1409,7 +1409,12 @@
           "result": "D"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": null,
+        "opponentCode": null,
+        "date": "2026-07-04T17:00:00Z",
+        "round": "Round of 16"
+      }
     },
     "KSA": {
       "code": "KSA",

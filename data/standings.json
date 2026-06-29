@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T19:56:32.409Z",
+  "generatedAt": "2026-06-29T20:54:00.374Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -374,12 +374,7 @@
           "result": "L"
         }
       ],
-      "next": {
-        "opponent": "Germany",
-        "opponentCode": "GER",
-        "date": "2026-06-29T20:30:00Z",
-        "round": "LAST_32"
-      }
+      "next": null
     },
     "NED": {
       "code": "NED",
@@ -2579,12 +2574,7 @@
           "result": "W"
         }
       ],
-      "next": {
-        "opponent": "Paraguay",
-        "opponentCode": "PAR",
-        "date": "2026-06-29T20:30:00Z",
-        "round": "LAST_32"
-      }
+      "next": null
     }
   }
 }

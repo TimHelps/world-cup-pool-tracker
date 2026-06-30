@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T22:44:38.988Z",
+  "generatedAt": "2026-06-30T23:42:49.633Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -667,17 +667,27 @@
       "owner": "Aimee",
       "group": "F",
       "groupPosition": 3,
-      "stage": "Group Stage",
-      "played": 3,
+      "stage": "LAST_32",
+      "played": 4,
       "won": 1,
       "drawn": 1,
-      "lost": 1,
+      "lost": 2,
       "goalsFor": 7,
-      "goalsAgainst": 7,
+      "goalsAgainst": 10,
       "points": 4,
-      "eliminated": false,
+      "eliminated": true,
       "champion": false,
       "recent": [
+        {
+          "opponent": "France",
+          "opponentCode": "FRA",
+          "date": "2026-06-30T21:00:00Z",
+          "round": "LAST_32",
+          "homeAway": "A",
+          "scoreFor": 0,
+          "scoreAgainst": 3,
+          "result": "L"
+        },
         {
           "opponent": "Japan",
           "opponentCode": "JPN",
@@ -2202,17 +2212,27 @@
       "owner": "Rosie",
       "group": "I",
       "groupPosition": 1,
-      "stage": "Group Stage",
-      "played": 3,
-      "won": 3,
+      "stage": "LAST_32",
+      "played": 4,
+      "won": 4,
       "drawn": 0,
       "lost": 0,
-      "goalsFor": 10,
+      "goalsFor": 13,
       "goalsAgainst": 2,
-      "points": 9,
+      "points": 12,
       "eliminated": false,
       "champion": false,
       "recent": [
+        {
+          "opponent": "Sweden",
+          "opponentCode": "SWE",
+          "date": "2026-06-30T21:00:00Z",
+          "round": "LAST_32",
+          "homeAway": "H",
+          "scoreFor": 3,
+          "scoreAgainst": 0,
+          "result": "W"
+        },
         {
           "opponent": "Norway",
           "opponentCode": "NOR",

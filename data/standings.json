@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T23:38:01.556Z",
+  "generatedAt": "2026-06-30T01:19:02.657Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -337,8 +337,8 @@
       "won": 2,
       "drawn": 1,
       "lost": 1,
-      "goalsFor": 8,
-      "goalsAgainst": 9,
+      "goalsFor": 7,
+      "goalsAgainst": 8,
       "points": 7,
       "eliminated": false,
       "champion": false,
@@ -349,8 +349,8 @@
           "date": "2026-06-29T20:30:00Z",
           "round": "LAST_32",
           "homeAway": "A",
-          "scoreFor": 6,
-          "scoreAgainst": 5,
+          "scoreFor": 5,
+          "scoreAgainst": 4,
           "result": "W"
         },
         {
@@ -434,12 +434,7 @@
           "result": "D"
         }
       ],
-      "next": {
-        "opponent": "Morocco",
-        "opponentCode": "MAR",
-        "date": "2026-06-30T01:00:00Z",
-        "round": "LAST_32"
-      }
+      "next": null
     },
     "IRQ": {
       "code": "IRQ",
@@ -1729,12 +1724,7 @@
           "result": "D"
         }
       ],
-      "next": {
-        "opponent": "Netherlands",
-        "opponentCode": "NED",
-        "date": "2026-06-30T01:00:00Z",
-        "round": "LAST_32"
-      }
+      "next": null
     },
     "QAT": {
       "code": "QAT",
@@ -2547,8 +2537,8 @@
       "won": 2,
       "drawn": 0,
       "lost": 2,
-      "goalsFor": 15,
-      "goalsAgainst": 10,
+      "goalsFor": 14,
+      "goalsAgainst": 9,
       "points": 6,
       "eliminated": true,
       "champion": false,
@@ -2559,8 +2549,8 @@
           "date": "2026-06-29T20:30:00Z",
           "round": "LAST_32",
           "homeAway": "H",
-          "scoreFor": 5,
-          "scoreAgainst": 6,
+          "scoreFor": 4,
+          "scoreAgainst": 5,
           "result": "L"
         },
         {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T20:56:25.722Z",
+  "generatedAt": "2026-06-30T21:47:47.773Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -709,12 +709,7 @@
           "result": "W"
         }
       ],
-      "next": {
-        "opponent": "France",
-        "opponentCode": "FRA",
-        "date": "2026-06-30T21:00:00Z",
-        "round": "LAST_32"
-      }
+      "next": null
     },
     "HAI": {
       "code": "HAI",
@@ -2249,12 +2244,7 @@
           "result": "W"
         }
       ],
-      "next": {
-        "opponent": "Sweden",
-        "opponentCode": "SWE",
-        "date": "2026-06-30T21:00:00Z",
-        "round": "LAST_32"
-      }
+      "next": null
     },
     "CZE": {
       "code": "CZE",

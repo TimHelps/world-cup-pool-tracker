@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T05:41:56.758Z",
+  "generatedAt": "2026-06-30T07:36:58.264Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -384,7 +384,12 @@
           "result": "L"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": null,
+        "opponentCode": null,
+        "date": "2026-07-04T21:00:00Z",
+        "round": "Round of 16"
+      }
     },
     "NED": {
       "code": "NED",
@@ -874,7 +879,12 @@
           "result": "D"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": null,
+        "opponentCode": null,
+        "date": "2026-07-05T20:00:00Z",
+        "round": "Round of 16"
+      }
     },
     "CIV": {
       "code": "CIV",
@@ -1425,8 +1435,8 @@
         }
       ],
       "next": {
-        "opponent": null,
-        "opponentCode": null,
+        "opponent": "Morocco",
+        "opponentCode": "MAR",
         "date": "2026-07-04T17:00:00Z",
         "round": "Round of 16"
       }
@@ -1744,7 +1754,12 @@
           "result": "D"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Canada",
+        "opponentCode": "CAN",
+        "date": "2026-07-04T17:00:00Z",
+        "round": "Round of 16"
+      }
     },
     "QAT": {
       "code": "QAT",

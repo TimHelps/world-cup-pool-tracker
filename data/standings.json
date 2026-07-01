@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T19:56:05.663Z",
+  "generatedAt": "2026-07-01T20:52:07.260Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -2054,12 +2054,7 @@
           "result": "L"
         }
       ],
-      "next": {
-        "opponent": "Belgium",
-        "opponentCode": "BEL",
-        "date": "2026-07-01T20:00:00Z",
-        "round": "LAST_32"
-      }
+      "next": null
     },
     "COL": {
       "code": "COL",
@@ -2504,12 +2499,7 @@
           "result": "D"
         }
       ],
-      "next": {
-        "opponent": "Senegal",
-        "opponentCode": "SEN",
-        "date": "2026-07-01T20:00:00Z",
-        "round": "LAST_32"
-      }
+      "next": null
     },
     "UZB": {
       "code": "UZB",

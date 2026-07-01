@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T03:26:47.250Z",
+  "generatedAt": "2026-07-01T05:51:58.964Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -1227,17 +1227,27 @@
       "owner": "Simon",
       "group": "A",
       "groupPosition": 1,
-      "stage": "Group Stage",
-      "played": 3,
-      "won": 3,
+      "stage": "LAST_32",
+      "played": 4,
+      "won": 4,
       "drawn": 0,
       "lost": 0,
-      "goalsFor": 6,
+      "goalsFor": 8,
       "goalsAgainst": 0,
-      "points": 9,
+      "points": 12,
       "eliminated": false,
       "champion": false,
       "recent": [
+        {
+          "opponent": "Ecuador",
+          "opponentCode": "ECU",
+          "date": "2026-07-01T01:00:00Z",
+          "round": "LAST_32",
+          "homeAway": "H",
+          "scoreFor": 2,
+          "scoreAgainst": 0,
+          "result": "W"
+        },
         {
           "opponent": "Czechia",
           "opponentCode": "CZE",
@@ -1337,17 +1347,27 @@
       "owner": "Deb",
       "group": "E",
       "groupPosition": 3,
-      "stage": "Group Stage",
-      "played": 3,
+      "stage": "LAST_32",
+      "played": 4,
       "won": 1,
       "drawn": 1,
-      "lost": 1,
+      "lost": 2,
       "goalsFor": 2,
-      "goalsAgainst": 2,
+      "goalsAgainst": 4,
       "points": 4,
-      "eliminated": false,
+      "eliminated": true,
       "champion": false,
       "recent": [
+        {
+          "opponent": "Mexico",
+          "opponentCode": "MEX",
+          "date": "2026-07-01T01:00:00Z",
+          "round": "LAST_32",
+          "homeAway": "A",
+          "scoreFor": 0,
+          "scoreAgainst": 2,
+          "result": "L"
+        },
         {
           "opponent": "Germany",
           "opponentCode": "GER",

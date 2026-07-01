@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T05:51:58.964Z",
+  "generatedAt": "2026-07-01T07:49:21.922Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -385,8 +385,8 @@
         }
       ],
       "next": {
-        "opponent": null,
-        "opponentCode": null,
+        "opponent": "France",
+        "opponentCode": "FRA",
         "date": "2026-07-04T21:00:00Z",
         "round": "Round of 16"
       }
@@ -829,7 +829,12 @@
           "result": "W"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Brazil",
+        "opponentCode": "BRA",
+        "date": "2026-07-05T20:00:00Z",
+        "round": "Round of 16"
+      }
     },
     "BRA": {
       "code": "BRA",
@@ -890,8 +895,8 @@
         }
       ],
       "next": {
-        "opponent": null,
-        "opponentCode": null,
+        "opponent": "Norway",
+        "opponentCode": "NOR",
         "date": "2026-07-05T20:00:00Z",
         "round": "Round of 16"
       }
@@ -2274,7 +2279,12 @@
           "result": "W"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Paraguay",
+        "opponentCode": "PAR",
+        "date": "2026-07-04T21:00:00Z",
+        "round": "Round of 16"
+      }
     },
     "CZE": {
       "code": "CZE",

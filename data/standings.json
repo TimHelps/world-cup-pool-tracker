@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T23:46:46.788Z",
+  "generatedAt": "2026-07-02T01:18:34.348Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -319,12 +319,7 @@
           "result": "D"
         }
       ],
-      "next": {
-        "opponent": "United States",
-        "opponentCode": "USA",
-        "date": "2026-07-02T00:00:00Z",
-        "round": "LAST_32"
-      }
+      "next": null
     },
     "PAR": {
       "code": "PAR",
@@ -654,12 +649,7 @@
           "result": "W"
         }
       ],
-      "next": {
-        "opponent": "Bosnia-Herzegovina",
-        "opponentCode": "BIH",
-        "date": "2026-07-02T00:00:00Z",
-        "round": "LAST_32"
-      }
+      "next": null
     },
     "SWE": {
       "code": "SWE",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T03:26:34.252Z",
+  "generatedAt": "2026-07-02T07:44:17.902Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -669,7 +669,12 @@
           "result": "W"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Belgium",
+        "opponentCode": "BEL",
+        "date": "2026-07-07T00:00:00Z",
+        "round": "Round of 16"
+      }
     },
     "SWE": {
       "code": "SWE",
@@ -1294,7 +1299,12 @@
           "result": "W"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "England",
+        "opponentCode": "ENG",
+        "date": "2026-07-06T00:00:00Z",
+        "round": "Round of 16"
+      }
     },
     "RSA": {
       "code": "RSA",
@@ -1959,7 +1969,12 @@
           "result": "W"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Mexico",
+        "opponentCode": "MEX",
+        "date": "2026-07-06T00:00:00Z",
+        "round": "Round of 16"
+      }
     },
     "CPV": {
       "code": "CPV",
@@ -2529,7 +2544,12 @@
           "result": "D"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "United States",
+        "opponentCode": "USA",
+        "date": "2026-07-07T00:00:00Z",
+        "round": "Round of 16"
+      }
     },
     "UZB": {
       "code": "UZB",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T21:32:16.515Z",
+  "generatedAt": "2026-07-02T23:29:59.474Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -1134,12 +1134,7 @@
           "result": "L"
         }
       ],
-      "next": {
-        "opponent": "Portugal",
-        "opponentCode": "POR",
-        "date": "2026-07-02T23:00:00Z",
-        "round": "LAST_32"
-      }
+      "next": null
     },
     "CUW": {
       "code": "CUW",
@@ -1649,12 +1644,7 @@
           "result": "D"
         }
       ],
-      "next": {
-        "opponent": "Croatia",
-        "opponentCode": "CRO",
-        "date": "2026-07-02T23:00:00Z",
-        "round": "LAST_32"
-      }
+      "next": null
     },
     "TUR": {
       "code": "TUR",

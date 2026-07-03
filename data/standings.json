@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T17:47:27.396Z",
+  "generatedAt": "2026-07-03T19:49:20.281Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -104,12 +104,7 @@
           "result": "D"
         }
       ],
-      "next": {
-        "opponent": "Australia",
-        "opponentCode": "AUS",
-        "date": "2026-07-03T18:00:00Z",
-        "round": "LAST_32"
-      }
+      "next": null
     },
     "NZL": {
       "code": "NZL",
@@ -1084,12 +1079,7 @@
           "result": "W"
         }
       ],
-      "next": {
-        "opponent": "Egypt",
-        "opponentCode": "EGY",
-        "date": "2026-07-03T18:00:00Z",
-        "round": "LAST_32"
-      }
+      "next": null
     },
     "CRO": {
       "code": "CRO",

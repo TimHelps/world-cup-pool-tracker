@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T23:29:59.474Z",
+  "generatedAt": "2026-07-03T04:07:58.866Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -209,12 +209,7 @@
           "result": "L"
         }
       ],
-      "next": {
-        "opponent": "Switzerland",
-        "opponentCode": "SUI",
-        "date": "2026-07-03T03:00:00Z",
-        "round": "LAST_32"
-      }
+      "next": null
     },
     "ARG": {
       "code": "ARG",
@@ -1092,17 +1087,27 @@
       "owner": "Nick",
       "group": "L",
       "groupPosition": 2,
-      "stage": "Group Stage",
-      "played": 3,
+      "stage": "LAST_32",
+      "played": 4,
       "won": 2,
       "drawn": 0,
-      "lost": 1,
-      "goalsFor": 5,
-      "goalsAgainst": 5,
+      "lost": 2,
+      "goalsFor": 6,
+      "goalsAgainst": 7,
       "points": 6,
-      "eliminated": false,
+      "eliminated": true,
       "champion": false,
       "recent": [
+        {
+          "opponent": "Portugal",
+          "opponentCode": "POR",
+          "date": "2026-07-02T23:00:00Z",
+          "round": "LAST_32",
+          "homeAway": "A",
+          "scoreFor": 1,
+          "scoreAgainst": 2,
+          "result": "L"
+        },
         {
           "opponent": "Ghana",
           "opponentCode": "GHA",
@@ -1601,18 +1606,28 @@
       "name": "Portugal",
       "owner": "Katie",
       "group": "K",
-      "groupPosition": 2,
-      "stage": "Group Stage",
-      "played": 3,
-      "won": 1,
+      "groupPosition": 1,
+      "stage": "LAST_32",
+      "played": 4,
+      "won": 2,
       "drawn": 2,
       "lost": 0,
-      "goalsFor": 6,
-      "goalsAgainst": 1,
-      "points": 5,
+      "goalsFor": 8,
+      "goalsAgainst": 2,
+      "points": 8,
       "eliminated": false,
       "champion": false,
       "recent": [
+        {
+          "opponent": "Croatia",
+          "opponentCode": "CRO",
+          "date": "2026-07-02T23:00:00Z",
+          "round": "LAST_32",
+          "homeAway": "H",
+          "scoreFor": 2,
+          "scoreAgainst": 1,
+          "result": "W"
+        },
         {
           "opponent": "Colombia",
           "opponentCode": "COL",
@@ -2096,7 +2111,7 @@
       "name": "Colombia",
       "owner": "Will",
       "group": "K",
-      "groupPosition": 1,
+      "groupPosition": 2,
       "stage": "Group Stage",
       "played": 3,
       "won": 2,
@@ -2479,12 +2494,7 @@
           "result": "D"
         }
       ],
-      "next": {
-        "opponent": "Algeria",
-        "opponentCode": "ALG",
-        "date": "2026-07-03T03:00:00Z",
-        "round": "LAST_32"
-      }
+      "next": null
     },
     "BEL": {
       "code": "BEL",

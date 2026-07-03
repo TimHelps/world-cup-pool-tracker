@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T21:31:31.996Z",
+  "generatedAt": "2026-07-03T23:18:11.329Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -274,12 +274,7 @@
           "result": "W"
         }
       ],
-      "next": {
-        "opponent": "Cape Verde Islands",
-        "opponentCode": "CPV",
-        "date": "2026-07-03T22:00:00Z",
-        "round": "LAST_32"
-      }
+      "next": null
     },
     "BIH": {
       "code": "BIH",
@@ -2059,12 +2054,7 @@
           "result": "D"
         }
       ],
-      "next": {
-        "opponent": "Argentina",
-        "opponentCode": "ARG",
-        "date": "2026-07-03T22:00:00Z",
-        "round": "LAST_32"
-      }
+      "next": null
     },
     "SEN": {
       "code": "SEN",

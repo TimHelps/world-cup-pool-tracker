@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T22:11:22.323Z",
+  "generatedAt": "2026-07-04T23:13:09.323Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -367,17 +367,27 @@
       "owner": "Dan",
       "group": "D",
       "groupPosition": 2,
-      "stage": "LAST_32",
-      "played": 4,
+      "stage": "Round of 16",
+      "played": 5,
       "won": 2,
       "drawn": 1,
-      "lost": 1,
+      "lost": 2,
       "goalsFor": 7,
-      "goalsAgainst": 8,
+      "goalsAgainst": 9,
       "points": 7,
-      "eliminated": false,
+      "eliminated": true,
       "champion": false,
       "recent": [
+        {
+          "opponent": "France",
+          "opponentCode": "FRA",
+          "date": "2026-07-04T21:00:00Z",
+          "round": "Round of 16",
+          "homeAway": "H",
+          "scoreFor": 0,
+          "scoreAgainst": 1,
+          "result": "L"
+        },
         {
           "opponent": "Germany",
           "opponentCode": "GER",
@@ -2347,17 +2357,27 @@
       "owner": "Rosie",
       "group": "I",
       "groupPosition": 1,
-      "stage": "LAST_32",
-      "played": 4,
-      "won": 4,
+      "stage": "Round of 16",
+      "played": 5,
+      "won": 5,
       "drawn": 0,
       "lost": 0,
-      "goalsFor": 13,
+      "goalsFor": 14,
       "goalsAgainst": 2,
-      "points": 12,
+      "points": 15,
       "eliminated": false,
       "champion": false,
       "recent": [
+        {
+          "opponent": "Paraguay",
+          "opponentCode": "PAR",
+          "date": "2026-07-04T21:00:00Z",
+          "round": "Round of 16",
+          "homeAway": "A",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W"
+        },
         {
           "opponent": "Sweden",
           "opponentCode": "SWE",

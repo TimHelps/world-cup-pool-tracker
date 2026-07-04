@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T19:36:41.516Z",
+  "generatedAt": "2026-07-04T21:13:32.923Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -419,12 +419,7 @@
           "result": "L"
         }
       ],
-      "next": {
-        "opponent": "France",
-        "opponentCode": "FRA",
-        "date": "2026-07-04T21:00:00Z",
-        "round": "Round of 16"
-      }
+      "next": null
     },
     "NED": {
       "code": "NED",
@@ -2404,12 +2399,7 @@
           "result": "W"
         }
       ],
-      "next": {
-        "opponent": "Paraguay",
-        "opponentCode": "PAR",
-        "date": "2026-07-04T21:00:00Z",
-        "round": "Round of 16"
-      }
+      "next": null
     },
     "CZE": {
       "code": "CZE",

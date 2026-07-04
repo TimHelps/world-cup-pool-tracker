@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T04:01:28.381Z",
+  "generatedAt": "2026-07-04T07:14:35.246Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -119,7 +119,12 @@
           "result": "D"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Argentina",
+        "opponentCode": "ARG",
+        "date": "2026-07-07T16:00:00Z",
+        "round": "Round of 16"
+      }
     },
     "NZL": {
       "code": "NZL",
@@ -289,7 +294,12 @@
           "result": "W"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Egypt",
+        "opponentCode": "EGY",
+        "date": "2026-07-07T16:00:00Z",
+        "round": "Round of 16"
+      }
     },
     "BIH": {
       "code": "BIH",
@@ -634,7 +644,12 @@
           "result": "D"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Portugal",
+        "opponentCode": "POR",
+        "date": "2026-07-06T19:00:00Z",
+        "round": "Round of 16"
+      }
     },
     "USA": {
       "code": "USA",
@@ -1689,7 +1704,12 @@
           "result": "D"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Spain",
+        "opponentCode": "ESP",
+        "date": "2026-07-06T19:00:00Z",
+        "round": "Round of 16"
+      }
     },
     "TUR": {
       "code": "TUR",
@@ -2199,7 +2219,12 @@
           "result": "W"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Switzerland",
+        "opponentCode": "SUI",
+        "date": "2026-07-07T20:00:00Z",
+        "round": "Round of 16"
+      }
     },
     "TUN": {
       "code": "TUN",
@@ -2544,7 +2569,12 @@
           "result": "D"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Colombia",
+        "opponentCode": "COL",
+        "date": "2026-07-07T20:00:00Z",
+        "round": "Round of 16"
+      }
     },
     "BEL": {
       "code": "BEL",

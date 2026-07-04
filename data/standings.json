@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T23:18:11.329Z",
+  "generatedAt": "2026-07-04T04:01:28.381Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -7,17 +7,27 @@
       "owner": "Ste",
       "group": "L",
       "groupPosition": 3,
-      "stage": "Group Stage",
-      "played": 3,
+      "stage": "LAST_32",
+      "played": 4,
       "won": 1,
       "drawn": 1,
-      "lost": 1,
+      "lost": 2,
       "goalsFor": 2,
-      "goalsAgainst": 2,
+      "goalsAgainst": 3,
       "points": 4,
-      "eliminated": false,
+      "eliminated": true,
       "champion": false,
       "recent": [
+        {
+          "opponent": "Colombia",
+          "opponentCode": "COL",
+          "date": "2026-07-04T01:30:00Z",
+          "round": "LAST_32",
+          "homeAway": "A",
+          "scoreFor": 0,
+          "scoreAgainst": 1,
+          "result": "L"
+        },
         {
           "opponent": "Croatia",
           "opponentCode": "CRO",
@@ -49,12 +59,7 @@
           "result": "W"
         }
       ],
-      "next": {
-        "opponent": "Colombia",
-        "opponentCode": "COL",
-        "date": "2026-07-04T01:30:00Z",
-        "round": "LAST_32"
-      }
+      "next": null
     },
     "EGY": {
       "code": "EGY",
@@ -232,17 +237,27 @@
       "owner": "Ste",
       "group": "J",
       "groupPosition": 1,
-      "stage": "Group Stage",
-      "played": 3,
-      "won": 3,
+      "stage": "LAST_32",
+      "played": 4,
+      "won": 4,
       "drawn": 0,
       "lost": 0,
-      "goalsFor": 8,
-      "goalsAgainst": 1,
-      "points": 9,
+      "goalsFor": 11,
+      "goalsAgainst": 3,
+      "points": 12,
       "eliminated": false,
       "champion": false,
       "recent": [
+        {
+          "opponent": "Cape Verde Islands",
+          "opponentCode": "CPV",
+          "date": "2026-07-03T22:00:00Z",
+          "round": "LAST_32",
+          "homeAway": "H",
+          "scoreFor": 3,
+          "scoreAgainst": 2,
+          "result": "W"
+        },
         {
           "opponent": "Jordan",
           "opponentCode": "JOR",
@@ -1621,7 +1636,7 @@
       "name": "Portugal",
       "owner": "Katie",
       "group": "K",
-      "groupPosition": 1,
+      "groupPosition": 2,
       "stage": "LAST_32",
       "played": 4,
       "won": 2,
@@ -2012,17 +2027,27 @@
       "owner": "Will",
       "group": "H",
       "groupPosition": 2,
-      "stage": "Group Stage",
-      "played": 3,
+      "stage": "LAST_32",
+      "played": 4,
       "won": 0,
       "drawn": 3,
-      "lost": 0,
-      "goalsFor": 2,
-      "goalsAgainst": 2,
+      "lost": 1,
+      "goalsFor": 4,
+      "goalsAgainst": 5,
       "points": 3,
-      "eliminated": false,
+      "eliminated": true,
       "champion": false,
       "recent": [
+        {
+          "opponent": "Argentina",
+          "opponentCode": "ARG",
+          "date": "2026-07-03T22:00:00Z",
+          "round": "LAST_32",
+          "homeAway": "A",
+          "scoreFor": 2,
+          "scoreAgainst": 3,
+          "result": "L"
+        },
         {
           "opponent": "Saudi Arabia",
           "opponentCode": "KSA",
@@ -2121,18 +2146,28 @@
       "name": "Colombia",
       "owner": "Will",
       "group": "K",
-      "groupPosition": 2,
-      "stage": "Group Stage",
-      "played": 3,
-      "won": 2,
+      "groupPosition": 1,
+      "stage": "LAST_32",
+      "played": 4,
+      "won": 3,
       "drawn": 1,
       "lost": 0,
-      "goalsFor": 4,
+      "goalsFor": 5,
       "goalsAgainst": 1,
-      "points": 7,
+      "points": 10,
       "eliminated": false,
       "champion": false,
       "recent": [
+        {
+          "opponent": "Ghana",
+          "opponentCode": "GHA",
+          "date": "2026-07-04T01:30:00Z",
+          "round": "LAST_32",
+          "homeAway": "H",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W"
+        },
         {
           "opponent": "Portugal",
           "opponentCode": "POR",
@@ -2164,12 +2199,7 @@
           "result": "W"
         }
       ],
-      "next": {
-        "opponent": "Ghana",
-        "opponentCode": "GHA",
-        "date": "2026-07-04T01:30:00Z",
-        "round": "LAST_32"
-      }
+      "next": null
     },
     "TUN": {
       "code": "TUN",

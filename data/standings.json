@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T15:30:40.489Z",
+  "generatedAt": "2026-07-04T17:18:37.581Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -1539,12 +1539,7 @@
           "result": "D"
         }
       ],
-      "next": {
-        "opponent": "Morocco",
-        "opponentCode": "MAR",
-        "date": "2026-07-04T17:00:00Z",
-        "round": "Round of 16"
-      }
+      "next": null
     },
     "KSA": {
       "code": "KSA",
@@ -1869,12 +1864,7 @@
           "result": "D"
         }
       ],
-      "next": {
-        "opponent": "Canada",
-        "opponentCode": "CAN",
-        "date": "2026-07-04T17:00:00Z",
-        "round": "Round of 16"
-      }
+      "next": null
     },
     "QAT": {
       "code": "QAT",

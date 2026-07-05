@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T19:44:25.155Z",
+  "generatedAt": "2026-07-05T21:19:18.378Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -889,12 +889,7 @@
           "result": "W"
         }
       ],
-      "next": {
-        "opponent": "Brazil",
-        "opponentCode": "BRA",
-        "date": "2026-07-05T20:00:00Z",
-        "round": "Round of 16"
-      }
+      "next": null
     },
     "BRA": {
       "code": "BRA",
@@ -954,12 +949,7 @@
           "result": "D"
         }
       ],
-      "next": {
-        "opponent": "Norway",
-        "opponentCode": "NOR",
-        "date": "2026-07-05T20:00:00Z",
-        "round": "Round of 16"
-      }
+      "next": null
     },
     "CIV": {
       "code": "CIV",

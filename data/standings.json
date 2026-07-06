@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T21:01:20.668Z",
+  "generatedAt": "2026-07-06T22:37:35.077Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -597,17 +597,27 @@
       "owner": "Dan",
       "group": "H",
       "groupPosition": 1,
-      "stage": "LAST_32",
-      "played": 4,
-      "won": 3,
+      "stage": "Round of 16",
+      "played": 5,
+      "won": 4,
       "drawn": 1,
       "lost": 0,
-      "goalsFor": 8,
+      "goalsFor": 9,
       "goalsAgainst": 0,
-      "points": 10,
+      "points": 13,
       "eliminated": false,
       "champion": false,
       "recent": [
+        {
+          "opponent": "Portugal",
+          "opponentCode": "POR",
+          "date": "2026-07-06T19:00:00Z",
+          "round": "Round of 16",
+          "homeAway": "A",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W"
+        },
         {
           "opponent": "Austria",
           "opponentCode": "AUT",
@@ -1677,17 +1687,27 @@
       "owner": "Katie",
       "group": "K",
       "groupPosition": 2,
-      "stage": "LAST_32",
-      "played": 4,
+      "stage": "Round of 16",
+      "played": 5,
       "won": 2,
       "drawn": 2,
-      "lost": 0,
+      "lost": 1,
       "goalsFor": 8,
-      "goalsAgainst": 2,
+      "goalsAgainst": 3,
       "points": 8,
-      "eliminated": false,
+      "eliminated": true,
       "champion": false,
       "recent": [
+        {
+          "opponent": "Spain",
+          "opponentCode": "ESP",
+          "date": "2026-07-06T19:00:00Z",
+          "round": "Round of 16",
+          "homeAway": "H",
+          "scoreFor": 0,
+          "scoreAgainst": 1,
+          "result": "L"
+        },
         {
           "opponent": "Croatia",
           "opponentCode": "CRO",

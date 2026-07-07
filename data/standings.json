@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T15:14:17.999Z",
+  "generatedAt": "2026-07-07T17:26:30.441Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -119,12 +119,7 @@
           "result": "D"
         }
       ],
-      "next": {
-        "opponent": "Argentina",
-        "opponentCode": "ARG",
-        "date": "2026-07-07T16:00:00Z",
-        "round": "Round of 16"
-      }
+      "next": null
     },
     "NZL": {
       "code": "NZL",
@@ -294,12 +289,7 @@
           "result": "W"
         }
       ],
-      "next": {
-        "opponent": "Egypt",
-        "opponentCode": "EGY",
-        "date": "2026-07-07T16:00:00Z",
-        "round": "Round of 16"
-      }
+      "next": null
     },
     "BIH": {
       "code": "BIH",

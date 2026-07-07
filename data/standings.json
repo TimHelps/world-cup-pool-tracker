@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T17:26:30.441Z",
+  "generatedAt": "2026-07-07T20:13:43.307Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -67,17 +67,27 @@
       "owner": "Ste",
       "group": "G",
       "groupPosition": 2,
-      "stage": "LAST_32",
-      "played": 4,
+      "stage": "Round of 16",
+      "played": 5,
       "won": 2,
       "drawn": 2,
-      "lost": 0,
-      "goalsFor": 10,
-      "goalsAgainst": 6,
+      "lost": 1,
+      "goalsFor": 12,
+      "goalsAgainst": 9,
       "points": 8,
-      "eliminated": false,
+      "eliminated": true,
       "champion": false,
       "recent": [
+        {
+          "opponent": "Argentina",
+          "opponentCode": "ARG",
+          "date": "2026-07-07T16:00:00Z",
+          "round": "Round of 16",
+          "homeAway": "A",
+          "scoreFor": 2,
+          "scoreAgainst": 3,
+          "result": "L"
+        },
         {
           "opponent": "Australia",
           "opponentCode": "AUS",
@@ -237,17 +247,27 @@
       "owner": "Ste",
       "group": "J",
       "groupPosition": 1,
-      "stage": "LAST_32",
-      "played": 4,
-      "won": 4,
+      "stage": "Round of 16",
+      "played": 5,
+      "won": 5,
       "drawn": 0,
       "lost": 0,
-      "goalsFor": 11,
-      "goalsAgainst": 3,
-      "points": 12,
+      "goalsFor": 14,
+      "goalsAgainst": 5,
+      "points": 15,
       "eliminated": false,
       "champion": false,
       "recent": [
+        {
+          "opponent": "Egypt",
+          "opponentCode": "EGY",
+          "date": "2026-07-07T16:00:00Z",
+          "round": "Round of 16",
+          "homeAway": "H",
+          "scoreFor": 3,
+          "scoreAgainst": 2,
+          "result": "W"
+        },
         {
           "opponent": "Cape Verde Islands",
           "opponentCode": "CPV",
@@ -2279,12 +2299,7 @@
           "result": "W"
         }
       ],
-      "next": {
-        "opponent": "Switzerland",
-        "opponentCode": "SUI",
-        "date": "2026-07-07T20:00:00Z",
-        "round": "Round of 16"
-      }
+      "next": null
     },
     "TUN": {
       "code": "TUN",
@@ -2639,12 +2654,7 @@
           "result": "D"
         }
       ],
-      "next": {
-        "opponent": "Colombia",
-        "opponentCode": "COL",
-        "date": "2026-07-07T20:00:00Z",
-        "round": "Round of 16"
-      }
+      "next": null
     },
     "BEL": {
       "code": "BEL",

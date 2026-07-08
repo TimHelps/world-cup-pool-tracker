@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T03:44:37.279Z",
+  "generatedAt": "2026-07-08T06:38:34.722Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -309,7 +309,12 @@
           "result": "W"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Switzerland",
+        "opponentCode": "SUI",
+        "date": "2026-07-12T01:00:00Z",
+        "round": "Quarter-finals"
+      }
     },
     "BIH": {
       "code": "BIH",
@@ -2674,7 +2679,12 @@
           "result": "D"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Argentina",
+        "opponentCode": "ARG",
+        "date": "2026-07-12T01:00:00Z",
+        "round": "Quarter-finals"
+      }
     },
     "BEL": {
       "code": "BEL",

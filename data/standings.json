@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T18:08:29.206Z",
+  "generatedAt": "2026-07-09T20:03:56.226Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -1944,12 +1944,7 @@
           "result": "D"
         }
       ],
-      "next": {
-        "opponent": "France",
-        "opponentCode": "FRA",
-        "date": "2026-07-09T20:00:00Z",
-        "round": "Quarter-finals"
-      }
+      "next": null
     },
     "QAT": {
       "code": "QAT",
@@ -2494,12 +2489,7 @@
           "result": "W"
         }
       ],
-      "next": {
-        "opponent": "Morocco",
-        "opponentCode": "MAR",
-        "date": "2026-07-09T20:00:00Z",
-        "round": "Quarter-finals"
-      }
+      "next": null
     },
     "CZE": {
       "code": "CZE",

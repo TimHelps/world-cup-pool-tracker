@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T21:43:41.763Z",
+  "generatedAt": "2026-07-09T23:36:27.915Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -1882,17 +1882,27 @@
       "owner": "Alex",
       "group": "C",
       "groupPosition": 1,
-      "stage": "Round of 16",
-      "played": 5,
+      "stage": "Quarter-finals",
+      "played": 6,
       "won": 4,
       "drawn": 1,
-      "lost": 0,
+      "lost": 1,
       "goalsFor": 13,
-      "goalsAgainst": 6,
+      "goalsAgainst": 8,
       "points": 13,
-      "eliminated": false,
+      "eliminated": true,
       "champion": false,
       "recent": [
+        {
+          "opponent": "France",
+          "opponentCode": "FRA",
+          "date": "2026-07-09T20:00:00Z",
+          "round": "Quarter-finals",
+          "homeAway": "A",
+          "scoreFor": 0,
+          "scoreAgainst": 2,
+          "result": "L"
+        },
         {
           "opponent": "Canada",
           "opponentCode": "CAN",
@@ -1932,16 +1942,6 @@
           "scoreFor": 1,
           "scoreAgainst": 0,
           "result": "W"
-        },
-        {
-          "opponent": "Brazil",
-          "opponentCode": "BRA",
-          "date": "2026-06-13T22:00:00Z",
-          "round": "Group Stage",
-          "homeAway": "A",
-          "scoreFor": 1,
-          "scoreAgainst": 1,
-          "result": "D"
         }
       ],
       "next": null
@@ -2427,17 +2427,27 @@
       "owner": "Rosie",
       "group": "I",
       "groupPosition": 1,
-      "stage": "Round of 16",
-      "played": 5,
-      "won": 5,
+      "stage": "Quarter-finals",
+      "played": 6,
+      "won": 6,
       "drawn": 0,
       "lost": 0,
-      "goalsFor": 14,
+      "goalsFor": 16,
       "goalsAgainst": 2,
-      "points": 15,
+      "points": 18,
       "eliminated": false,
       "champion": false,
       "recent": [
+        {
+          "opponent": "Morocco",
+          "opponentCode": "MAR",
+          "date": "2026-07-09T20:00:00Z",
+          "round": "Quarter-finals",
+          "homeAway": "H",
+          "scoreFor": 2,
+          "scoreAgainst": 0,
+          "result": "W"
+        },
         {
           "opponent": "Paraguay",
           "opponentCode": "PAR",
@@ -2476,16 +2486,6 @@
           "homeAway": "H",
           "scoreFor": 3,
           "scoreAgainst": 0,
-          "result": "W"
-        },
-        {
-          "opponent": "Senegal",
-          "opponentCode": "SEN",
-          "date": "2026-06-16T19:00:00Z",
-          "round": "Group Stage",
-          "homeAway": "H",
-          "scoreFor": 3,
-          "scoreAgainst": 1,
           "result": "W"
         }
       ],

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T04:13:51.203Z",
+  "generatedAt": "2026-07-10T07:52:43.710Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -2489,7 +2489,12 @@
           "result": "W"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": null,
+        "opponentCode": null,
+        "date": "2026-07-14T19:00:00Z",
+        "round": "Semi-finals"
+      }
     },
     "CZE": {
       "code": "CZE",

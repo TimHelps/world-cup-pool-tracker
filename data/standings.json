@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T20:42:41.313Z",
+  "generatedAt": "2026-07-10T22:15:15.994Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -612,17 +612,27 @@
       "owner": "Dan",
       "group": "H",
       "groupPosition": 1,
-      "stage": "Round of 16",
-      "played": 5,
-      "won": 4,
+      "stage": "Quarter-finals",
+      "played": 6,
+      "won": 5,
       "drawn": 1,
       "lost": 0,
-      "goalsFor": 9,
-      "goalsAgainst": 0,
-      "points": 13,
+      "goalsFor": 11,
+      "goalsAgainst": 1,
+      "points": 16,
       "eliminated": false,
       "champion": false,
       "recent": [
+        {
+          "opponent": "Belgium",
+          "opponentCode": "BEL",
+          "date": "2026-07-10T19:00:00Z",
+          "round": "Quarter-finals",
+          "homeAway": "H",
+          "scoreFor": 2,
+          "scoreAgainst": 1,
+          "result": "W"
+        },
         {
           "opponent": "Portugal",
           "opponentCode": "POR",
@@ -662,16 +672,6 @@
           "scoreFor": 4,
           "scoreAgainst": 0,
           "result": "W"
-        },
-        {
-          "opponent": "Cape Verde Islands",
-          "opponentCode": "CPV",
-          "date": "2026-06-15T16:00:00Z",
-          "round": "Group Stage",
-          "homeAway": "H",
-          "scoreFor": 0,
-          "scoreAgainst": 0,
-          "result": "D"
         }
       ],
       "next": null
@@ -2682,17 +2682,27 @@
       "owner": "Maddie",
       "group": "G",
       "groupPosition": 1,
-      "stage": "Round of 16",
-      "played": 5,
+      "stage": "Quarter-finals",
+      "played": 6,
       "won": 3,
       "drawn": 2,
-      "lost": 0,
-      "goalsFor": 13,
-      "goalsAgainst": 5,
+      "lost": 1,
+      "goalsFor": 14,
+      "goalsAgainst": 7,
       "points": 11,
-      "eliminated": false,
+      "eliminated": true,
       "champion": false,
       "recent": [
+        {
+          "opponent": "Spain",
+          "opponentCode": "ESP",
+          "date": "2026-07-10T19:00:00Z",
+          "round": "Quarter-finals",
+          "homeAway": "A",
+          "scoreFor": 1,
+          "scoreAgainst": 2,
+          "result": "L"
+        },
         {
           "opponent": "United States",
           "opponentCode": "USA",
@@ -2731,16 +2741,6 @@
           "homeAway": "H",
           "scoreFor": 0,
           "scoreAgainst": 0,
-          "result": "D"
-        },
-        {
-          "opponent": "Egypt",
-          "opponentCode": "EGY",
-          "date": "2026-06-15T19:00:00Z",
-          "round": "Group Stage",
-          "homeAway": "H",
-          "scoreFor": 1,
-          "scoreAgainst": 1,
           "result": "D"
         }
       ],

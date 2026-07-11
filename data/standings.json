@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T19:31:36.844Z",
+  "generatedAt": "2026-07-11T21:06:28.859Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -929,12 +929,7 @@
           "result": "W"
         }
       ],
-      "next": {
-        "opponent": "England",
-        "opponentCode": "ENG",
-        "date": "2026-07-11T21:00:00Z",
-        "round": "Quarter-finals"
-      }
+      "next": null
     },
     "BRA": {
       "code": "BRA",
@@ -2114,12 +2109,7 @@
           "result": "W"
         }
       ],
-      "next": {
-        "opponent": "Norway",
-        "opponentCode": "NOR",
-        "date": "2026-07-11T21:00:00Z",
-        "round": "Quarter-finals"
-      }
+      "next": null
     },
     "CPV": {
       "code": "CPV",

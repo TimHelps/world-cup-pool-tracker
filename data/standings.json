@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T23:10:26.953Z",
+  "generatedAt": "2026-07-12T00:10:55.304Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -867,17 +867,27 @@
       "owner": "Aimee",
       "group": "I",
       "groupPosition": 2,
-      "stage": "Round of 16",
-      "played": 5,
+      "stage": "Quarter-finals",
+      "played": 6,
       "won": 4,
       "drawn": 0,
-      "lost": 1,
-      "goalsFor": 12,
-      "goalsAgainst": 9,
+      "lost": 2,
+      "goalsFor": 13,
+      "goalsAgainst": 11,
       "points": 12,
-      "eliminated": false,
+      "eliminated": true,
       "champion": false,
       "recent": [
+        {
+          "opponent": "England",
+          "opponentCode": "ENG",
+          "date": "2026-07-11T21:00:00Z",
+          "round": "Quarter-finals",
+          "homeAway": "H",
+          "scoreFor": 1,
+          "scoreAgainst": 2,
+          "result": "L"
+        },
         {
           "opponent": "Brazil",
           "opponentCode": "BRA",
@@ -916,16 +926,6 @@
           "homeAway": "H",
           "scoreFor": 3,
           "scoreAgainst": 2,
-          "result": "W"
-        },
-        {
-          "opponent": "Iraq",
-          "opponentCode": "IRQ",
-          "date": "2026-06-16T22:00:00Z",
-          "round": "Group Stage",
-          "homeAway": "A",
-          "scoreFor": 4,
-          "scoreAgainst": 1,
           "result": "W"
         }
       ],
@@ -2037,17 +2037,27 @@
       "owner": "Tara",
       "group": "L",
       "groupPosition": 1,
-      "stage": "LAST_32",
-      "played": 4,
-      "won": 3,
+      "stage": "Quarter-finals",
+      "played": 5,
+      "won": 4,
       "drawn": 1,
       "lost": 0,
-      "goalsFor": 8,
-      "goalsAgainst": 3,
-      "points": 10,
+      "goalsFor": 10,
+      "goalsAgainst": 4,
+      "points": 13,
       "eliminated": false,
       "champion": false,
       "recent": [
+        {
+          "opponent": "Norway",
+          "opponentCode": "NOR",
+          "date": "2026-07-11T21:00:00Z",
+          "round": "Quarter-finals",
+          "homeAway": "A",
+          "scoreFor": 2,
+          "scoreAgainst": 1,
+          "result": "W"
+        },
         {
           "opponent": "Congo DR",
           "opponentCode": "COD",

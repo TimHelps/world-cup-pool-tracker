@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T03:56:49.042Z",
+  "generatedAt": "2026-07-12T06:46:37.850Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -309,7 +309,12 @@
           "result": "W"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "England",
+        "opponentCode": "ENG",
+        "date": "2026-07-15T19:00:00Z",
+        "round": "Semi-finals"
+      }
     },
     "BIH": {
       "code": "BIH",
@@ -1342,17 +1347,27 @@
       "owner": "Simon",
       "group": "A",
       "groupPosition": 1,
-      "stage": "LAST_32",
-      "played": 4,
+      "stage": "Round of 16",
+      "played": 5,
       "won": 4,
       "drawn": 0,
-      "lost": 0,
-      "goalsFor": 8,
-      "goalsAgainst": 0,
+      "lost": 1,
+      "goalsFor": 10,
+      "goalsAgainst": 3,
       "points": 12,
-      "eliminated": false,
+      "eliminated": true,
       "champion": false,
       "recent": [
+        {
+          "opponent": "England",
+          "opponentCode": "ENG",
+          "date": "2026-07-06T01:00:00Z",
+          "round": "Round of 16",
+          "homeAway": "H",
+          "scoreFor": 2,
+          "scoreAgainst": 3,
+          "result": "L"
+        },
         {
           "opponent": "Ecuador",
           "opponentCode": "ECU",
@@ -2033,13 +2048,13 @@
       "group": "L",
       "groupPosition": 1,
       "stage": "Quarter-finals",
-      "played": 5,
-      "won": 4,
+      "played": 6,
+      "won": 5,
       "drawn": 1,
       "lost": 0,
-      "goalsFor": 10,
-      "goalsAgainst": 4,
-      "points": 13,
+      "goalsFor": 13,
+      "goalsAgainst": 6,
+      "points": 16,
       "eliminated": false,
       "champion": false,
       "recent": [
@@ -2051,6 +2066,16 @@
           "homeAway": "A",
           "scoreFor": 2,
           "scoreAgainst": 1,
+          "result": "W"
+        },
+        {
+          "opponent": "Mexico",
+          "opponentCode": "MEX",
+          "date": "2026-07-06T01:00:00Z",
+          "round": "Round of 16",
+          "homeAway": "A",
+          "scoreFor": 3,
+          "scoreAgainst": 2,
           "result": "W"
         },
         {
@@ -2082,19 +2107,14 @@
           "scoreFor": 0,
           "scoreAgainst": 0,
           "result": "D"
-        },
-        {
-          "opponent": "Croatia",
-          "opponentCode": "CRO",
-          "date": "2026-06-17T20:00:00Z",
-          "round": "Group Stage",
-          "homeAway": "H",
-          "scoreFor": 4,
-          "scoreAgainst": 2,
-          "result": "W"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Argentina",
+        "opponentCode": "ARG",
+        "date": "2026-07-15T19:00:00Z",
+        "round": "Semi-finals"
+      }
     },
     "CPV": {
       "code": "CPV",

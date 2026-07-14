@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T19:45:45.802Z",
+  "generatedAt": "2026-07-14T21:15:05.964Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -612,17 +612,27 @@
       "owner": "Dan",
       "group": "H",
       "groupPosition": 1,
-      "stage": "Quarter-finals",
-      "played": 6,
-      "won": 5,
+      "stage": "Semi-finals",
+      "played": 7,
+      "won": 6,
       "drawn": 1,
       "lost": 0,
-      "goalsFor": 11,
+      "goalsFor": 13,
       "goalsAgainst": 1,
-      "points": 16,
+      "points": 19,
       "eliminated": false,
       "champion": false,
       "recent": [
+        {
+          "opponent": "France",
+          "opponentCode": "FRA",
+          "date": "2026-07-14T19:00:00Z",
+          "round": "Semi-finals",
+          "homeAway": "A",
+          "scoreFor": 2,
+          "scoreAgainst": 0,
+          "result": "W"
+        },
         {
           "opponent": "Belgium",
           "opponentCode": "BEL",
@@ -660,16 +670,6 @@
           "round": "Group Stage",
           "homeAway": "A",
           "scoreFor": 1,
-          "scoreAgainst": 0,
-          "result": "W"
-        },
-        {
-          "opponent": "Saudi Arabia",
-          "opponentCode": "KSA",
-          "date": "2026-06-21T16:00:00Z",
-          "round": "Group Stage",
-          "homeAway": "H",
-          "scoreFor": 4,
           "scoreAgainst": 0,
           "result": "W"
         }
@@ -2417,17 +2417,27 @@
       "owner": "Rosie",
       "group": "I",
       "groupPosition": 1,
-      "stage": "Quarter-finals",
-      "played": 6,
+      "stage": "Semi-finals",
+      "played": 7,
       "won": 6,
       "drawn": 0,
-      "lost": 0,
+      "lost": 1,
       "goalsFor": 16,
-      "goalsAgainst": 2,
+      "goalsAgainst": 4,
       "points": 18,
-      "eliminated": false,
+      "eliminated": true,
       "champion": false,
       "recent": [
+        {
+          "opponent": "Spain",
+          "opponentCode": "ESP",
+          "date": "2026-07-14T19:00:00Z",
+          "round": "Semi-finals",
+          "homeAway": "H",
+          "scoreFor": 0,
+          "scoreAgainst": 2,
+          "result": "L"
+        },
         {
           "opponent": "Morocco",
           "opponentCode": "MAR",
@@ -2466,16 +2476,6 @@
           "homeAway": "A",
           "scoreFor": 4,
           "scoreAgainst": 1,
-          "result": "W"
-        },
-        {
-          "opponent": "Iraq",
-          "opponentCode": "IRQ",
-          "date": "2026-06-22T21:00:00Z",
-          "round": "Group Stage",
-          "homeAway": "H",
-          "scoreFor": 3,
-          "scoreAgainst": 0,
           "result": "W"
         }
       ],

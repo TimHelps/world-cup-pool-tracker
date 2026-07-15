@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T19:36:25.642Z",
+  "generatedAt": "2026-07-15T21:14:35.104Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -247,17 +247,27 @@
       "owner": "Ste",
       "group": "J",
       "groupPosition": 1,
-      "stage": "Quarter-finals",
-      "played": 6,
-      "won": 6,
+      "stage": "Semi-finals",
+      "played": 7,
+      "won": 7,
       "drawn": 0,
       "lost": 0,
-      "goalsFor": 17,
-      "goalsAgainst": 6,
-      "points": 18,
+      "goalsFor": 19,
+      "goalsAgainst": 7,
+      "points": 21,
       "eliminated": false,
       "champion": false,
       "recent": [
+        {
+          "opponent": "England",
+          "opponentCode": "ENG",
+          "date": "2026-07-15T19:00:00Z",
+          "round": "Semi-finals",
+          "homeAway": "A",
+          "scoreFor": 2,
+          "scoreAgainst": 1,
+          "result": "W"
+        },
         {
           "opponent": "Switzerland",
           "opponentCode": "SUI",
@@ -296,16 +306,6 @@
           "homeAway": "A",
           "scoreFor": 3,
           "scoreAgainst": 1,
-          "result": "W"
-        },
-        {
-          "opponent": "Austria",
-          "opponentCode": "AUT",
-          "date": "2026-06-22T17:00:00Z",
-          "round": "Group Stage",
-          "homeAway": "H",
-          "scoreFor": 2,
-          "scoreAgainst": 0,
           "result": "W"
         }
       ],
@@ -2042,17 +2042,27 @@
       "owner": "Tara",
       "group": "L",
       "groupPosition": 1,
-      "stage": "Quarter-finals",
-      "played": 6,
+      "stage": "Semi-finals",
+      "played": 7,
       "won": 5,
       "drawn": 1,
-      "lost": 0,
-      "goalsFor": 13,
-      "goalsAgainst": 6,
+      "lost": 1,
+      "goalsFor": 14,
+      "goalsAgainst": 8,
       "points": 16,
-      "eliminated": false,
+      "eliminated": true,
       "champion": false,
       "recent": [
+        {
+          "opponent": "Argentina",
+          "opponentCode": "ARG",
+          "date": "2026-07-15T19:00:00Z",
+          "round": "Semi-finals",
+          "homeAway": "H",
+          "scoreFor": 1,
+          "scoreAgainst": 2,
+          "result": "L"
+        },
         {
           "opponent": "Norway",
           "opponentCode": "NOR",
@@ -2092,16 +2102,6 @@
           "scoreFor": 2,
           "scoreAgainst": 0,
           "result": "W"
-        },
-        {
-          "opponent": "Ghana",
-          "opponentCode": "GHA",
-          "date": "2026-06-23T20:00:00Z",
-          "round": "Group Stage",
-          "homeAway": "H",
-          "scoreFor": 0,
-          "scoreAgainst": 0,
-          "result": "D"
         }
       ],
       "next": null

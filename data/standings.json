@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T03:33:41.005Z",
+  "generatedAt": "2026-07-15T06:27:42.513Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -674,7 +674,12 @@
           "result": "W"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": null,
+        "opponentCode": null,
+        "date": "2026-07-19T19:00:00Z",
+        "round": "Final"
+      }
     },
     "USA": {
       "code": "USA",
@@ -2479,7 +2484,12 @@
           "result": "W"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": null,
+        "opponentCode": null,
+        "date": "2026-07-18T21:00:00Z",
+        "round": "3rd Place Final"
+      }
     },
     "CZE": {
       "code": "CZE",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T17:38:16.165Z",
+  "generatedAt": "2026-07-15T19:36:25.642Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -309,12 +309,7 @@
           "result": "W"
         }
       ],
-      "next": {
-        "opponent": "England",
-        "opponentCode": "ENG",
-        "date": "2026-07-15T19:00:00Z",
-        "round": "Semi-finals"
-      }
+      "next": null
     },
     "BIH": {
       "code": "BIH",
@@ -2109,12 +2104,7 @@
           "result": "D"
         }
       ],
-      "next": {
-        "opponent": "Argentina",
-        "opponentCode": "ARG",
-        "date": "2026-07-15T19:00:00Z",
-        "round": "Semi-finals"
-      }
+      "next": null
     },
     "CPV": {
       "code": "CPV",

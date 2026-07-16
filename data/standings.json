@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T03:36:21.916Z",
+  "generatedAt": "2026-07-16T06:30:56.269Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -309,7 +309,12 @@
           "result": "W"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "Spain",
+        "opponentCode": "ESP",
+        "date": "2026-07-19T19:00:00Z",
+        "round": "Final"
+      }
     },
     "BIH": {
       "code": "BIH",
@@ -670,8 +675,8 @@
         }
       ],
       "next": {
-        "opponent": null,
-        "opponentCode": null,
+        "opponent": "Argentina",
+        "opponentCode": "ARG",
         "date": "2026-07-19T19:00:00Z",
         "round": "Final"
       }
@@ -2104,7 +2109,12 @@
           "result": "W"
         }
       ],
-      "next": null
+      "next": {
+        "opponent": "France",
+        "opponentCode": "FRA",
+        "date": "2026-07-18T21:00:00Z",
+        "round": "3rd Place Final"
+      }
     },
     "CPV": {
       "code": "CPV",
@@ -2475,8 +2485,8 @@
         }
       ],
       "next": {
-        "opponent": null,
-        "opponentCode": null,
+        "opponent": "England",
+        "opponentCode": "ENG",
         "date": "2026-07-18T21:00:00Z",
         "round": "3rd Place Final"
       }

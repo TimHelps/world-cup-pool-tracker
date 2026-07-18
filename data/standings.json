@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T22:07:05.130Z",
+  "generatedAt": "2026-07-18T23:10:48.598Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -2047,17 +2047,27 @@
       "owner": "Tara",
       "group": "L",
       "groupPosition": 1,
-      "stage": "Semi-finals",
-      "played": 7,
-      "won": 5,
+      "stage": "3rd Place Final",
+      "played": 8,
+      "won": 6,
       "drawn": 1,
       "lost": 1,
-      "goalsFor": 14,
-      "goalsAgainst": 8,
-      "points": 16,
+      "goalsFor": 20,
+      "goalsAgainst": 12,
+      "points": 19,
       "eliminated": true,
       "champion": false,
       "recent": [
+        {
+          "opponent": "France",
+          "opponentCode": "FRA",
+          "date": "2026-07-18T21:00:00Z",
+          "round": "3rd Place Final",
+          "homeAway": "A",
+          "scoreFor": 6,
+          "scoreAgainst": 4,
+          "result": "W"
+        },
         {
           "opponent": "Argentina",
           "opponentCode": "ARG",
@@ -2096,16 +2106,6 @@
           "homeAway": "H",
           "scoreFor": 2,
           "scoreAgainst": 1,
-          "result": "W"
-        },
-        {
-          "opponent": "Panama",
-          "opponentCode": "PAN",
-          "date": "2026-06-27T21:00:00Z",
-          "round": "Group Stage",
-          "homeAway": "A",
-          "scoreFor": 2,
-          "scoreAgainst": 0,
           "result": "W"
         }
       ],
@@ -2417,17 +2417,27 @@
       "owner": "Rosie",
       "group": "I",
       "groupPosition": 1,
-      "stage": "Semi-finals",
-      "played": 7,
+      "stage": "3rd Place Final",
+      "played": 8,
       "won": 6,
       "drawn": 0,
-      "lost": 1,
-      "goalsFor": 16,
-      "goalsAgainst": 4,
+      "lost": 2,
+      "goalsFor": 20,
+      "goalsAgainst": 10,
       "points": 18,
       "eliminated": true,
       "champion": false,
       "recent": [
+        {
+          "opponent": "England",
+          "opponentCode": "ENG",
+          "date": "2026-07-18T21:00:00Z",
+          "round": "3rd Place Final",
+          "homeAway": "H",
+          "scoreFor": 4,
+          "scoreAgainst": 6,
+          "result": "L"
+        },
         {
           "opponent": "Spain",
           "opponentCode": "ESP",
@@ -2466,16 +2476,6 @@
           "homeAway": "H",
           "scoreFor": 3,
           "scoreAgainst": 0,
-          "result": "W"
-        },
-        {
-          "opponent": "Norway",
-          "opponentCode": "NOR",
-          "date": "2026-06-26T19:00:00Z",
-          "round": "Group Stage",
-          "homeAway": "A",
-          "scoreFor": 4,
-          "scoreAgainst": 1,
           "result": "W"
         }
       ],

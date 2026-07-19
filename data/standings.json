@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T21:06:57.252Z",
+  "generatedAt": "2026-07-19T22:08:46.768Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -247,17 +247,27 @@
       "owner": "Ste",
       "group": "J",
       "groupPosition": 1,
-      "stage": "Semi-finals",
-      "played": 7,
+      "stage": "Final",
+      "played": 8,
       "won": 7,
       "drawn": 0,
-      "lost": 0,
+      "lost": 1,
       "goalsFor": 19,
-      "goalsAgainst": 7,
+      "goalsAgainst": 8,
       "points": 21,
-      "eliminated": false,
+      "eliminated": true,
       "champion": false,
       "recent": [
+        {
+          "opponent": "Spain",
+          "opponentCode": "ESP",
+          "date": "2026-07-19T19:00:00Z",
+          "round": "Final",
+          "homeAway": "A",
+          "scoreFor": 0,
+          "scoreAgainst": 1,
+          "result": "L"
+        },
         {
           "opponent": "England",
           "opponentCode": "ENG",
@@ -296,16 +306,6 @@
           "homeAway": "H",
           "scoreFor": 3,
           "scoreAgainst": 2,
-          "result": "W"
-        },
-        {
-          "opponent": "Jordan",
-          "opponentCode": "JOR",
-          "date": "2026-06-28T02:00:00Z",
-          "round": "Group Stage",
-          "homeAway": "A",
-          "scoreFor": 3,
-          "scoreAgainst": 1,
           "result": "W"
         }
       ],
@@ -607,17 +607,27 @@
       "owner": "Dan",
       "group": "H",
       "groupPosition": 1,
-      "stage": "Semi-finals",
-      "played": 7,
-      "won": 6,
+      "stage": "Final",
+      "played": 8,
+      "won": 7,
       "drawn": 1,
       "lost": 0,
-      "goalsFor": 13,
+      "goalsFor": 14,
       "goalsAgainst": 1,
-      "points": 19,
+      "points": 22,
       "eliminated": false,
-      "champion": false,
+      "champion": true,
       "recent": [
+        {
+          "opponent": "Argentina",
+          "opponentCode": "ARG",
+          "date": "2026-07-19T19:00:00Z",
+          "round": "Final",
+          "homeAway": "H",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W"
+        },
         {
           "opponent": "France",
           "opponentCode": "FRA",
@@ -655,16 +665,6 @@
           "round": "LAST_32",
           "homeAway": "H",
           "scoreFor": 3,
-          "scoreAgainst": 0,
-          "result": "W"
-        },
-        {
-          "opponent": "Uruguay",
-          "opponentCode": "URU",
-          "date": "2026-06-27T00:00:00Z",
-          "round": "Group Stage",
-          "homeAway": "A",
-          "scoreFor": 1,
           "scoreAgainst": 0,
           "result": "W"
         }

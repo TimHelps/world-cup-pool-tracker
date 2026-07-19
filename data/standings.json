@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T18:09:35.290Z",
+  "generatedAt": "2026-07-19T19:31:45.210Z",
   "teams": {
     "GHA": {
       "code": "GHA",
@@ -309,12 +309,7 @@
           "result": "W"
         }
       ],
-      "next": {
-        "opponent": "Spain",
-        "opponentCode": "ESP",
-        "date": "2026-07-19T19:00:00Z",
-        "round": "Final"
-      }
+      "next": null
     },
     "BIH": {
       "code": "BIH",
@@ -674,12 +669,7 @@
           "result": "W"
         }
       ],
-      "next": {
-        "opponent": "Argentina",
-        "opponentCode": "ARG",
-        "date": "2026-07-19T19:00:00Z",
-        "round": "Final"
-      }
+      "next": null
     },
     "USA": {
       "code": "USA",

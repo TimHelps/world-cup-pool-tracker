@@ -1,8 +1,6 @@
 name: Update World Cup data
 
 on:
-  schedule:
-    - cron: "17 * * * *" # hourly, offset from :00 to avoid GitHub's busiest scheduling instant
   workflow_dispatch: {}
 
 permissions:
